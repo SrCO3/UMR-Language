@@ -1,0 +1,680 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 12,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 13,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 14,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 15,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 16,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 17,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 2,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 3,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 4,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 6,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 7,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 8,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 9,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 10,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 11,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 30,
+          "element": "O",
+          "formal_charge": -1,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 31,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 32,
+          "element": "Na",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 40,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 41,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 90,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 91,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 95,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 12,
+          "order": 1
+        },
+        {
+          "a": 12,
+          "b": 13,
+          "order": 1
+        },
+        {
+          "a": 13,
+          "b": 14,
+          "order": 2
+        },
+        {
+          "a": 13,
+          "b": 15,
+          "order": 1
+        },
+        {
+          "a": 15,
+          "b": 16,
+          "order": 1
+        },
+        {
+          "a": 16,
+          "b": 17,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "order": 2
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 2
+        },
+        {
+          "a": 5,
+          "b": 6,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 7,
+          "order": 2
+        },
+        {
+          "a": 7,
+          "b": 8,
+          "order": 1
+        },
+        {
+          "a": 8,
+          "b": 9,
+          "order": 2
+        },
+        {
+          "a": 9,
+          "b": 10,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 11,
+          "order": 2
+        },
+        {
+          "a": 30,
+          "b": 31,
+          "order": 1
+        },
+        {
+          "a": 40,
+          "b": 41,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 1,
+          "order": 1
+        },
+        {
+          "a": 9,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 12,
+          "b": 90,
+          "order": 1
+        },
+        {
+          "a": 12,
+          "b": 91,
+          "order": 1
+        },
+        {
+          "a": 40,
+          "b": 95,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "metal_centers": [
+        {
+          "atom_id": 32
+        }
+      ],
+      "element_rule_version": "umr-elements/0.7",
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "CARBONYL_ADDITION",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 30,
+          "b": 2,
+          "op": "PAIR"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "target": 3,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "carbonyl_carbon": 2,
+        "nucleophile": 30,
+        "oxygen": 3
+      },
+      "conditions": {
+        "solvent": "methanol",
+        "temperature_kelvin": null,
+        "temperature_literal": "reflux"
+      },
+      "explanation": "In one event, form 30–2 from a lone pair on 30; move the 2–3 pair to 3.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 250 (Gabriel–Colman rearrangement).",
+          "note": "In one event, form 30–2 from a lone pair on 30; move the 2–3 pair to 3."
+        }
+      ],
+      "mechanism_evidence": "assumed_by_template",
+      "foundation_template": "ACYL_SUBSTITUTION",
+      "template_roles": {
+        "carbon": 2,
+        "leaving": 1,
+        "nucleophile": 30,
+        "oxygen": 3
+      },
+      "phase": "reaction",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "POLAR",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 3,
+          "b": 2,
+          "op": "PAIR"
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "target": 1,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e1",
+      "conditions": {
+        "solvent": "methanol",
+        "temperature_kelvin": null,
+        "temperature_literal": "reflux"
+      },
+      "explanation": "In one event, form 3–2 from a lone pair on 3; move the 2–1 pair to 1.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 250 (Gabriel–Colman rearrangement).",
+          "note": "In one event, form 3–2 from a lone pair on 3; move the 2–1 pair to 1."
+        }
+      ],
+      "mechanism_evidence": "assumed_by_template",
+      "foundation_template": "ACYL_SUBSTITUTION",
+      "template_roles": {
+        "carbon": 2,
+        "leaving": 1,
+        "nucleophile": 30,
+        "oxygen": 3
+      },
+      "phase": "reaction",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "actions": [
+        {
+          "a": 1,
+          "b": 95,
+          "op": "PAIR"
+        },
+        {
+          "a": 95,
+          "b": 40,
+          "target": 40,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "acid": 40,
+        "base": 1,
+        "hydrogen": 95
+      },
+      "depends_on_event": "e2",
+      "conditions": {
+        "solvent": "methanol",
+        "temperature_kelvin": null,
+        "temperature_literal": "reflux"
+      },
+      "explanation": "In one event, form 1–95 from a lone pair on 1; move the 95–40 pair to 40.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 250 (Gabriel–Colman rearrangement).",
+          "note": "In one event, form 1–95 from a lone pair on 1; move the 95–40 pair to 40."
+        }
+      ],
+      "mechanism_evidence": "assumed_by_template",
+      "phase": "reaction",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "actions": [
+        {
+          "a": 40,
+          "b": 90,
+          "op": "PAIR"
+        },
+        {
+          "a": 90,
+          "b": 12,
+          "target": 12,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "acid": 12,
+        "base": 40,
+        "hydrogen": 90
+      },
+      "depends_on_event": "e3",
+      "conditions": {
+        "solvent": "methanol",
+        "temperature_kelvin": null,
+        "temperature_literal": "reflux"
+      },
+      "explanation": "In one event, form 40–90 from a lone pair on 40; move the 90–12 pair to 12.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 250 (Gabriel–Colman rearrangement).",
+          "note": "In one event, form 40–90 from a lone pair on 40; move the 90–12 pair to 12."
+        }
+      ],
+      "mechanism_evidence": "assumed_by_template",
+      "phase": "reaction",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e5",
+      "event_type": "CARBONYL_ADDITION",
+      "reactant_view_id": "v4",
+      "product_state_id": "s5",
+      "product_view_id": "v5",
+      "actions": [
+        {
+          "a": 12,
+          "b": 2,
+          "op": "PAIR"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "target": 3,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "carbonyl_carbon": 2,
+        "nucleophile": 12,
+        "oxygen": 3
+      },
+      "depends_on_event": "e4",
+      "conditions": {
+        "solvent": "methanol",
+        "temperature_kelvin": null,
+        "temperature_literal": "reflux"
+      },
+      "explanation": "In one event, form 12–2 from a lone pair on 12; move the 2–3 pair to 3.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 250 (Gabriel–Colman rearrangement).",
+          "note": "In one event, form 12–2 from a lone pair on 12; move the 2–3 pair to 3."
+        }
+      ],
+      "mechanism_evidence": "assumed_by_template",
+      "foundation_template": "ACYL_SUBSTITUTION",
+      "template_roles": {
+        "carbon": 2,
+        "leaving": 30,
+        "nucleophile": 12,
+        "oxygen": 3
+      },
+      "phase": "reaction",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e6",
+      "event_type": "POLAR",
+      "reactant_view_id": "v5",
+      "product_state_id": "s6",
+      "product_view_id": "v6",
+      "actions": [
+        {
+          "a": 3,
+          "b": 2,
+          "op": "PAIR"
+        },
+        {
+          "a": 2,
+          "b": 30,
+          "target": 30,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e5",
+      "conditions": {
+        "solvent": "methanol",
+        "temperature_kelvin": null,
+        "temperature_literal": "reflux"
+      },
+      "explanation": "In one event, form 3–2 from a lone pair on 3; move the 2–30 pair to 30.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 250 (Gabriel–Colman rearrangement).",
+          "note": "In one event, form 3–2 from a lone pair on 3; move the 2–30 pair to 30."
+        }
+      ],
+      "mechanism_evidence": "assumed_by_template",
+      "foundation_template": "ACYL_SUBSTITUTION",
+      "template_roles": {
+        "carbon": 2,
+        "leaving": 30,
+        "nucleophile": 12,
+        "oxygen": 3
+      },
+      "phase": "reaction",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e7",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v6",
+      "product_state_id": "s7",
+      "product_view_id": "v7",
+      "actions": [
+        {
+          "a": 30,
+          "b": 91,
+          "op": "PAIR"
+        },
+        {
+          "a": 91,
+          "b": 12,
+          "target": 12,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "acid": 12,
+        "base": 30,
+        "hydrogen": 91
+      },
+      "depends_on_event": "e6",
+      "conditions": {
+        "solvent": "methanol",
+        "temperature_kelvin": null,
+        "temperature_literal": "reflux"
+      },
+      "explanation": "In one event, form 30–91 from a lone pair on 30; move the 91–12 pair to 12.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 250 (Gabriel–Colman rearrangement).",
+          "note": "In one event, form 30–91 from a lone pair on 30; move the 91–12 pair to 12."
+        }
+      ],
+      "mechanism_evidence": "assumed_by_template",
+      "foundation_template": "TAUTOMER_BASE",
+      "template_roles": {
+        "alpha": 12,
+        "base": 30,
+        "carbon": 2,
+        "hydrogen": 91,
+        "oxygen": 3
+      },
+      "phase": "reaction",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e8",
+      "event_type": "POLAR",
+      "reactant_view_id": "v7",
+      "product_state_id": "s8",
+      "product_view_id": "v8",
+      "actions": [
+        {
+          "a": 12,
+          "b": 2,
+          "op": "PAIR"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "target": 3,
+          "op": "SPLIT"
+        },
+        {
+          "a": 3,
+          "b": 91,
+          "op": "PAIR"
+        },
+        {
+          "a": 91,
+          "b": 30,
+          "target": 30,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e7",
+      "conditions": {
+        "solvent": "methanol",
+        "temperature_kelvin": null,
+        "temperature_literal": "reflux"
+      },
+      "explanation": "In one event, form 12–2 from a lone pair on 12; move the 2–3 pair to 3; form 3–91 from a lone pair on 3; move the 91–30 pair to 30.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 250 (Gabriel–Colman rearrangement).",
+          "note": "In one event, form 12–2 from a lone pair on 12; move the 2–3 pair to 3; form 3–91 from a lone pair on 3; move the 91–30 pair to 30."
+        }
+      ],
+      "mechanism_evidence": "assumed_by_template",
+      "foundation_template": "TAUTOMER_BASE",
+      "template_roles": {
+        "alpha": 12,
+        "base": 30,
+        "carbon": 2,
+        "hydrogen": 91,
+        "oxygen": 3
+      },
+      "phase": "reaction",
+      "kind": "ReactionEvent"
+    }
+  ],
+  "schema_version": "umr/1.0"
+}

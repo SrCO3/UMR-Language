@@ -1,0 +1,423 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 2,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 20,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R"
+        },
+        {
+          "atom_id": 3,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 4,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 6,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 10,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 15,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 16,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 14,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 13,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 12,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 11,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 30,
+          "element": "P",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 31,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 32,
+          "element": "Cl",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 33,
+          "element": "Cl",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 34,
+          "element": "Cl",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 2,
+          "order": 2
+        },
+        {
+          "a": 1,
+          "b": 20,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 6,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 10,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 15,
+          "order": 2
+        },
+        {
+          "a": 15,
+          "b": 16,
+          "order": 1
+        },
+        {
+          "a": 15,
+          "b": 14,
+          "order": 1
+        },
+        {
+          "a": 14,
+          "b": 13,
+          "order": 2
+        },
+        {
+          "a": 13,
+          "b": 12,
+          "order": 1
+        },
+        {
+          "a": 12,
+          "b": 11,
+          "order": 2
+        },
+        {
+          "a": 30,
+          "b": 31,
+          "order": 2
+        },
+        {
+          "a": 30,
+          "b": 32,
+          "order": 1
+        },
+        {
+          "a": 30,
+          "b": 33,
+          "order": 1
+        },
+        {
+          "a": 30,
+          "b": 34,
+          "order": 1
+        },
+        {
+          "a": 11,
+          "b": 10,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "element_rule_version": "umr-elements/0.8",
+      "element_declarations": [
+        {
+          "atom_id": 30
+        },
+        {
+          "atom_id": 32
+        },
+        {
+          "atom_id": 33
+        },
+        {
+          "atom_id": 34
+        }
+      ],
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 2,
+          "b": 30,
+          "op": "PAIR"
+        },
+        {
+          "a": 30,
+          "b": 32,
+          "target": 32,
+          "op": "SPLIT"
+        },
+        {
+          "a": 3,
+          "b": 1,
+          "op": "PAIR"
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "target": 2,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 2–30 from a lone pair on 2; move the 30–32 pair to 32; form 3–1 from a lone pair on 3; move the 1–2 pair to 2.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 48 (Bischler–Napieralski reaction).",
+          "note": "In one event, form 2–30 from a lone pair on 2; move the 30–32 pair to 32; form 3–1 from a lone pair on 3; move the 1–2 pair to 2."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "POLAR",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 10,
+          "b": 15,
+          "c": 1,
+          "op": "SHIFT"
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "target": 3,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, move the 10–15 pair to 15–1; move the 1–3 pair to 3.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 48 (Bischler–Napieralski reaction).",
+          "note": "In one event, move the 10–15 pair to 15–1; move the 1–3 pair to 3."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "POLAR",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "actions": [
+        {
+          "a": 32,
+          "b": 16,
+          "op": "PAIR"
+        },
+        {
+          "a": 16,
+          "b": 15,
+          "c": 10,
+          "op": "SHIFT"
+        }
+      ],
+      "explanation": "In one event, form 32–16 from a lone pair on 32; move the 16–15 pair to 15–10.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 48 (Bischler–Napieralski reaction).",
+          "note": "In one event, form 32–16 from a lone pair on 32; move the 16–15 pair to 15–10."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4",
+      "event_type": "POLAR",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "actions": [
+        {
+          "a": 3,
+          "b": 1,
+          "op": "PAIR"
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "c": 30,
+          "op": "SHIFT"
+        },
+        {
+          "a": 30,
+          "b": 33,
+          "target": 33,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 3–1 from a lone pair on 3; move the 1–2 pair to 2–30; move the 30–33 pair to 33.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 48 (Bischler–Napieralski reaction).",
+          "note": "In one event, form 3–1 from a lone pair on 3; move the 1–2 pair to 2–30; move the 30–33 pair to 33."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e5",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v4",
+      "product_state_id": "s5",
+      "product_view_id": "v5",
+      "actions": [
+        {
+          "a": 33,
+          "b": 4,
+          "op": "PAIR"
+        },
+        {
+          "a": 4,
+          "b": 3,
+          "target": 3,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 33,
+        "hydrogen": 4,
+        "acid": 3
+      },
+      "explanation": "In one event, form 33–4 from a lone pair on 33; move the 4–3 pair to 3.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 48 (Bischler–Napieralski reaction).",
+          "note": "In one event, form 33–4 from a lone pair on 33; move the 4–3 pair to 3."
+        }
+      ],
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-024",
+  "symbolic_mode": "unchanged_boundary",
+  "schema_version": "umr/1.0"
+}

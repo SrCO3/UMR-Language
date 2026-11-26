@@ -1,0 +1,476 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 2,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 3,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 4,
+          "element": "Al",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "radical_electrons": null
+        },
+        {
+          "atom_id": 5,
+          "element": "Cl",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 6,
+          "element": "Cl",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 7,
+          "element": "Cl",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 10,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 11,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 12,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 13,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 14,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 20,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 21,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 22,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 2,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "order": 3
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 6,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 7,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 11,
+          "order": 2
+        },
+        {
+          "a": 11,
+          "b": 12,
+          "order": 1
+        },
+        {
+          "a": 12,
+          "b": 13,
+          "order": 2
+        },
+        {
+          "a": 12,
+          "b": 14,
+          "order": 1
+        },
+        {
+          "a": 20,
+          "b": 21,
+          "order": 1
+        },
+        {
+          "a": 20,
+          "b": 22,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "metal_centers": [
+        {
+          "atom_id": 4
+        }
+      ],
+      "ligands": [
+        {
+          "ligand_id": "ligand.5",
+          "atom_ids": [
+            5
+          ],
+          "donor_atom_ids": [
+            5
+          ],
+          "ionic_class": "X",
+          "ionic_charge": -1,
+          "assignment_basis": "inferred finite ionic partition from mapped graph; not measured charge"
+        },
+        {
+          "ligand_id": "ligand.6",
+          "atom_ids": [
+            6
+          ],
+          "donor_atom_ids": [
+            6
+          ],
+          "ionic_class": "X",
+          "ionic_charge": -1,
+          "assignment_basis": "inferred finite ionic partition from mapped graph; not measured charge"
+        },
+        {
+          "ligand_id": "ligand.7",
+          "atom_ids": [
+            7
+          ],
+          "donor_atom_ids": [
+            7
+          ],
+          "ionic_class": "X",
+          "ionic_charge": -1,
+          "assignment_basis": "inferred finite ionic partition from mapped graph; not measured charge"
+        }
+      ],
+      "metal_bindings": [
+        {
+          "binding_id": "bind.ligand.5.0",
+          "metal_atom_id": 4,
+          "ligand_id": "ligand.5",
+          "donor_atom_ids": [
+            5
+          ],
+          "mode": "sigma_covalent"
+        },
+        {
+          "binding_id": "bind.ligand.6.0",
+          "metal_atom_id": 4,
+          "ligand_id": "ligand.6",
+          "donor_atom_ids": [
+            6
+          ],
+          "mode": "sigma_covalent"
+        },
+        {
+          "binding_id": "bind.ligand.7.0",
+          "metal_atom_id": 4,
+          "ligand_id": "ligand.7",
+          "donor_atom_ids": [
+            7
+          ],
+          "mode": "sigma_covalent"
+        }
+      ],
+      "element_declarations": [
+        {
+          "atom_id": 5
+        },
+        {
+          "atom_id": 6
+        },
+        {
+          "atom_id": 7
+        }
+      ],
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 13,
+          "b": 2,
+          "op": "PAIR"
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "target": 1,
+          "op": "SPLIT"
+        }
+      ],
+      "conditions": {
+        "temperature": "unknown",
+        "solvent": "THF"
+      },
+      "explanation": "In one event, form 13–2 from a lone pair on 13; move the 2–1 pair to 1.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 302 (NAGATA HYDROCYANATION).",
+          "note": "In one event, form 13–2 from a lone pair on 13; move the 2–1 pair to 1."
+        }
+      ],
+      "mechanism_assumption": "AlCl3 是教材 AlX3 类别的具体化；分离离子为记账贡献式，酸活化/络合可能耦合，未计算真实溶剂平衡。未覆盖 R2AlCN 聚集体可逆支路。",
+      "phase_id": "conjugate_addition",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "POLAR",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "depends_on_event": "e1",
+      "conditions": {
+        "temperature": "unknown",
+        "solvent": "THF"
+      },
+      "explanation": "Apply AL_CYANIDE_ASSOCIATION to the mapped reaction sites in view v1.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 302 (NAGATA HYDROCYANATION).",
+          "note": "Apply AL_CYANIDE_ASSOCIATION to the mapped reaction sites in view v1."
+        }
+      ],
+      "mechanism_assumption": "AlCl3 是教材 AlX3 类别的具体化；分离离子为记账贡献式，酸活化/络合可能耦合，未计算真实溶剂平衡。未覆盖 R2AlCN 聚集体可逆支路。",
+      "general_event": "AL_CYANIDE_ASSOCIATION",
+      "general_roles": {
+        "metal": 4,
+        "carbon": 1,
+        "nitrogen": 3
+      },
+      "phase_id": "conjugate_addition",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "POLAR",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "depends_on_event": "e2",
+      "conditions": {
+        "temperature": "unknown",
+        "solvent": "THF"
+      },
+      "explanation": "Apply AL_CYANIDE_CONJUGATE_TRANSFER to the mapped reaction sites in view v2.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 302 (NAGATA HYDROCYANATION).",
+          "note": "Apply AL_CYANIDE_CONJUGATE_TRANSFER to the mapped reaction sites in view v2."
+        }
+      ],
+      "mechanism_assumption": "AlCl3 是教材 AlX3 类别的具体化；分离离子为记账贡献式，酸活化/络合可能耦合，未计算真实溶剂平衡。未覆盖 R2AlCN 聚集体可逆支路。",
+      "general_event": "AL_CYANIDE_CONJUGATE_TRANSFER",
+      "general_roles": {
+        "metal": 4,
+        "cyanide_c": 1,
+        "nitrogen": 3,
+        "beta": 10,
+        "alpha": 11,
+        "carbonyl": 12,
+        "oxygen": 13,
+        "hydrogen": 2
+      },
+      "phase_id": "conjugate_addition",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4",
+      "event_type": "POLAR",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "actions": [
+        {
+          "a": 20,
+          "b": 2,
+          "op": "PAIR"
+        },
+        {
+          "a": 2,
+          "b": 13,
+          "c": 12,
+          "op": "SHIFT"
+        },
+        {
+          "a": 12,
+          "b": 11,
+          "target": 11,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e3",
+      "conditions": {
+        "temperature": "unknown",
+        "medium": "water relay completion"
+      },
+      "explanation": "In one event, form 20–2 from a lone pair on 20; move the 2–13 pair to 13–12; move the 12–11 pair to 11.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 302 (NAGATA HYDROCYANATION).",
+          "note": "In one event, form 20–2 from a lone pair on 20; move the 2–13 pair to 13–12; move the 12–11 pair to 11."
+        }
+      ],
+      "mechanism_assumption": "AlCl3 是教材 AlX3 类别的具体化；分离离子为记账贡献式，酸活化/络合可能耦合，未计算真实溶剂平衡。未覆盖 R2AlCN 聚集体可逆支路。",
+      "phase_id": "water_workup",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e5",
+      "event_type": "POLAR",
+      "reactant_view_id": "v4",
+      "product_state_id": "s5",
+      "product_view_id": "v5",
+      "actions": [
+        {
+          "a": 11,
+          "b": 2,
+          "op": "PAIR"
+        },
+        {
+          "a": 2,
+          "b": 20,
+          "target": 20,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e4",
+      "conditions": {
+        "temperature": "unknown",
+        "medium": "water relay completion"
+      },
+      "explanation": "In one event, form 11–2 from a lone pair on 11; move the 2–20 pair to 20.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 302 (NAGATA HYDROCYANATION).",
+          "note": "In one event, form 11–2 from a lone pair on 11; move the 2–20 pair to 20."
+        }
+      ],
+      "mechanism_assumption": "AlCl3 是教材 AlX3 类别的具体化；分离离子为记账贡献式，酸活化/络合可能耦合，未计算真实溶剂平衡。未覆盖 R2AlCN 聚集体可逆支路。",
+      "phase_id": "water_workup",
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "STR-302",
+  "phases": [
+    {
+      "phase_id": "conjugate_addition",
+      "kind": "reaction",
+      "event_ids": [
+        "e1",
+        "e2",
+        "e3"
+      ],
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 302 (NAGATA HYDROCYANATION).",
+          "note": "These reaction conditions apply to the conjugate_addition phase."
+        }
+      ]
+    },
+    {
+      "phase_id": "water_workup",
+      "kind": "workup",
+      "event_ids": [
+        "e4",
+        "e5"
+      ],
+      "activate_atom_ids": [
+        20,
+        21,
+        22
+      ],
+      "conditions": {
+        "medium": "water relay completion"
+      },
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 302 (NAGATA HYDROCYANATION).",
+          "note": "These reaction conditions apply to the water_workup phase."
+        }
+      ]
+    }
+  ],
+  "schema_version": "umr/1.0"
+}

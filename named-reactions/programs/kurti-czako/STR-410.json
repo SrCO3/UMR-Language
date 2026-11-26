@@ -1,0 +1,593 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 2,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "stereo": {
+            "status": "specified",
+            "rdkit_tag": "CHI_TETRAHEDRAL_CW",
+            "neighbor_order": [
+              1,
+              8,
+              3,
+              11
+            ]
+          }
+        },
+        {
+          "atom_id": 8,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 9,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 10,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 1000,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 1001,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 11,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 3,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 7,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 4,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1,
+          "stereo": {
+            "status": "specified",
+            "rdkit_tag": "CHI_TETRAHEDRAL_CW",
+            "neighbor_order": [
+              3,
+              12,
+              5
+            ]
+          }
+        },
+        {
+          "atom_id": 12,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 13,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 1002,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 1003,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 14,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1,
+          "stereo": {
+            "status": "specified",
+            "rdkit_tag": "CHI_TETRAHEDRAL_CW",
+            "neighbor_order": [
+              14,
+              6,
+              4
+            ]
+          }
+        },
+        {
+          "atom_id": 6,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 20,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 21,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 22,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 23,
+          "element": "S",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 24,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 25,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 26,
+          "element": "O",
+          "formal_charge": -1,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 27,
+          "element": "K",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0,
+          "radical_electrons": null
+        },
+        {
+          "atom_id": 28,
+          "element": "O",
+          "formal_charge": -1,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 29,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 30,
+          "element": "Na",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0,
+          "radical_electrons": null
+        },
+        {
+          "atom_id": 31,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 32,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 33,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 2,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 8,
+          "order": 1
+        },
+        {
+          "a": 8,
+          "b": 9,
+          "order": 1
+        },
+        {
+          "a": 9,
+          "b": 10,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 1000,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 1001,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 11,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 7,
+          "order": 2
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 12,
+          "order": 1
+        },
+        {
+          "a": 12,
+          "b": 13,
+          "order": 1
+        },
+        {
+          "a": 13,
+          "b": 1002,
+          "order": 1
+        },
+        {
+          "a": 13,
+          "b": 1003,
+          "order": 1
+        },
+        {
+          "a": 13,
+          "b": 14,
+          "order": 1
+        },
+        {
+          "a": 14,
+          "b": 5,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 6,
+          "order": 1
+        },
+        {
+          "a": 20,
+          "b": 21,
+          "order": 1
+        },
+        {
+          "a": 20,
+          "b": 22,
+          "order": 1
+        },
+        {
+          "a": 22,
+          "b": 23,
+          "order": 1
+        },
+        {
+          "a": 23,
+          "b": 24,
+          "order": 2
+        },
+        {
+          "a": 23,
+          "b": 25,
+          "order": 2
+        },
+        {
+          "a": 23,
+          "b": 26,
+          "order": 1
+        },
+        {
+          "a": 28,
+          "b": 29,
+          "order": 1
+        },
+        {
+          "a": 31,
+          "b": 32,
+          "order": 2
+        },
+        {
+          "a": 32,
+          "b": 33,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 1,
+          "order": 1
+        },
+        {
+          "a": 11,
+          "b": 2,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 4,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "metal_centers": [
+        {
+          "atom_id": 27
+        },
+        {
+          "atom_id": 30
+        }
+      ],
+      "element_declarations": [
+        {
+          "atom_id": 23,
+          "oxidation_state": 6
+        }
+      ],
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 20,
+          "b": 3,
+          "op": "PAIR"
+        },
+        {
+          "a": 3,
+          "b": 7,
+          "target": 7,
+          "op": "SPLIT"
+        }
+      ],
+      "conditions": {
+        "temperature": "unknown",
+        "medium": "aqueous acetonitrile",
+        "pH": "source optimum approximately 10.5; not simulated"
+      },
+      "explanation": "In one event, form 20–3 from a lone pair on 20; move the 3–7 pair to 7.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 410 (SHI ASYMMETRIC EPOXIDATION).",
+          "note": "In one event, form 20–3 from a lone pair on 20; move the 3–7 pair to 7."
+        }
+      ],
+      "mechanism_assumption": "从预制手性酮开始；采用单份 KHSO5/NaOH 的守恒库存，不代表商业 Oxone 复盐全组成，不预测 pH、催化速率及 ee。",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "POLAR",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 7,
+          "b": 21,
+          "op": "PAIR"
+        },
+        {
+          "a": 21,
+          "b": 20,
+          "target": 20,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e1",
+      "conditions": {
+        "temperature": "unknown",
+        "medium": "aqueous acetonitrile",
+        "pH": "source optimum approximately 10.5; not simulated"
+      },
+      "explanation": "In one event, form 7–21 from a lone pair on 7; move the 21–20 pair to 20.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 410 (SHI ASYMMETRIC EPOXIDATION).",
+          "note": "In one event, form 7–21 from a lone pair on 7; move the 21–20 pair to 20."
+        }
+      ],
+      "mechanism_assumption": "从预制手性酮开始；采用单份 KHSO5/NaOH 的守恒库存，不代表商业 Oxone 复盐全组成，不预测 pH、催化速率及 ee。",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "POLAR",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "actions": [
+        {
+          "a": 28,
+          "b": 21,
+          "op": "PAIR"
+        },
+        {
+          "a": 21,
+          "b": 7,
+          "target": 7,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e2",
+      "conditions": {
+        "temperature": "unknown",
+        "medium": "aqueous acetonitrile",
+        "pH": "source optimum approximately 10.5; not simulated"
+      },
+      "explanation": "In one event, form 28–21 from a lone pair on 28; move the 21–7 pair to 7.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 410 (SHI ASYMMETRIC EPOXIDATION).",
+          "note": "In one event, form 28–21 from a lone pair on 28; move the 21–7 pair to 7."
+        }
+      ],
+      "mechanism_assumption": "从预制手性酮开始；采用单份 KHSO5/NaOH 的守恒库存，不代表商业 Oxone 复盐全组成，不预测 pH、催化速率及 ee。",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4",
+      "event_type": "POLAR",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "actions": [
+        {
+          "a": 7,
+          "b": 20,
+          "op": "PAIR"
+        },
+        {
+          "a": 20,
+          "b": 22,
+          "target": 22,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e3",
+      "conditions": {
+        "temperature": "unknown",
+        "medium": "aqueous acetonitrile",
+        "pH": "source optimum approximately 10.5; not simulated"
+      },
+      "explanation": "In one event, form 7–20 from a lone pair on 7; move the 20–22 pair to 22.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 410 (SHI ASYMMETRIC EPOXIDATION).",
+          "note": "In one event, form 7–20 from a lone pair on 7; move the 20–22 pair to 22."
+        }
+      ],
+      "mechanism_assumption": "从预制手性酮开始；采用单份 KHSO5/NaOH 的守恒库存，不代表商业 Oxone 复盐全组成，不预测 pH、催化速率及 ee。",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e5",
+      "event_type": "POLAR",
+      "reactant_view_id": "v4",
+      "product_state_id": "s5",
+      "product_view_id": "v5",
+      "depends_on_event": "e4",
+      "conditions": {
+        "temperature": "unknown",
+        "medium": "aqueous acetonitrile",
+        "pH": "source optimum approximately 10.5; not simulated"
+      },
+      "explanation": "Apply DIOXIRANE_OXYGEN_TRANSFER to the mapped reaction sites in view v4.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 410 (SHI ASYMMETRIC EPOXIDATION).",
+          "note": "Apply DIOXIRANE_OXYGEN_TRANSFER to the mapped reaction sites in view v4."
+        }
+      ],
+      "mechanism_assumption": "从预制手性酮开始；采用单份 KHSO5/NaOH 的守恒库存，不代表商业 Oxone 复盐全组成，不预测 pH、催化速率及 ee。",
+      "general_event": "DIOXIRANE_OXYGEN_TRANSFER",
+      "general_roles": {
+        "carbon": 3,
+        "retained_o": 7,
+        "transferred_o": 20,
+        "a": 31,
+        "b": 32
+      },
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "STR-410",
+  "schema_version": "umr/1.0"
+}

@@ -1,0 +1,22 @@
+UMR 1.0 INITIAL s0;
+STATE s0 {"primary_view_id":"vC","total_charge":-2,"multiplicity":1};
+VIEW vC {"state_id":"s0","atoms":[{"atom_id":1,"element":"C","formal_charge":-1,"nonbonding_electrons":2,"hydrogens":2},{"atom_id":2,"element":"C","formal_charge":0,"nonbonding_electrons":0,"hydrogens":1},{"atom_id":3,"element":"O","formal_charge":0,"nonbonding_electrons":4,"hydrogens":0},{"atom_id":4,"element":"C","formal_charge":0,"nonbonding_electrons":0,"hydrogens":3},{"atom_id":5,"element":"I","formal_charge":0,"nonbonding_electrons":6,"hydrogens":0},{"atom_id":6,"element":"O","formal_charge":-1,"nonbonding_electrons":6,"hydrogens":1},{"atom_id":7,"element":"O","formal_charge":0,"nonbonding_electrons":4,"hydrogens":1},{"atom_id":8,"element":"H","formal_charge":0,"nonbonding_electrons":0,"hydrogens":0}],"bonds":[{"a":1,"b":2,"order":1},{"a":2,"b":3,"order":2},{"a":4,"b":5,"order":1},{"a":7,"b":8,"order":1}]};
+VIEW vO {"state_id":"s0","atoms":[{"atom_id":1,"element":"C","formal_charge":0,"nonbonding_electrons":0,"hydrogens":2},{"atom_id":2,"element":"C","formal_charge":0,"nonbonding_electrons":0,"hydrogens":1},{"atom_id":3,"element":"O","formal_charge":-1,"nonbonding_electrons":6,"hydrogens":0},{"atom_id":4,"element":"C","formal_charge":0,"nonbonding_electrons":0,"hydrogens":3},{"atom_id":5,"element":"I","formal_charge":0,"nonbonding_electrons":6,"hydrogens":0},{"atom_id":6,"element":"O","formal_charge":-1,"nonbonding_electrons":6,"hydrogens":1},{"atom_id":7,"element":"O","formal_charge":0,"nonbonding_electrons":4,"hydrogens":1},{"atom_id":8,"element":"H","formal_charge":0,"nonbonding_electrons":0,"hydrogens":0}],"bonds":[{"a":1,"b":2,"order":2},{"a":2,"b":3,"order":1},{"a":4,"b":5,"order":1},{"a":7,"b":8,"order":1}]};
+RESONANCE contributors {"state_id":"s0","source_view_id":"vC","target_view_id":"vO","rule":"lone_pair_pi","rule_version":"umr-resonance/0.1"} DO { PAIR(1,2); SPLIT(2,3->3); };
+REACT C_alkylation {"event_type":"POLAR","general_event":"AUTHORED_ELECTRON_ACTIONS","reactant_view_id":"vC","product_state_id":"sAldehyde","product_view_id":"vAldehyde"} DO {
+  PAIR(1,4);
+  SPLIT(4,5->5);
+};
+REACT O_alkylation {"event_type":"POLAR","general_event":"AUTHORED_ELECTRON_ACTIONS","reactant_view_id":"vO","product_state_id":"sEther","product_view_id":"vEther"} DO {
+  PAIR(3,4);
+  SPLIT(4,5->5);
+};
+REACT hydroxide_addition {"event_type":"POLAR","general_event":"AUTHORED_ELECTRON_ACTIONS","reactant_view_id":"vAldehyde","product_state_id":"sAlkoxide","product_view_id":"vAlkoxide","depends_on_event":"C_alkylation"} DO {
+  PAIR(6,2);
+  SPLIT(2,3->3);
+};
+REACT proton_transfer {"event_type":"POLAR","general_event":"AUTHORED_ELECTRON_ACTIONS","reactant_view_id":"vAlkoxide","product_state_id":"sHydrate","product_view_id":"vHydrate","depends_on_event":"hydroxide_addition"} DO {
+  PAIR(3,8);
+  SPLIT(8,7->7);
+};
+META {"source":"Authored illustration of ambident alkylation followed by a separate aqueous hydration stage. No product ratio is inferred."};

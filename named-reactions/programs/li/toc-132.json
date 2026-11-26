@@ -1,0 +1,415 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 2,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 3,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 4,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1,
+          "stereo": {
+            "status": "specified",
+            "rdkit_tag": "CHI_TETRAHEDRAL_CCW",
+            "neighbor_order": [
+              4,
+              6,
+              8
+            ]
+          }
+        },
+        {
+          "atom_id": 6,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 7,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 8,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 9,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 10,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 17,
+          "element": "Mg",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 18,
+          "element": "Br",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 11,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 12,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 13,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 14,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 15,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 20,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 21,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 22,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 23,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 24,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 2,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 6,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 7,
+          "order": 2
+        },
+        {
+          "a": 5,
+          "b": 8,
+          "order": 1
+        },
+        {
+          "a": 8,
+          "b": 9,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 17,
+          "order": 1
+        },
+        {
+          "a": 17,
+          "b": 18,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 11,
+          "order": 1
+        },
+        {
+          "a": 11,
+          "b": 12,
+          "order": 1
+        },
+        {
+          "a": 12,
+          "b": 13,
+          "order": 2
+        },
+        {
+          "a": 13,
+          "b": 14,
+          "order": 1
+        },
+        {
+          "a": 13,
+          "b": 15,
+          "order": 1
+        },
+        {
+          "a": 20,
+          "b": 21,
+          "order": 1
+        },
+        {
+          "a": 21,
+          "b": 22,
+          "order": 1
+        },
+        {
+          "a": 22,
+          "b": 23,
+          "order": 1
+        },
+        {
+          "a": 23,
+          "b": 24,
+          "order": 1
+        },
+        {
+          "a": 9,
+          "b": 1,
+          "order": 1
+        },
+        {
+          "a": 24,
+          "b": 20,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "metal_centers": [
+        {
+          "atom_id": 17
+        }
+      ],
+      "ligands": [
+        {
+          "ligand_id": "ligand.10",
+          "atom_ids": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "donor_atom_ids": [
+            10
+          ],
+          "ionic_class": "X",
+          "ionic_charge": -1,
+          "assignment_basis": "inferred finite ionic partition from mapped graph; not measured charge"
+        },
+        {
+          "ligand_id": "ligand.18",
+          "atom_ids": [
+            18
+          ],
+          "donor_atom_ids": [
+            18
+          ],
+          "ionic_class": "X",
+          "ionic_charge": -1,
+          "assignment_basis": "inferred finite ionic partition from mapped graph; not measured charge"
+        }
+      ],
+      "metal_bindings": [
+        {
+          "binding_id": "bind.ligand.10.0",
+          "metal_atom_id": 17,
+          "ligand_id": "ligand.10",
+          "donor_atom_ids": [
+            10
+          ],
+          "mode": "sigma_covalent"
+        },
+        {
+          "binding_id": "bind.ligand.18.0",
+          "metal_atom_id": 17,
+          "ligand_id": "ligand.18",
+          "donor_atom_ids": [
+            18
+          ],
+          "mode": "sigma_covalent"
+        }
+      ],
+      "element_rule_version": "umr-elements/0.8",
+      "element_declarations": [
+        {
+          "atom_id": 18
+        }
+      ],
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 17,
+          "b": 10,
+          "c": 6,
+          "op": "SHIFT"
+        },
+        {
+          "a": 6,
+          "b": 7,
+          "target": 7,
+          "op": "SPLIT"
+        },
+        {
+          "a": 7,
+          "b": 17,
+          "op": "PAIR"
+        }
+      ],
+      "explanation": "In one event, move the 17–10 pair to 10–6; move the 6–7 pair to 7; form 7–17 from a lone pair on 7.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 266 (Grignard reaction).",
+          "note": "In one event, move the 17–10 pair to 10–6; move the 6–7 pair to 7; form 7–17 from a lone pair on 7."
+        }
+      ],
+      "mechanism_assumption": "Formal ionic addition with C-Mg electron pair delivered to carbonyl carbon and O-Mg bond formed; microscopic concerted grouping proposed, source Example5 provides net transformation only.",
+      "source_stereo": [
+        {
+          "atom_ids": [
+            5,
+            4,
+            6,
+            8
+          ],
+          "assertion": {
+            "source_bond": "C5-O4 solid wedge",
+            "source_projection": "O4 above/toward viewer; C6 down-right ordinary bond; C8 left ordinary bond",
+            "assigned_from_source_geometry": "R",
+            "new_C6_stereo": "unspecified"
+          },
+          "evidence": [
+            {
+              "level": "observed",
+              "source": "Labelled as observed in the source record. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 266 (Grignard reaction)."
+            }
+          ]
+        }
+      ],
+      "general_event": "METAL_CARBONYL_ADDITION",
+      "general_roles": {
+        "metal": 17,
+        "nucleophile": 10,
+        "carbon": 6,
+        "oxygen": 7
+      },
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-132",
+  "revision": 1,
+  "schema_version": "umr/1.0"
+}

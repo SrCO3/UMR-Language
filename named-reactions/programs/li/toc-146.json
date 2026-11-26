@@ -1,0 +1,235 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 1,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1,
+          "stereo": {
+            "neighbor_order": [
+              7,
+              2,
+              6
+            ],
+            "rdkit_tag": "CHI_TETRAHEDRAL_CW",
+            "status": "specified"
+          }
+        },
+        {
+          "atom_id": 7,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 8,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 9,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 2,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1,
+          "stereo": {
+            "neighbor_order": [
+              1,
+              10,
+              3
+            ],
+            "rdkit_tag": "CHI_TETRAHEDRAL_CCW",
+            "status": "specified"
+          }
+        },
+        {
+          "atom_id": 10,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 3,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 4,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 6,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 11,
+          "element": "H",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 20,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 7,
+          "order": 1
+        },
+        {
+          "a": 7,
+          "b": 8,
+          "order": 2
+        },
+        {
+          "a": 8,
+          "b": 9,
+          "order": 2
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 10,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 6,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 1,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 20,
+          "order": 1
+        }
+      ],
+      "element_rule_version": "umr-elements/0.7",
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 10,
+          "b": 8,
+          "op": "PAIR"
+        },
+        {
+          "a": 8,
+          "b": 7,
+          "c": 11,
+          "op": "SHIFT"
+        }
+      ],
+      "explanation": "In one event, form 10–8 from a lone pair on 10; move the 8–7 pair to 7–11.",
+      "evidence": [
+        {
+          "level": "observed",
+          "source": "Labelled as observed in the source record. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 290 (Hofmann rearrangement).",
+          "note": "In one event, form 10–8 from a lone pair on 10; move the 8–7 pair to 7–11."
+        },
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 290 (Hofmann rearrangement).",
+          "note": "In one event, form 10–8 from a lone pair on 10; move the 8–7 pair to 7–11."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "POLAR",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 20,
+          "b": 10,
+          "target": 10,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e1",
+      "explanation": "In one event, move the 20–10 pair to 10.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 290 (Hofmann rearrangement).",
+          "note": "In one event, move the 20–10 pair to 10."
+        }
+      ],
+      "kind": "ReactionEvent"
+    }
+  ],
+  "schema_version": "umr/1.0"
+}

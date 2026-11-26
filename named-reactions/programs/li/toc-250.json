@@ -1,0 +1,503 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 10,
+          "element": "Si",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 11,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 12,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 13,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 1,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 2,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 3,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 4,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 9,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 7,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 6,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 8,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 20,
+          "element": "Pd",
+          "formal_charge": 0,
+          "nonbonding_electrons": 8
+        },
+        {
+          "atom_id": 21,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 22,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 23,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 24,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 25,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 26,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 27,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 28,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 30,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 31,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 32,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 33,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 34,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 35,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 36,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 37,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        }
+      ],
+      "bonds": [
+        {
+          "a": 10,
+          "b": 11,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 12,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 13,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 1,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "order": 2
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 9,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 7,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 6,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 8,
+          "order": 1
+        },
+        {
+          "a": 20,
+          "b": 21,
+          "order": 1
+        },
+        {
+          "a": 21,
+          "b": 22,
+          "order": 1
+        },
+        {
+          "a": 22,
+          "b": 23,
+          "order": 2
+        },
+        {
+          "a": 22,
+          "b": 24,
+          "order": 1
+        },
+        {
+          "a": 20,
+          "b": 25,
+          "order": 1
+        },
+        {
+          "a": 25,
+          "b": 26,
+          "order": 1
+        },
+        {
+          "a": 26,
+          "b": 27,
+          "order": 2
+        },
+        {
+          "a": 26,
+          "b": 28,
+          "order": 1
+        },
+        {
+          "a": 30,
+          "b": 31,
+          "order": 2
+        },
+        {
+          "a": 31,
+          "b": 32,
+          "order": 1
+        },
+        {
+          "a": 32,
+          "b": 33,
+          "order": 2
+        },
+        {
+          "a": 33,
+          "b": 34,
+          "order": 1
+        },
+        {
+          "a": 34,
+          "b": 35,
+          "order": 2
+        },
+        {
+          "a": 34,
+          "b": 36,
+          "order": 1
+        },
+        {
+          "a": 36,
+          "b": 37,
+          "order": 2
+        },
+        {
+          "a": 8,
+          "b": 2,
+          "order": 1
+        },
+        {
+          "a": 37,
+          "b": 31,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "metal_centers": [
+        {
+          "atom_id": 20
+        }
+      ],
+      "ligands": [
+        {
+          "ligand_id": "ligand.21",
+          "atom_ids": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "donor_atom_ids": [
+            21
+          ],
+          "ionic_class": "X",
+          "ionic_charge": -1,
+          "assignment_basis": "inferred finite ionic partition from mapped graph; not measured charge"
+        },
+        {
+          "ligand_id": "ligand.25",
+          "atom_ids": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "donor_atom_ids": [
+            25
+          ],
+          "ionic_class": "X",
+          "ionic_charge": -1,
+          "assignment_basis": "inferred finite ionic partition from mapped graph; not measured charge"
+        }
+      ],
+      "metal_bindings": [
+        {
+          "binding_id": "bind.ligand.21.0",
+          "metal_atom_id": 20,
+          "ligand_id": "ligand.21",
+          "donor_atom_ids": [
+            21
+          ],
+          "mode": "sigma_covalent"
+        },
+        {
+          "binding_id": "bind.ligand.25.0",
+          "metal_atom_id": 20,
+          "ligand_id": "ligand.25",
+          "donor_atom_ids": [
+            25
+          ],
+          "mode": "sigma_covalent"
+        }
+      ],
+      "element_rule_version": "umr-elements/0.8",
+      "element_declarations": [
+        {
+          "atom_id": 10
+        }
+      ],
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "bindings": {
+        "metal": 20,
+        "alpha": 3,
+        "carbon": 2,
+        "oxygen": 1,
+        "silicon": 10,
+        "leaving": 25
+      },
+      "explanation": "Apply SAEGUSA_PALLADATION to the mapped reaction sites in view v0.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 482 (Saegusa oxidation).",
+          "note": "Apply SAEGUSA_PALLADATION to the mapped reaction sites in view v0."
+        }
+      ],
+      "rule_template": "SAEGUSA_PALLADATION",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "POLAR",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "bindings": {
+        "metal": 20,
+        "alpha": 3,
+        "beta": 4,
+        "hydrogen": 9
+      },
+      "conditions": {
+        "geometry_status": "unverified",
+        "product_alkene_binding": "free"
+      },
+      "explanation": "Apply PD_BETA_H_ELIMINATION to the mapped reaction sites in view v1.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 482 (Saegusa oxidation).",
+          "note": "Apply PD_BETA_H_ELIMINATION to the mapped reaction sites in view v1."
+        }
+      ],
+      "rule_template": "PD_BETA_H_ELIMINATION",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "POLAR",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "bindings": {
+        "metal": 20,
+        "hydrogen": 9,
+        "oxygen": 21
+      },
+      "explanation": "Apply PD_H_ACETATE_ELIMINATION to the mapped reaction sites in view v2.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 482 (Saegusa oxidation).",
+          "note": "Apply PD_H_ACETATE_ELIMINATION to the mapped reaction sites in view v2."
+        }
+      ],
+      "rule_template": "PD_H_ACETATE_ELIMINATION",
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-250",
+  "schema_version": "umr/1.0"
+}

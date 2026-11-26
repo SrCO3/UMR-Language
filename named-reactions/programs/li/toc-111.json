@@ -1,0 +1,549 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 2,
+      "conditions": {
+        "acid": "H+ printed; exact acid/solvent not specified"
+      },
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 2,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 3,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 4,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 6,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 9,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 10,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 7,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 8,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 12,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 13,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 14,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 15,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 16,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 17,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 18,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 19,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 100,
+          "element": "H",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 101,
+          "element": "H",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 20,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R1"
+        },
+        {
+          "atom_id": 21,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R2"
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 2,
+          "order": 2
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "order": 2
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 6,
+          "order": 2
+        },
+        {
+          "a": 6,
+          "b": 1,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 7,
+          "order": 1
+        },
+        {
+          "a": 7,
+          "b": 8,
+          "order": 1
+        },
+        {
+          "a": 8,
+          "b": 10,
+          "order": 2
+        },
+        {
+          "a": 10,
+          "b": 9,
+          "order": 1
+        },
+        {
+          "a": 9,
+          "b": 20,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 21,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 12,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 13,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 14,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 15,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 16,
+          "order": 1
+        },
+        {
+          "a": 7,
+          "b": 17,
+          "order": 1
+        },
+        {
+          "a": 9,
+          "b": 18,
+          "order": 1
+        },
+        {
+          "a": 9,
+          "b": 19,
+          "order": 1
+        }
+      ],
+      "annotations": {
+        "symbolic_mode": "unchanged_boundary"
+      },
+      "element_rule_version": "umr-elements/0.8",
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 8,
+          "b": 100,
+          "op": "PAIR"
+        }
+      ],
+      "conditions": {
+        "proton_carrier": "formal bare H+ source notation; not asserted as free solvated proton kinetics"
+      },
+      "explanation": "In one event, form 8–100 from a lone pair on 8.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 227 (Fischer indole synthesis).",
+          "note": "In one event, form 8–100 from a lone pair on 8."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "POLAR",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 18,
+          "b": 9,
+          "c": 10,
+          "op": "SHIFT"
+        },
+        {
+          "a": 10,
+          "b": 8,
+          "target": 8,
+          "op": "SPLIT"
+        }
+      ],
+      "conditions": {
+        "proton_carrier": "formal bare H+ source notation; not asserted as free solvated proton kinetics"
+      },
+      "explanation": "In one event, move the 18–9 pair to 9–10; move the 10–8 pair to 8.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 227 (Fischer indole synthesis).",
+          "note": "In one event, move the 18–9 pair to 9–10; move the 10–8 pair to 8."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "POLAR",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "actions": [
+        {
+          "a": 8,
+          "b": 18,
+          "op": "PAIR"
+        }
+      ],
+      "conditions": {
+        "proton_carrier": "formal bare H+ source notation; not asserted as free solvated proton kinetics"
+      },
+      "explanation": "In one event, form 8–18 from a lone pair on 8.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 227 (Fischer indole synthesis).",
+          "note": "In one event, form 8–18 from a lone pair on 8."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4",
+      "event_type": "PERICYCLIC",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "bindings": {
+        "ordered_atoms": [
+          2,
+          1,
+          7,
+          8,
+          10,
+          9
+        ]
+      },
+      "conditions": {
+        "geometry_status": "unknown"
+      },
+      "explanation": "Apply FISCHER_3_3 to the mapped reaction sites in view v3.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 227 (Fischer indole synthesis).",
+          "note": "Apply FISCHER_3_3 to the mapped reaction sites in view v3."
+        }
+      ],
+      "template_id": "FISCHER_3_3",
+      "template_version": "0.8",
+      "region_atom_ids": [
+        2,
+        1,
+        7,
+        8,
+        10,
+        9
+      ],
+      "mechanism_assumption": "concerted",
+      "mechanism_evidence": "supported",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e5",
+      "event_type": "POLAR",
+      "reactant_view_id": "v4",
+      "product_state_id": "s5",
+      "product_view_id": "v5",
+      "actions": [
+        {
+          "a": 7,
+          "b": 101,
+          "op": "PAIR"
+        }
+      ],
+      "conditions": {
+        "proton_carrier": "formal bare H+ source notation; not asserted as free solvated proton kinetics"
+      },
+      "explanation": "In one event, form 7–101 from a lone pair on 7.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 227 (Fischer indole synthesis).",
+          "note": "In one event, form 7–101 from a lone pair on 7."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e6",
+      "event_type": "POLAR",
+      "reactant_view_id": "v5",
+      "product_state_id": "s6",
+      "product_view_id": "v6",
+      "actions": [
+        {
+          "a": 12,
+          "b": 2,
+          "c": 1,
+          "op": "SHIFT"
+        },
+        {
+          "a": 1,
+          "b": 7,
+          "target": 7,
+          "op": "SPLIT"
+        }
+      ],
+      "conditions": {
+        "proton_carrier": "formal bare H+ source notation; not asserted as free solvated proton kinetics"
+      },
+      "explanation": "In one event, move the 12–2 pair to 2–1; move the 1–7 pair to 7.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 227 (Fischer indole synthesis).",
+          "note": "In one event, move the 12–2 pair to 2–1; move the 1–7 pair to 7."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e7",
+      "event_type": "POLAR",
+      "reactant_view_id": "v6",
+      "product_state_id": "s7",
+      "product_view_id": "v7",
+      "actions": [
+        {
+          "a": 7,
+          "b": 10,
+          "op": "PAIR"
+        },
+        {
+          "a": 10,
+          "b": 8,
+          "target": 8,
+          "op": "SPLIT"
+        }
+      ],
+      "conditions": {
+        "proton_carrier": "formal bare H+ source notation; not asserted as free solvated proton kinetics"
+      },
+      "explanation": "In one event, form 7–10 from a lone pair on 7; move the 10–8 pair to 8.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 227 (Fischer indole synthesis).",
+          "note": "In one event, form 7–10 from a lone pair on 7; move the 10–8 pair to 8."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e8",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v7",
+      "product_state_id": "s8",
+      "product_view_id": "v8",
+      "actions": [
+        {
+          "a": 8,
+          "b": 17,
+          "op": "PAIR"
+        },
+        {
+          "a": 17,
+          "b": 7,
+          "target": 7,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 8,
+        "hydrogen": 17,
+        "acid": 7
+      },
+      "conditions": {
+        "proton_carrier": "formal bare H+ source notation; not asserted as free solvated proton kinetics"
+      },
+      "explanation": "In one event, form 8–17 from a lone pair on 8; move the 17–7 pair to 7.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 227 (Fischer indole synthesis).",
+          "note": "In one event, form 8–17 from a lone pair on 8; move the 17–7 pair to 7."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e9",
+      "event_type": "POLAR",
+      "reactant_view_id": "v8",
+      "product_state_id": "s9",
+      "product_view_id": "v9",
+      "actions": [
+        {
+          "a": 19,
+          "b": 9,
+          "c": 10,
+          "op": "SHIFT"
+        },
+        {
+          "a": 10,
+          "b": 8,
+          "target": 8,
+          "op": "SPLIT"
+        }
+      ],
+      "conditions": {
+        "proton_carrier": "formal bare H+ source notation; not asserted as free solvated proton kinetics"
+      },
+      "explanation": "In one event, move the 19–9 pair to 9–10; move the 10–8 pair to 8.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 227 (Fischer indole synthesis).",
+          "note": "In one event, move the 19–9 pair to 9–10; move the 10–8 pair to 8."
+        }
+      ],
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-111",
+  "revision": 1,
+  "symbolic_mode": "unchanged_boundary",
+  "schema_version": "umr/1.0"
+}

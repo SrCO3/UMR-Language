@@ -1,0 +1,378 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 1,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 2,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 3,
+          "element": "S",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 4,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 6,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 7,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 8,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 9,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 10,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 11,
+          "element": "O",
+          "formal_charge": 1,
+          "nonbonding_electrons": 2,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 12,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 13,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 2,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 5,
+          "order": 2,
+          "stereo": {
+            "rdkit_stereo": "STEREOZ",
+            "reference_atoms": [
+              3,
+              6
+            ],
+            "status": "specified"
+          }
+        },
+        {
+          "a": 5,
+          "b": 6,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 7,
+          "order": 1
+        },
+        {
+          "a": 7,
+          "b": 8,
+          "order": 2
+        },
+        {
+          "a": 7,
+          "b": 9,
+          "order": 1
+        },
+        {
+          "a": 11,
+          "b": 12,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 13,
+          "order": 1
+        }
+      ],
+      "element_rule_version": "umr-elements/0.7",
+      "element_declarations": [
+        {
+          "atom_id": 3
+        }
+      ],
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 3,
+          "b": 7,
+          "op": "PAIR"
+        },
+        {
+          "a": 7,
+          "b": 8,
+          "target": 8,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 3–7 from a lone pair on 3; move the 7–8 pair to 8.",
+      "evidence": [
+        {
+          "level": "observed",
+          "source": "Labelled as observed in the source record. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 408 (Paal thiophene synthesis).",
+          "note": "In one event, form 3–7 from a lone pair on 3; move the 7–8 pair to 8."
+        },
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 408 (Paal thiophene synthesis).",
+          "note": "In one event, form 3–7 from a lone pair on 3; move the 7–8 pair to 8."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 10,
+          "b": 4,
+          "op": "PAIR"
+        },
+        {
+          "a": 4,
+          "b": 3,
+          "target": 3,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "acid": 3,
+        "base": 10,
+        "hydrogen": 4
+      },
+      "depends_on_event": "e1",
+      "explanation": "In one event, form 10–4 from a lone pair on 10; move the 4–3 pair to 3.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 408 (Paal thiophene synthesis).",
+          "note": "In one event, form 10–4 from a lone pair on 10; move the 4–3 pair to 3."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "actions": [
+        {
+          "a": 8,
+          "b": 4,
+          "op": "PAIR"
+        },
+        {
+          "a": 4,
+          "b": 10,
+          "target": 10,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "acid": 10,
+        "base": 8,
+        "hydrogen": 4
+      },
+      "depends_on_event": "e2",
+      "explanation": "In one event, form 8–4 from a lone pair on 8; move the 4–10 pair to 10.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 408 (Paal thiophene synthesis).",
+          "note": "In one event, form 8–4 from a lone pair on 8; move the 4–10 pair to 10."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "actions": [
+        {
+          "a": 8,
+          "b": 12,
+          "op": "PAIR"
+        },
+        {
+          "a": 12,
+          "b": 11,
+          "target": 11,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "acid": 11,
+        "base": 8,
+        "hydrogen": 12
+      },
+      "depends_on_event": "e3",
+      "explanation": "In one event, form 8–12 from a lone pair on 8; move the 12–11 pair to 11.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 408 (Paal thiophene synthesis).",
+          "note": "In one event, form 8–12 from a lone pair on 8; move the 12–11 pair to 11."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e5",
+      "event_type": "POLAR",
+      "reactant_view_id": "v4",
+      "product_state_id": "s5",
+      "product_view_id": "v5",
+      "actions": [
+        {
+          "a": 3,
+          "b": 7,
+          "op": "PAIR"
+        },
+        {
+          "a": 7,
+          "b": 8,
+          "target": 8,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e4",
+      "explanation": "In one event, form 3–7 from a lone pair on 3; move the 7–8 pair to 8.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 408 (Paal thiophene synthesis).",
+          "note": "In one event, form 3–7 from a lone pair on 3; move the 7–8 pair to 8."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e6",
+      "event_type": "POLAR",
+      "reactant_view_id": "v5",
+      "product_state_id": "s6",
+      "product_view_id": "v6",
+      "actions": [
+        {
+          "a": 11,
+          "b": 13,
+          "op": "PAIR"
+        },
+        {
+          "a": 13,
+          "b": 6,
+          "c": 7,
+          "op": "SHIFT"
+        },
+        {
+          "a": 7,
+          "b": 3,
+          "target": 3,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e5",
+      "explanation": "In one event, form 11–13 from a lone pair on 11; move the 13–6 pair to 6–7; move the 7–3 pair to 3.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 408 (Paal thiophene synthesis).",
+          "note": "In one event, form 11–13 from a lone pair on 11; move the 13–6 pair to 6–7; move the 7–3 pair to 3."
+        }
+      ],
+      "kind": "ReactionEvent"
+    }
+  ],
+  "schema_version": "umr/1.0"
+}

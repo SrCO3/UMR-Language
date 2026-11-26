@@ -1,0 +1,675 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 10,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 2,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 9,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 7,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 8,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 3,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 4,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 6,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 11,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 20,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 12,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 13,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 14,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 15,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 16,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 17,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 18,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 19,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 50,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 51,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 52,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 53,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 54,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 55,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 56,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 57,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 58,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 59,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 60,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        }
+      ],
+      "bonds": [
+        {
+          "a": 10,
+          "b": 1,
+          "order": 2
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 9,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 7,
+          "order": 1
+        },
+        {
+          "a": 7,
+          "b": 8,
+          "order": 3
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 6,
+          "order": 1
+        },
+        {
+          "a": 11,
+          "b": 20,
+          "order": 2
+        },
+        {
+          "a": 11,
+          "b": 12,
+          "order": 1
+        },
+        {
+          "a": 12,
+          "b": 13,
+          "order": 2
+        },
+        {
+          "a": 13,
+          "b": 14,
+          "order": 1
+        },
+        {
+          "a": 13,
+          "b": 15,
+          "order": 1
+        },
+        {
+          "a": 11,
+          "b": 16,
+          "order": 1
+        },
+        {
+          "a": 16,
+          "b": 17,
+          "order": 1
+        },
+        {
+          "a": 16,
+          "b": 18,
+          "order": 1
+        },
+        {
+          "a": 16,
+          "b": 19,
+          "order": 1
+        },
+        {
+          "a": 50,
+          "b": 51,
+          "order": 1
+        },
+        {
+          "a": 51,
+          "b": 52,
+          "order": 1
+        },
+        {
+          "a": 52,
+          "b": 53,
+          "order": 1
+        },
+        {
+          "a": 53,
+          "b": 54,
+          "order": 2
+        },
+        {
+          "a": 54,
+          "b": 55,
+          "order": 1
+        },
+        {
+          "a": 55,
+          "b": 56,
+          "order": 1
+        },
+        {
+          "a": 56,
+          "b": 57,
+          "order": 1
+        },
+        {
+          "a": 57,
+          "b": 58,
+          "order": 1
+        },
+        {
+          "a": 58,
+          "b": 59,
+          "order": 1
+        },
+        {
+          "a": 59,
+          "b": 60,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 1,
+          "order": 1
+        },
+        {
+          "a": 60,
+          "b": 50,
+          "order": 1
+        },
+        {
+          "a": 58,
+          "b": 53,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "element_rule_version": "umr-elements/0.8",
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 54,
+          "b": 9,
+          "op": "PAIR"
+        },
+        {
+          "a": 9,
+          "b": 2,
+          "target": 2,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 54,
+        "hydrogen": 9,
+        "acid": 2
+      },
+      "explanation": "In one event, form 54–9 from a lone pair on 54; move the 9–2 pair to 2.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 470 (Robinson annulation).",
+          "note": "In one event, form 54–9 from a lone pair on 54; move the 9–2 pair to 2."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "POLAR",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 2,
+          "b": 13,
+          "op": "PAIR"
+        },
+        {
+          "a": 13,
+          "b": 12,
+          "target": 12,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 2–13 from a lone pair on 2; move the 13–12 pair to 12.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 470 (Robinson annulation).",
+          "note": "In one event, form 2–13 from a lone pair on 2; move the 13–12 pair to 12."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "actions": [
+        {
+          "a": 12,
+          "b": 9,
+          "op": "PAIR"
+        },
+        {
+          "a": 9,
+          "b": 54,
+          "target": 54,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 12,
+        "hydrogen": 9,
+        "acid": 54
+      },
+      "explanation": "In one event, form 12–9 from a lone pair on 12; move the 9–54 pair to 54.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 470 (Robinson annulation).",
+          "note": "In one event, form 12–9 from a lone pair on 12; move the 9–54 pair to 54."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "actions": [
+        {
+          "a": 54,
+          "b": 17,
+          "op": "PAIR"
+        },
+        {
+          "a": 17,
+          "b": 16,
+          "target": 16,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 54,
+        "hydrogen": 17,
+        "acid": 16
+      },
+      "explanation": "In one event, form 54–17 from a lone pair on 54; move the 17–16 pair to 16.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 470 (Robinson annulation).",
+          "note": "In one event, form 54–17 from a lone pair on 54; move the 17–16 pair to 16."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e5",
+      "event_type": "POLAR",
+      "reactant_view_id": "v4",
+      "product_state_id": "s5",
+      "product_view_id": "v5",
+      "actions": [
+        {
+          "a": 16,
+          "b": 1,
+          "op": "PAIR"
+        },
+        {
+          "a": 1,
+          "b": 10,
+          "target": 10,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 16–1 from a lone pair on 16; move the 1–10 pair to 10.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 470 (Robinson annulation).",
+          "note": "In one event, form 16–1 from a lone pair on 16; move the 1–10 pair to 10."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e6",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v5",
+      "product_state_id": "s6",
+      "product_view_id": "v6",
+      "actions": [
+        {
+          "a": 10,
+          "b": 17,
+          "op": "PAIR"
+        },
+        {
+          "a": 17,
+          "b": 54,
+          "target": 54,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 10,
+        "hydrogen": 17,
+        "acid": 54
+      },
+      "explanation": "In one event, form 10–17 from a lone pair on 10; move the 17–54 pair to 54.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 470 (Robinson annulation).",
+          "note": "In one event, form 10–17 from a lone pair on 10; move the 17–54 pair to 54."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e7",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v6",
+      "product_state_id": "s7",
+      "product_view_id": "v7",
+      "actions": [
+        {
+          "a": 54,
+          "b": 18,
+          "op": "PAIR"
+        },
+        {
+          "a": 18,
+          "b": 16,
+          "target": 16,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 54,
+        "hydrogen": 18,
+        "acid": 16
+      },
+      "explanation": "In one event, form 54–18 from a lone pair on 54; move the 18–16 pair to 16.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 470 (Robinson annulation).",
+          "note": "In one event, form 54–18 from a lone pair on 54; move the 18–16 pair to 16."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e8",
+      "event_type": "POLAR",
+      "reactant_view_id": "v7",
+      "product_state_id": "s8",
+      "product_view_id": "v8",
+      "actions": [
+        {
+          "a": 16,
+          "b": 1,
+          "op": "PAIR"
+        },
+        {
+          "a": 1,
+          "b": 10,
+          "target": 10,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 16–1 from a lone pair on 16; move the 1–10 pair to 10.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 470 (Robinson annulation).",
+          "note": "In one event, form 16–1 from a lone pair on 16; move the 1–10 pair to 10."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e9",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v8",
+      "product_state_id": "s9",
+      "product_view_id": "v9",
+      "actions": [
+        {
+          "a": 10,
+          "b": 18,
+          "op": "PAIR"
+        },
+        {
+          "a": 18,
+          "b": 54,
+          "target": 54,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 10,
+        "hydrogen": 18,
+        "acid": 54
+      },
+      "explanation": "In one event, form 10–18 from a lone pair on 10; move the 18–54 pair to 54.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 470 (Robinson annulation).",
+          "note": "In one event, form 10–18 from a lone pair on 10; move the 18–54 pair to 54."
+        }
+      ],
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-244",
+  "schema_version": "umr/1.0"
+}

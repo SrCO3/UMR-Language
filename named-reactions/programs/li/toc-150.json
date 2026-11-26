@@ -1,0 +1,576 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 11,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 3,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 4,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 2,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 7,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 8,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 9,
+          "element": "Cl",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 10,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 101,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 111,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 103,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 104,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 102,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 107,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 108,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 109,
+          "element": "Cl",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 110,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 50,
+          "element": "Br",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 51,
+          "element": "Br",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 150,
+          "element": "Br",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 151,
+          "element": "Br",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 200,
+          "element": "Hg",
+          "formal_charge": 2,
+          "nonbonding_electrons": 10
+        },
+        {
+          "atom_id": 201,
+          "element": "O",
+          "formal_charge": -2,
+          "nonbonding_electrons": 8
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 11,
+          "order": 2
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 7,
+          "order": 1
+        },
+        {
+          "a": 7,
+          "b": 8,
+          "order": 1
+        },
+        {
+          "a": 8,
+          "b": 9,
+          "order": 1
+        },
+        {
+          "a": 8,
+          "b": 10,
+          "order": 1
+        },
+        {
+          "a": 101,
+          "b": 111,
+          "order": 2
+        },
+        {
+          "a": 101,
+          "b": 103,
+          "order": 1
+        },
+        {
+          "a": 103,
+          "b": 104,
+          "order": 1
+        },
+        {
+          "a": 101,
+          "b": 102,
+          "order": 1
+        },
+        {
+          "a": 102,
+          "b": 107,
+          "order": 1
+        },
+        {
+          "a": 107,
+          "b": 108,
+          "order": 1
+        },
+        {
+          "a": 108,
+          "b": 109,
+          "order": 1
+        },
+        {
+          "a": 108,
+          "b": 110,
+          "order": 1
+        },
+        {
+          "a": 50,
+          "b": 51,
+          "order": 1
+        },
+        {
+          "a": 150,
+          "b": 151,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 2,
+          "order": 1
+        },
+        {
+          "a": 110,
+          "b": 102,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "metal_centers": [
+        {
+          "atom_id": 200
+        }
+      ],
+      "element_rule_version": "umr-elements/0.8",
+      "element_declarations": [
+        {
+          "atom_id": 9
+        },
+        {
+          "atom_id": 109
+        },
+        {
+          "atom_id": 50
+        },
+        {
+          "atom_id": 51
+        },
+        {
+          "atom_id": 150
+        },
+        {
+          "atom_id": 151
+        }
+      ],
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 201,
+          "b": 4,
+          "op": "PAIR"
+        },
+        {
+          "a": 4,
+          "b": 3,
+          "target": 3,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 201,
+        "hydrogen": 4,
+        "acid": 3
+      },
+      "explanation": "In one event, form 201–4 from a lone pair on 201; move the 4–3 pair to 3.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 298 (Hunsdiecker–Borodin reaction).",
+          "note": "In one event, form 201–4 from a lone pair on 201; move the 4–3 pair to 3."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 201,
+          "b": 104,
+          "op": "PAIR"
+        },
+        {
+          "a": 104,
+          "b": 103,
+          "target": 103,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 201,
+        "hydrogen": 104,
+        "acid": 103
+      },
+      "explanation": "In one event, form 201–104 from a lone pair on 201; move the 104–103 pair to 103.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 298 (Hunsdiecker–Borodin reaction).",
+          "note": "In one event, form 201–104 from a lone pair on 201; move the 104–103 pair to 103."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "POLAR",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "actions": [
+        {
+          "a": 11,
+          "b": 50,
+          "op": "PAIR"
+        },
+        {
+          "a": 3,
+          "b": 1,
+          "op": "PAIR"
+        },
+        {
+          "a": 1,
+          "b": 11,
+          "target": 11,
+          "op": "SPLIT"
+        },
+        {
+          "a": 50,
+          "b": 51,
+          "target": 51,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 11–50 from a lone pair on 11; form 3–1 from a lone pair on 3; move the 1–11 pair to 11; move the 50–51 pair to 51.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 298 (Hunsdiecker–Borodin reaction).",
+          "note": "In one event, form 11–50 from a lone pair on 11; form 3–1 from a lone pair on 3; move the 1–11 pair to 11; move the 50–51 pair to 51."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4",
+      "event_type": "POLAR",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "actions": [
+        {
+          "a": 111,
+          "b": 150,
+          "op": "PAIR"
+        },
+        {
+          "a": 103,
+          "b": 101,
+          "op": "PAIR"
+        },
+        {
+          "a": 101,
+          "b": 111,
+          "target": 111,
+          "op": "SPLIT"
+        },
+        {
+          "a": 150,
+          "b": 151,
+          "target": 151,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 111–150 from a lone pair on 111; form 103–101 from a lone pair on 103; move the 101–111 pair to 111; move the 150–151 pair to 151.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 298 (Hunsdiecker–Borodin reaction).",
+          "note": "In one event, form 111–150 from a lone pair on 111; form 103–101 from a lone pair on 103; move the 101–111 pair to 111; move the 150–151 pair to 151."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e5",
+      "event_type": "RADICAL",
+      "reactant_view_id": "v4",
+      "product_state_id": "s5",
+      "product_view_id": "v5",
+      "bindings": {
+        "a": 11,
+        "b": 50
+      },
+      "explanation": "Apply HOMOLYSIS to the mapped reaction sites in view v4.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 298 (Hunsdiecker–Borodin reaction).",
+          "note": "Apply HOMOLYSIS to the mapped reaction sites in view v4."
+        }
+      ],
+      "template_id": "HOMOLYSIS",
+      "template_version": "0.2",
+      "activation": "thermal",
+      "mechanism_evidence": "declared_only",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e6",
+      "event_type": "RADICAL",
+      "reactant_view_id": "v5",
+      "product_state_id": "s6",
+      "product_view_id": "v6",
+      "bindings": {
+        "radical": 11,
+        "adjacent": 1,
+        "departing": 2
+      },
+      "explanation": "Apply RADICAL_BETA_SCISSION to the mapped reaction sites in view v5.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 298 (Hunsdiecker–Borodin reaction).",
+          "note": "Apply RADICAL_BETA_SCISSION to the mapped reaction sites in view v5."
+        }
+      ],
+      "template_id": "RADICAL_BETA_SCISSION",
+      "template_version": "0.2",
+      "activation": "thermal",
+      "mechanism_evidence": "declared_only",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e7",
+      "event_type": "RADICAL",
+      "reactant_view_id": "v6",
+      "product_state_id": "s7",
+      "product_view_id": "v7",
+      "bindings": {
+        "radical": 2,
+        "halogen": 150,
+        "donor": 111
+      },
+      "explanation": "Apply XAT to the mapped reaction sites in view v6.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 298 (Hunsdiecker–Borodin reaction).",
+          "note": "Apply XAT to the mapped reaction sites in view v6."
+        }
+      ],
+      "template_id": "XAT",
+      "template_version": "0.2",
+      "activation": "thermal",
+      "mechanism_evidence": "declared_only",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e8",
+      "event_type": "RADICAL",
+      "reactant_view_id": "v7",
+      "product_state_id": "s8",
+      "product_view_id": "v8",
+      "bindings": {
+        "radical": 111,
+        "adjacent": 101,
+        "departing": 102
+      },
+      "explanation": "Apply RADICAL_BETA_SCISSION to the mapped reaction sites in view v7.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 298 (Hunsdiecker–Borodin reaction).",
+          "note": "Apply RADICAL_BETA_SCISSION to the mapped reaction sites in view v7."
+        }
+      ],
+      "template_id": "RADICAL_BETA_SCISSION",
+      "template_version": "0.2",
+      "activation": "thermal",
+      "mechanism_evidence": "declared_only",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e9",
+      "event_type": "RADICAL",
+      "reactant_view_id": "v8",
+      "product_state_id": "s9",
+      "product_view_id": "v9",
+      "bindings": {
+        "a": 102,
+        "b": 50
+      },
+      "explanation": "Apply RADICAL_RECOMBINATION to the mapped reaction sites in view v8.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 298 (Hunsdiecker–Borodin reaction).",
+          "note": "Apply RADICAL_RECOMBINATION to the mapped reaction sites in view v8."
+        }
+      ],
+      "template_id": "RADICAL_RECOMBINATION",
+      "template_version": "0.2",
+      "activation": "thermal",
+      "mechanism_evidence": "declared_only",
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-150",
+  "schema_version": "umr/1.0"
+}

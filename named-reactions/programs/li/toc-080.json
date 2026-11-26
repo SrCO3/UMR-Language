@@ -1,0 +1,571 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 2,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 3,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 90,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 4,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 6,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 7,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 8,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 11,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 12,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 9,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 10,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 20,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 21,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 22,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 23,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 24,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 25,
+          "element": "Cl",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 30,
+          "element": "N",
+          "formal_charge": -1,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 31,
+          "element": "N",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 32,
+          "element": "N",
+          "formal_charge": -1,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 33,
+          "element": "Na",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 60,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 91,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 61,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 62,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 2,
+          "order": 2
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 90,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 6,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 7,
+          "order": 1
+        },
+        {
+          "a": 7,
+          "b": 8,
+          "order": 1
+        },
+        {
+          "a": 8,
+          "b": 11,
+          "order": 1
+        },
+        {
+          "a": 8,
+          "b": 12,
+          "order": 1
+        },
+        {
+          "a": 8,
+          "b": 9,
+          "order": 1
+        },
+        {
+          "a": 9,
+          "b": 10,
+          "order": 1
+        },
+        {
+          "a": 20,
+          "b": 21,
+          "order": 2
+        },
+        {
+          "a": 20,
+          "b": 22,
+          "order": 1
+        },
+        {
+          "a": 22,
+          "b": 23,
+          "order": 1
+        },
+        {
+          "a": 23,
+          "b": 24,
+          "order": 1
+        },
+        {
+          "a": 20,
+          "b": 25,
+          "order": 1
+        },
+        {
+          "a": 30,
+          "b": 31,
+          "order": 2
+        },
+        {
+          "a": 31,
+          "b": 32,
+          "order": 2
+        },
+        {
+          "a": 60,
+          "b": 91,
+          "order": 1
+        },
+        {
+          "a": 60,
+          "b": 61,
+          "order": 1
+        },
+        {
+          "a": 61,
+          "b": 62,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 5,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "metal_centers": [
+        {
+          "atom_id": 33
+        }
+      ],
+      "element_rule_version": "umr-elements/0.8",
+      "element_declarations": [
+        {
+          "atom_id": 25
+        }
+      ],
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 3,
+          "b": 20,
+          "op": "PAIR"
+        },
+        {
+          "a": 20,
+          "b": 21,
+          "target": 21,
+          "op": "SPLIT"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 162 (Curtius rearrangement).",
+          "note": "In one event, form 3–20 from a lone pair on 3; move the 20–21 pair to 21."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "POLAR",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 21,
+          "b": 20,
+          "op": "PAIR"
+        },
+        {
+          "a": 20,
+          "b": 25,
+          "target": 25,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e1",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 162 (Curtius rearrangement).",
+          "note": "In one event, form 21–20 from a lone pair on 21; move the 20–25 pair to 25."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "actions": [
+        {
+          "a": 25,
+          "b": 90,
+          "op": "PAIR"
+        },
+        {
+          "a": 90,
+          "b": 3,
+          "target": 3,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 25,
+        "hydrogen": 90,
+        "acid": 3
+      },
+      "depends_on_event": "e2",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 162 (Curtius rearrangement).",
+          "note": "In one event, form 25–90 from a lone pair on 25; move the 90–3 pair to 3."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4",
+      "event_type": "POLAR",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "actions": [
+        {
+          "a": 30,
+          "b": 1,
+          "op": "PAIR"
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "target": 2,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e3",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 162 (Curtius rearrangement).",
+          "note": "In one event, form 30–1 from a lone pair on 30; move the 1–2 pair to 2."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e5",
+      "event_type": "POLAR",
+      "reactant_view_id": "v4",
+      "product_state_id": "s5",
+      "product_view_id": "v5",
+      "actions": [
+        {
+          "a": 2,
+          "b": 1,
+          "op": "PAIR"
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "target": 3,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e4",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 162 (Curtius rearrangement).",
+          "note": "In one event, form 2–1 from a lone pair on 2; move the 1–3 pair to 3."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e6",
+      "event_type": "POLAR",
+      "reactant_view_id": "v5",
+      "product_state_id": "s6",
+      "product_view_id": "v6",
+      "actions": [
+        {
+          "a": 1,
+          "b": 4,
+          "c": 30,
+          "op": "SHIFT"
+        },
+        {
+          "a": 31,
+          "b": 30,
+          "c": 1,
+          "op": "SHIFT"
+        },
+        {
+          "a": 30,
+          "b": 31,
+          "target": 31,
+          "op": "SPLIT"
+        },
+        {
+          "a": 32,
+          "b": 31,
+          "op": "PAIR"
+        }
+      ],
+      "depends_on_event": "e5",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 162 (Curtius rearrangement).",
+          "note": "In one event, move the 1–4 pair to 4–30; move the 31–30 pair to 30–1; move the 30–31 pair to 31; form 32–31 from a lone pair on 32."
+        }
+      ],
+      "activation": "thermal",
+      "mechanism_assumption": "concerted",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e7",
+      "event_type": "POLAR",
+      "reactant_view_id": "v6",
+      "product_state_id": "s7",
+      "product_view_id": "v7",
+      "actions": [
+        {
+          "a": 60,
+          "b": 1,
+          "op": "PAIR"
+        },
+        {
+          "a": 1,
+          "b": 30,
+          "target": 30,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e6",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 162 (Curtius rearrangement).",
+          "note": "In one event, form 60–1 from a lone pair on 60; move the 1–30 pair to 30."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e8",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v7",
+      "product_state_id": "s8",
+      "product_view_id": "v8",
+      "actions": [
+        {
+          "a": 30,
+          "b": 91,
+          "op": "PAIR"
+        },
+        {
+          "a": 91,
+          "b": 60,
+          "target": 60,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 30,
+        "hydrogen": 91,
+        "acid": 60
+      },
+      "depends_on_event": "e7",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 162 (Curtius rearrangement).",
+          "note": "In one event, form 30–91 from a lone pair on 30; move the 91–60 pair to 60."
+        }
+      ],
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-080",
+  "schema_version": "umr/1.0"
+}

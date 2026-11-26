@@ -1,0 +1,404 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": -1,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 20,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 2,
+          "element": "S",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 3,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 4,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 6,
+          "element": "S",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 7,
+          "element": "C",
+          "formal_charge": -1,
+          "nonbonding_electrons": 2,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 8,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 9,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 10,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 11,
+          "element": "I",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 12,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 13,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 14,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 15,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 16,
+          "element": "Cl",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 31,
+          "element": "Cl",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 30,
+          "element": "Hg",
+          "formal_charge": 0,
+          "nonbonding_electrons": 10
+        },
+        {
+          "atom_id": 32,
+          "element": "Cl",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 20,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 6,
+          "order": 1
+        },
+        {
+          "a": 7,
+          "b": 8,
+          "order": 1
+        },
+        {
+          "a": 8,
+          "b": 9,
+          "order": 1
+        },
+        {
+          "a": 9,
+          "b": 10,
+          "order": 1
+        },
+        {
+          "a": 11,
+          "b": 12,
+          "order": 1
+        },
+        {
+          "a": 12,
+          "b": 13,
+          "order": 1
+        },
+        {
+          "a": 13,
+          "b": 14,
+          "order": 1
+        },
+        {
+          "a": 14,
+          "b": 15,
+          "order": 1
+        },
+        {
+          "a": 15,
+          "b": 16,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 1,
+          "order": 1
+        },
+        {
+          "a": 31,
+          "b": 30,
+          "order": 1
+        },
+        {
+          "a": 30,
+          "b": 32,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "metal_centers": [
+        {
+          "atom_id": 30
+        }
+      ],
+      "ligands": [
+        {
+          "ligand_id": "ligand.32",
+          "atom_ids": [
+            32
+          ],
+          "donor_atom_ids": [
+            32
+          ],
+          "ionic_class": "X",
+          "ionic_charge": -1,
+          "assignment_basis": "inferred finite ionic partition from mapped graph; not measured charge"
+        },
+        {
+          "ligand_id": "ligand.31",
+          "atom_ids": [
+            31
+          ],
+          "donor_atom_ids": [
+            31
+          ],
+          "ionic_class": "X",
+          "ionic_charge": -1,
+          "assignment_basis": "inferred finite ionic partition from mapped graph; not measured charge"
+        }
+      ],
+      "metal_bindings": [
+        {
+          "binding_id": "bind.ligand.32.0",
+          "metal_atom_id": 30,
+          "ligand_id": "ligand.32",
+          "donor_atom_ids": [
+            32
+          ],
+          "mode": "sigma_covalent"
+        },
+        {
+          "binding_id": "bind.ligand.31.0",
+          "metal_atom_id": 30,
+          "ligand_id": "ligand.31",
+          "donor_atom_ids": [
+            31
+          ],
+          "mode": "sigma_covalent"
+        }
+      ],
+      "element_rule_version": "umr-elements/0.7",
+      "element_declarations": [
+        {
+          "atom_id": 2
+        },
+        {
+          "atom_id": 6
+        },
+        {
+          "atom_id": 11
+        },
+        {
+          "atom_id": 16
+        },
+        {
+          "atom_id": 31
+        },
+        {
+          "atom_id": 32
+        }
+      ],
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 7,
+          "b": 20,
+          "op": "PAIR"
+        },
+        {
+          "a": 20,
+          "b": 1,
+          "target": 1,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 7–20 from a lone pair on 7; move the 20–1 pair to 1.",
+      "evidence": [
+        {
+          "level": "observed",
+          "source": "Labelled as observed in the source record. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 154 (Corey–Seebach reaction).",
+          "note": "In one event, form 7–20 from a lone pair on 7; move the 20–1 pair to 1."
+        },
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 154 (Corey–Seebach reaction).",
+          "note": "In one event, form 7–20 from a lone pair on 7; move the 20–1 pair to 1."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "POLAR",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 1,
+          "b": 12,
+          "op": "PAIR"
+        },
+        {
+          "a": 12,
+          "b": 11,
+          "target": 11,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e1",
+      "explanation": "In one event, form 1–12 from a lone pair on 1; move the 12–11 pair to 11.",
+      "evidence": [
+        {
+          "level": "observed",
+          "source": "Labelled as observed in the source record. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 154 (Corey–Seebach reaction).",
+          "note": "In one event, form 1–12 from a lone pair on 1; move the 12–11 pair to 11."
+        },
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 154 (Corey–Seebach reaction).",
+          "note": "In one event, form 1–12 from a lone pair on 1; move the 12–11 pair to 11."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "COORDINATION",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "bindings": {
+        "donor": 2,
+        "metal": 30
+      },
+      "depends_on_event": "e2",
+      "explanation": "Apply LEWIS_ASSOCIATION to the mapped reaction sites in view v2.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 154 (Corey–Seebach reaction).",
+          "note": "Apply LEWIS_ASSOCIATION to the mapped reaction sites in view v2."
+        }
+      ],
+      "rule_template": "LEWIS_ASSOCIATION",
+      "kind": "ReactionEvent"
+    }
+  ],
+  "schema_version": "umr/1.0"
+}

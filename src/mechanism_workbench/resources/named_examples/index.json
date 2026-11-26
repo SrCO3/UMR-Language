@@ -1,0 +1,56 @@
+{
+  "edition": "UMR 1.0",
+  "entries": {
+    "toc-208": {
+      "name": "Nysted reagent",
+      "li_page": 403,
+      "examples": ["nysted-li403"]
+    },
+    "toc-259": {
+      "name": "Sharpless asymmetric epoxidation",
+      "li_page": 502,
+      "examples": ["sharpless-li503"]
+    },
+    "toc-282": {
+      "name": "Tsuji–Trost allylation",
+      "li_page": 548,
+      "examples": ["tsuji-li549", "tsuji-kobayashi"]
+    }
+  },
+  "instances": {
+    "nysted-li403": {
+      "locator": "Li p. 403, example 3; Hanessian et al., supporting information S14–S16, structures 10 and 11",
+      "source": "https://doi.org/10.1021/ol0615230",
+      "resolution": "measured_organic_net",
+      "reference": "O[C@H]1CC(=C)[C@@H](COCc2ccccc2)[C@@H]1[C@H](CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C",
+      "reference_formula": "C33H42O3Si"
+    },
+    "sharpless-li503": {
+      "locator": "Li pp. 502–503, example 1; Gao et al. (1987); Sharpless et al. (1983), proposed dimer and stereochemical model",
+      "source": "https://doi.org/10.1021/ja00253a032",
+      "mechanism_source": "https://doi.org/10.1351/pac198355111823",
+      "resolution": "proposed_path_to_observed_product",
+      "product_anchor": 101,
+      "reference": "OC[C@H]1[C@H](CCCCC)O1",
+      "reference_formula": "C8H16O2"
+    },
+    "tsuji-li549": {
+      "locator": "Li pp. 548–549, example 3; Arnau, Cortés, Moreno-Mañas, Pleixats and Villarroya (1997), J. Heterocycl. Chem. 34, 233–239",
+      "source": "https://doi.org/10.1002/jhet.5570340135",
+      "resolution": "proposed_path_to_observed_product",
+      "product_anchor": 2,
+      "reference": "OC1CC(n2ccnc2)C=C1",
+      "reference_formula": "C8H10N2O"
+    },
+    "tsuji-kobayashi": {
+      "locator": "Kobayashi et al. (2004), allylic acetate and dimethyl malonate; independent instance linked to the same family",
+      "source": "https://doi.org/10.1016/j.tetlet.2004.03.085",
+      "resolution": "proposed_path_to_observed_product",
+      "product_anchor": 5,
+      "archived_terminal_graph_sha256": "a389da61d363c0f5af5a629ceba75f5b66fb60edffffb6b2332f7f91c770c632",
+      "archived_mechanism_file_sha256": "88ede5979c716acdab6369a50fe8ef68d4ab1250390a6be2fe978403fc85c9a6",
+      "reference": "COC(=O)C(C(=O)OC)[C@H]1C=C[C@@H](O)C1",
+      "reference_formula": "C10H14O5"
+    }
+  }
+}

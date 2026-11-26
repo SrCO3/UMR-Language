@@ -1,0 +1,367 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 2,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 3,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 4,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 5,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R1"
+        },
+        {
+          "atom_id": 6,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R2"
+        },
+        {
+          "atom_id": 20,
+          "element": "Cr",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 21,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 22,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 23,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 24,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 25,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 26,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 2,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 5,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 6,
+          "order": 1
+        },
+        {
+          "a": 20,
+          "b": 21,
+          "order": 2
+        },
+        {
+          "a": 20,
+          "b": 22,
+          "order": 2
+        },
+        {
+          "a": 20,
+          "b": 23,
+          "order": 1
+        },
+        {
+          "a": 23,
+          "b": 24,
+          "order": 1
+        },
+        {
+          "a": 20,
+          "b": 25,
+          "order": 1
+        },
+        {
+          "a": 25,
+          "b": 26,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "metal_centers": [
+        {
+          "atom_id": 20
+        }
+      ],
+      "ligands": [
+        {
+          "ligand_id": "ligand.21",
+          "atom_ids": [
+            21
+          ],
+          "donor_atom_ids": [
+            21
+          ],
+          "ionic_class": "X2",
+          "ionic_charge": -2,
+          "assignment_basis": "inferred finite ionic partition from mapped graph; not measured charge"
+        },
+        {
+          "ligand_id": "ligand.22",
+          "atom_ids": [
+            22
+          ],
+          "donor_atom_ids": [
+            22
+          ],
+          "ionic_class": "X2",
+          "ionic_charge": -2,
+          "assignment_basis": "inferred finite ionic partition from mapped graph; not measured charge"
+        },
+        {
+          "ligand_id": "ligand.23",
+          "atom_ids": [
+            23,
+            24
+          ],
+          "donor_atom_ids": [
+            23
+          ],
+          "ionic_class": "X",
+          "ionic_charge": -1,
+          "assignment_basis": "inferred finite ionic partition from mapped graph; not measured charge"
+        },
+        {
+          "ligand_id": "ligand.25",
+          "atom_ids": [
+            25,
+            26
+          ],
+          "donor_atom_ids": [
+            25
+          ],
+          "ionic_class": "X",
+          "ionic_charge": -1,
+          "assignment_basis": "inferred finite ionic partition from mapped graph; not measured charge"
+        }
+      ],
+      "metal_bindings": [
+        {
+          "binding_id": "bind.ligand.21.0",
+          "metal_atom_id": 20,
+          "ligand_id": "ligand.21",
+          "donor_atom_ids": [
+            21
+          ],
+          "mode": "sigma_covalent"
+        },
+        {
+          "binding_id": "bind.ligand.22.0",
+          "metal_atom_id": 20,
+          "ligand_id": "ligand.22",
+          "donor_atom_ids": [
+            22
+          ],
+          "mode": "sigma_covalent"
+        },
+        {
+          "binding_id": "bind.ligand.23.0",
+          "metal_atom_id": 20,
+          "ligand_id": "ligand.23",
+          "donor_atom_ids": [
+            23
+          ],
+          "mode": "sigma_covalent"
+        },
+        {
+          "binding_id": "bind.ligand.25.0",
+          "metal_atom_id": 20,
+          "ligand_id": "ligand.25",
+          "donor_atom_ids": [
+            25
+          ],
+          "mode": "sigma_covalent"
+        }
+      ],
+      "element_rule_version": "umr-elements/0.8",
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 2,
+          "b": 20,
+          "op": "PAIR"
+        },
+        {
+          "a": 20,
+          "b": 23,
+          "target": 23,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 2–20 from a lone pair on 2; move the 20–23 pair to 23.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 304 (Jones oxidation).",
+          "note": "In one event, form 2–20 from a lone pair on 2; move the 20–23 pair to 23."
+        }
+      ],
+      "mechanism_assumption": "Declared neutral chromic-acid esterification: alcohol oxygen attacks CrVI and OH23 leaves; source lower chromate ester target, no metal override.",
+      "metal_participation": true,
+      "general_event": "O_DONOR_X_SUBSTITUTION",
+      "general_roles": {
+        "metal": 20,
+        "donor": 2,
+        "leaving": 23
+      },
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 23,
+          "b": 3,
+          "op": "PAIR"
+        },
+        {
+          "a": 3,
+          "b": 2,
+          "target": 2,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 23,
+        "hydrogen": 3,
+        "acid": 2
+      },
+      "depends_on_event": "e1",
+      "explanation": "In one event, form 23–3 from a lone pair on 23; move the 3–2 pair to 2.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 304 (Jones oxidation).",
+          "note": "In one event, form 23–3 from a lone pair on 23; move the 3–2 pair to 2."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "POLAR",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "actions": [
+        {
+          "a": 23,
+          "b": 4,
+          "op": "PAIR"
+        },
+        {
+          "a": 4,
+          "b": 1,
+          "c": 2,
+          "op": "SHIFT"
+        },
+        {
+          "a": 2,
+          "b": 20,
+          "target": 20,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 23–4 from a lone pair on 23; move the 4–1 pair to 1–2; move the 2–20 pair to 20.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 304 (Jones oxidation).",
+          "note": "In one event, form 23–4 from a lone pair on 23; move the 4–1 pair to 1–2; move the 2–20 pair to 20."
+        }
+      ],
+      "mechanism_assumption": "Source chromate-ester E2 with retained water as explicit formal base; CrIV fate remains explicit.",
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-153",
+  "symbolic_mode": "unchanged_boundary",
+  "schema_version": "umr/1.0"
+}

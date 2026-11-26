@@ -1,0 +1,572 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 10,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 2,
+          "element": "P",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 3,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 4,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 6,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 7,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 8,
+          "element": "N",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 9,
+          "element": "N",
+          "formal_charge": -1,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 11,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 12,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 14,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 13,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 17,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 18,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 19,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 20,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 21,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 15,
+          "element": "O",
+          "formal_charge": -1,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 1000,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 1001,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 1002,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 1003,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 16,
+          "element": "K",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0,
+          "radical_electrons": null
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 10,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "order": 2
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 6,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 7,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 8,
+          "order": 2
+        },
+        {
+          "a": 8,
+          "b": 9,
+          "order": 2
+        },
+        {
+          "a": 11,
+          "b": 12,
+          "order": 1
+        },
+        {
+          "a": 12,
+          "b": 14,
+          "order": 1
+        },
+        {
+          "a": 12,
+          "b": 13,
+          "order": 2
+        },
+        {
+          "a": 11,
+          "b": 17,
+          "order": 2
+        },
+        {
+          "a": 17,
+          "b": 18,
+          "order": 1
+        },
+        {
+          "a": 18,
+          "b": 19,
+          "order": 2
+        },
+        {
+          "a": 19,
+          "b": 20,
+          "order": 1
+        },
+        {
+          "a": 20,
+          "b": 21,
+          "order": 2
+        },
+        {
+          "a": 15,
+          "b": 1000,
+          "order": 1
+        },
+        {
+          "a": 1000,
+          "b": 1001,
+          "order": 1
+        },
+        {
+          "a": 1000,
+          "b": 1002,
+          "order": 1
+        },
+        {
+          "a": 1000,
+          "b": 1003,
+          "order": 1
+        },
+        {
+          "a": 21,
+          "b": 11,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "metal_centers": [
+        {
+          "atom_id": 16
+        }
+      ],
+      "element_declarations": [
+        {
+          "atom_id": 2
+        }
+      ],
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 15,
+          "b": 10,
+          "op": "PAIR"
+        },
+        {
+          "a": 10,
+          "b": 1,
+          "target": 1,
+          "op": "SPLIT"
+        }
+      ],
+      "conditions": {
+        "temperature": "unknown",
+        "base": "KOtBu",
+        "solvent": "THF",
+        "activation": "low-temperature addition then warming; exact values unknown"
+      },
+      "explanation": "In one event, form 15–10 from a lone pair on 15; move the 10–1 pair to 1.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 402 (SEYFERTH-GILBERT HOMOLOGATION).",
+          "note": "In one event, form 15–10 from a lone pair on 15; move the 10–1 pair to 1."
+        }
+      ],
+      "mechanism_assumption": "苯甲醛具体化是待审核形式教学实例，非教材实测产率例。卡宾路径有本章依据，但未求寿命、基态或迁移速率；不省略 N2。",
+      "phase_id": "anion_generation",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "POLAR",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 1,
+          "b": 12,
+          "op": "PAIR"
+        },
+        {
+          "a": 12,
+          "b": 13,
+          "target": 13,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e1",
+      "conditions": {
+        "temperature": "unknown",
+        "base": "KOtBu",
+        "solvent": "THF",
+        "activation": "low-temperature addition then warming; exact values unknown"
+      },
+      "explanation": "In one event, form 1–12 from a lone pair on 1; move the 12–13 pair to 13.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 402 (SEYFERTH-GILBERT HOMOLOGATION).",
+          "note": "In one event, form 1–12 from a lone pair on 1; move the 12–13 pair to 13."
+        }
+      ],
+      "mechanism_assumption": "苯甲醛具体化是待审核形式教学实例，非教材实测产率例。卡宾路径有本章依据，但未求寿命、基态或迁移速率；不省略 N2。",
+      "phase_id": "carbonyl_addition_and_fragmentation",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "POLAR",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "actions": [
+        {
+          "a": 13,
+          "b": 2,
+          "op": "PAIR"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "target": 3,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e2",
+      "conditions": {
+        "temperature": "unknown",
+        "base": "KOtBu",
+        "solvent": "THF",
+        "activation": "low-temperature addition then warming; exact values unknown"
+      },
+      "explanation": "In one event, form 13–2 from a lone pair on 13; move the 2–3 pair to 3.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 402 (SEYFERTH-GILBERT HOMOLOGATION).",
+          "note": "In one event, form 13–2 from a lone pair on 13; move the 2–3 pair to 3."
+        }
+      ],
+      "mechanism_assumption": "苯甲醛具体化是待审核形式教学实例，非教材实测产率例。卡宾路径有本章依据，但未求寿命、基态或迁移速率；不省略 N2。",
+      "phase_id": "carbonyl_addition_and_fragmentation",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4",
+      "event_type": "POLAR",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "actions": [
+        {
+          "a": 3,
+          "b": 2,
+          "op": "PAIR"
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "c": 12,
+          "op": "SHIFT"
+        },
+        {
+          "a": 12,
+          "b": 13,
+          "target": 13,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e3",
+      "conditions": {
+        "temperature": "unknown",
+        "base": "KOtBu",
+        "solvent": "THF",
+        "activation": "low-temperature addition then warming; exact values unknown"
+      },
+      "explanation": "In one event, form 3–2 from a lone pair on 3; move the 2–1 pair to 1–12; move the 12–13 pair to 13.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 402 (SEYFERTH-GILBERT HOMOLOGATION).",
+          "note": "In one event, form 3–2 from a lone pair on 3; move the 2–1 pair to 1–12; move the 12–13 pair to 13."
+        }
+      ],
+      "mechanism_assumption": "苯甲醛具体化是待审核形式教学实例，非教材实测产率例。卡宾路径有本章依据，但未求寿命、基态或迁移速率；不省略 N2。",
+      "phase_id": "carbonyl_addition_and_fragmentation",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e5",
+      "event_type": "POLAR",
+      "reactant_view_id": "v4",
+      "product_state_id": "s5",
+      "product_view_id": "v5",
+      "depends_on_event": "e4",
+      "conditions": {
+        "temperature": "unknown",
+        "base": "KOtBu",
+        "solvent": "THF",
+        "activation": "low-temperature addition then warming; exact values unknown"
+      },
+      "explanation": "重氮烯释放映射 N8≡N9，按教材路径声明配对烷叉卡宾局域占据。",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 402 (SEYFERTH-GILBERT HOMOLOGATION).",
+          "note": "Apply DIAZO_N2_EXTRUSION to the mapped reaction sites in view v4."
+        }
+      ],
+      "mechanism_assumption": "苯甲醛具体化是待审核形式教学实例，非教材实测产率例。卡宾路径有本章依据，但未求寿命、基态或迁移速率；不省略 N2。",
+      "general_event": "DIAZO_N2_EXTRUSION",
+      "general_roles": {
+        "carbon": 1,
+        "proximal_n": 8,
+        "terminal_n": 9
+      },
+      "phase_id": "carbonyl_addition_and_fragmentation",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e6",
+      "event_type": "POLAR",
+      "reactant_view_id": "v5",
+      "product_state_id": "s6",
+      "product_view_id": "v6",
+      "depends_on_event": "e5",
+      "conditions": {
+        "temperature": "unknown",
+        "base": "KOtBu",
+        "solvent": "THF",
+        "activation": "low-temperature addition then warming; exact values unknown"
+      },
+      "explanation": "Apply ALKYLIDENECARBENE_1_2_H_MIGRATION to the mapped reaction sites in view v5.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 402 (SEYFERTH-GILBERT HOMOLOGATION).",
+          "note": "Apply ALKYLIDENECARBENE_1_2_H_MIGRATION to the mapped reaction sites in view v5."
+        }
+      ],
+      "mechanism_assumption": "苯甲醛具体化是待审核形式教学实例，非教材实测产率例。卡宾路径有本章依据，但未求寿命、基态或迁移速率；不省略 N2。",
+      "general_event": "ALKYLIDENECARBENE_1_2_H_MIGRATION",
+      "general_roles": {
+        "center": 1,
+        "donor": 12,
+        "hydrogen": 14
+      },
+      "phase_id": "carbonyl_addition_and_fragmentation",
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "STR-402",
+  "phases": [
+    {
+      "phase_id": "anion_generation",
+      "kind": "reaction",
+      "event_ids": [
+        "e1"
+      ],
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 402 (SEYFERTH-GILBERT HOMOLOGATION).",
+          "note": "These reaction conditions apply to the anion_generation phase."
+        }
+      ]
+    },
+    {
+      "phase_id": "carbonyl_addition_and_fragmentation",
+      "kind": "reaction",
+      "event_ids": [
+        "e2",
+        "e3",
+        "e4",
+        "e5",
+        "e6"
+      ],
+      "activate_atom_ids": [
+        11,
+        12,
+        13,
+        14,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 402 (SEYFERTH-GILBERT HOMOLOGATION).",
+          "note": "These reaction conditions apply to the carbonyl_addition_and_fragmentation phase."
+        }
+      ]
+    }
+  ],
+  "schema_version": "umr/1.0"
+}

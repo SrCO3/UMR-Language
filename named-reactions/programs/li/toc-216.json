@@ -1,0 +1,238 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "multiplicity": 1,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 2,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 10,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R"
+        },
+        {
+          "atom_id": 11,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R1"
+        },
+        {
+          "atom_id": 3,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 4,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 6,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 7,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 2,
+          "order": 2
+        },
+        {
+          "a": 1,
+          "b": 10,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 11,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "order": 2
+        },
+        {
+          "a": 4,
+          "b": 6,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 7,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "element_rule_version": "umr-elements/0.8",
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "ISC",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "source": {
+            "a": 1,
+            "b": 2,
+            "pair": "pi1",
+            "slot": 0,
+            "kind": "bond"
+          },
+          "destination": {
+            "atom_id": 1,
+            "kind": "atom"
+          },
+          "op": "FISHHOOK"
+        },
+        {
+          "source": {
+            "a": 1,
+            "b": 2,
+            "pair": "pi1",
+            "slot": 1,
+            "kind": "bond"
+          },
+          "destination": {
+            "atom_id": 2,
+            "kind": "atom"
+          },
+          "op": "FISHHOOK"
+        }
+      ],
+      "conditions": {
+        "activation": "photochemical"
+      },
+      "explanation": "In one event, move one electron from bond 1–2 to atom at 1; move one electron from bond 1–2 to atom at 2.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 417 (Paternò–Büchi reaction).",
+          "note": "In one event, move one electron from bond 1–2 to atom at 1; move one electron from bond 1–2 to atom at 2."
+        }
+      ],
+      "product_multiplicity": 3,
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "RADICAL",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "bindings": {
+        "radical": 2,
+        "attacked_atom": 3,
+        "distal_atom": 4
+      },
+      "depends_on_event": "e1",
+      "explanation": "Apply RADICAL_ADD_PI to the mapped reaction sites in view v1.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 417 (Paternò–Büchi reaction).",
+          "note": "Apply RADICAL_ADD_PI to the mapped reaction sites in view v1."
+        }
+      ],
+      "template_id": "RADICAL_ADD_PI",
+      "template_version": "0.2",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "ISC",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "depends_on_event": "e2",
+      "explanation": "Apply ISC to the mapped reaction sites in view v2.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 417 (Paternò–Büchi reaction).",
+          "note": "Apply ISC to the mapped reaction sites in view v2."
+        }
+      ],
+      "product_multiplicity": 1,
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4",
+      "event_type": "RADICAL",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "bindings": {
+        "a": 1,
+        "b": 4
+      },
+      "depends_on_event": "e3",
+      "explanation": "Apply RADICAL_RECOMBINATION to the mapped reaction sites in view v3.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 417 (Paternò–Büchi reaction).",
+          "note": "Apply RADICAL_RECOMBINATION to the mapped reaction sites in view v3."
+        }
+      ],
+      "template_id": "RADICAL_RECOMBINATION",
+      "template_version": "0.2",
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-216",
+  "symbolic_mode": "unchanged_boundary",
+  "schema_version": "umr/1.0"
+}

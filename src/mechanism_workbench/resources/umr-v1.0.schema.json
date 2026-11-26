@@ -1,0 +1,3269 @@
+{
+  "$defs": {
+    "AnalysisRecord": {
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "const": "AnalysisRecord",
+          "default": "AnalysisRecord",
+          "title": "Kind",
+          "type": "string"
+        },
+        "analysis_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "Analysis Id",
+          "type": "string"
+        },
+        "operation": {
+          "title": "Operation",
+          "type": "string"
+        },
+        "state_id": {
+          "anyOf": [
+            {
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "State Id"
+        },
+        "view_id": {
+          "anyOf": [
+            {
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "View Id"
+        },
+        "status": {
+          "default": "unknown",
+          "enum": [
+            "complete",
+            "not_found",
+            "truncated",
+            "passed",
+            "failed",
+            "unknown",
+            "unsupported",
+            "unsupported_for_resonance"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "rule_version": {
+          "default": "umr-analysis/0.1",
+          "title": "Rule Version",
+          "type": "string"
+        },
+        "input": {
+          "additionalProperties": {
+            "$ref": "#/$defs/JsonValue"
+          },
+          "title": "Input",
+          "type": "object"
+        },
+        "output": {
+          "additionalProperties": {
+            "$ref": "#/$defs/JsonValue"
+          },
+          "title": "Output",
+          "type": "object"
+        },
+        "uncertainties": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Uncertainties",
+          "type": "array"
+        }
+      },
+      "required": [
+        "analysis_id",
+        "operation"
+      ],
+      "title": "AnalysisRecord",
+      "type": "object"
+    },
+    "AryneRegion": {
+      "additionalProperties": false,
+      "properties": {
+        "region_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "Region Id",
+          "type": "string"
+        },
+        "ring_atom_ids": {
+          "items": {
+            "exclusiveMinimum": 0,
+            "type": "integer"
+          },
+          "maxItems": 6,
+          "minItems": 6,
+          "title": "Ring Atom Ids",
+          "type": "array"
+        },
+        "aryne_atom_ids": {
+          "items": {
+            "exclusiveMinimum": 0,
+            "type": "integer"
+          },
+          "maxItems": 2,
+          "minItems": 2,
+          "title": "Aryne Atom Ids",
+          "type": "array"
+        },
+        "representation": {
+          "default": "ortho_formal_triple",
+          "enum": [
+            "ortho_formal_triple",
+            "diradical",
+            "unknown"
+          ],
+          "title": "Representation",
+          "type": "string"
+        },
+        "existence_basis": {
+          "default": "unknown",
+          "enum": [
+            "formal_model",
+            "literature_analogy",
+            "source_supported",
+            "unknown"
+          ],
+          "title": "Existence Basis",
+          "type": "string"
+        },
+        "reaction_context": {
+          "default": "unknown",
+          "title": "Reaction Context",
+          "type": "string"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "title": "Evidence",
+          "type": "array"
+        }
+      },
+      "required": [
+        "region_id",
+        "ring_atom_ids",
+        "aryne_atom_ids"
+      ],
+      "title": "AryneRegion",
+      "type": "object"
+    },
+    "Atom": {
+      "additionalProperties": false,
+      "properties": {
+        "atom_id": {
+          "exclusiveMinimum": 0,
+          "title": "Atom Id",
+          "type": "integer"
+        },
+        "element": {
+          "title": "Element",
+          "type": "string"
+        },
+        "isotope": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Isotope",
+          "type": "integer"
+        },
+        "formal_charge": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Formal Charge"
+        },
+        "nonbonding_electrons": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Nonbonding Electrons"
+        },
+        "hydrogens": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Hydrogens",
+          "type": "integer"
+        },
+        "radical_electrons": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": 0,
+          "title": "Radical Electrons"
+        },
+        "stereo": {
+          "additionalProperties": {
+            "$ref": "#/$defs/JsonValue"
+          },
+          "title": "Stereo",
+          "type": "object"
+        },
+        "label": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Label"
+        }
+      },
+      "required": [
+        "atom_id",
+        "element",
+        "formal_charge",
+        "nonbonding_electrons"
+      ],
+      "title": "Atom",
+      "type": "object"
+    },
+    "AtomDestination": {
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "const": "atom",
+          "default": "atom",
+          "title": "Kind",
+          "type": "string"
+        },
+        "atom_id": {
+          "exclusiveMinimum": 0,
+          "title": "Atom Id",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "atom_id"
+      ],
+      "title": "AtomDestination",
+      "type": "object"
+    },
+    "AtomTest": {
+      "additionalProperties": false,
+      "properties": {
+        "atom_id": {
+          "exclusiveMinimum": 0,
+          "title": "Atom Id",
+          "type": "integer"
+        },
+        "element": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Element"
+        },
+        "formal_charge": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Formal Charge"
+        },
+        "bond_order_sum": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Bond Order Sum"
+        },
+        "nonbonding_electrons": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Nonbonding Electrons"
+        },
+        "radical_electrons": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Radical Electrons"
+        }
+      },
+      "required": [
+        "atom_id"
+      ],
+      "title": "AtomTest",
+      "type": "object"
+    },
+    "Bond": {
+      "additionalProperties": false,
+      "properties": {
+        "a": {
+          "exclusiveMinimum": 0,
+          "title": "A",
+          "type": "integer"
+        },
+        "b": {
+          "exclusiveMinimum": 0,
+          "title": "B",
+          "type": "integer"
+        },
+        "order": {
+          "maximum": 3,
+          "minimum": 1,
+          "title": "Order",
+          "type": "integer"
+        },
+        "stereo": {
+          "additionalProperties": {
+            "$ref": "#/$defs/JsonValue"
+          },
+          "title": "Stereo",
+          "type": "object"
+        }
+      },
+      "required": [
+        "a",
+        "b",
+        "order"
+      ],
+      "title": "Bond",
+      "type": "object"
+    },
+    "BondDestination": {
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "const": "bond",
+          "default": "bond",
+          "title": "Kind",
+          "type": "string"
+        },
+        "a": {
+          "exclusiveMinimum": 0,
+          "title": "A",
+          "type": "integer"
+        },
+        "b": {
+          "exclusiveMinimum": 0,
+          "title": "B",
+          "type": "integer"
+        },
+        "pair": {
+          "enum": [
+            "sigma",
+            "pi1",
+            "pi2"
+          ],
+          "title": "Pair",
+          "type": "string"
+        }
+      },
+      "required": [
+        "a",
+        "b",
+        "pair"
+      ],
+      "title": "BondDestination",
+      "type": "object"
+    },
+    "BondSource": {
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "const": "bond",
+          "default": "bond",
+          "title": "Kind",
+          "type": "string"
+        },
+        "a": {
+          "exclusiveMinimum": 0,
+          "title": "A",
+          "type": "integer"
+        },
+        "b": {
+          "exclusiveMinimum": 0,
+          "title": "B",
+          "type": "integer"
+        },
+        "pair": {
+          "enum": [
+            "sigma",
+            "pi1",
+            "pi2"
+          ],
+          "title": "Pair",
+          "type": "string"
+        },
+        "slot": {
+          "enum": [
+            0,
+            1
+          ],
+          "title": "Slot",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "a",
+        "b",
+        "pair",
+        "slot"
+      ],
+      "title": "BondSource",
+      "type": "object"
+    },
+    "BondTest": {
+      "additionalProperties": false,
+      "properties": {
+        "a": {
+          "exclusiveMinimum": 0,
+          "title": "A",
+          "type": "integer"
+        },
+        "b": {
+          "exclusiveMinimum": 0,
+          "title": "B",
+          "type": "integer"
+        },
+        "order": {
+          "maximum": 3,
+          "minimum": 0,
+          "title": "Order",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "a",
+        "b",
+        "order"
+      ],
+      "title": "BondTest",
+      "type": "object"
+    },
+    "ChemicalState": {
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "const": "ChemicalState",
+          "default": "ChemicalState",
+          "title": "Kind",
+          "type": "string"
+        },
+        "state_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "State Id",
+          "type": "string"
+        },
+        "primary_view_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "Primary View Id",
+          "type": "string"
+        },
+        "total_charge": {
+          "title": "Total Charge",
+          "type": "integer"
+        },
+        "multiplicity": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Multiplicity"
+        },
+        "conditions": {
+          "additionalProperties": {
+            "$ref": "#/$defs/JsonValue"
+          },
+          "title": "Conditions",
+          "type": "object"
+        },
+        "annotations": {
+          "additionalProperties": {
+            "$ref": "#/$defs/JsonValue"
+          },
+          "title": "Annotations",
+          "type": "object"
+        },
+        "electronic_mode": {
+          "default": "UNKNOWN",
+          "enum": [
+            "CLOSED_SHELL",
+            "RADICAL",
+            "UNKNOWN"
+          ],
+          "title": "Electronic Mode",
+          "type": "string"
+        },
+        "electronic_state": {
+          "$ref": "#/$defs/ElectronicState"
+        }
+      },
+      "required": [
+        "state_id",
+        "primary_view_id",
+        "total_charge"
+      ],
+      "title": "ChemicalState",
+      "type": "object"
+    },
+    "CycleRecord": {
+      "additionalProperties": false,
+      "properties": {
+        "cycle_id": {
+          "title": "Cycle Id",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "catalytic",
+            "radical_propagation"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "event_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Event Ids",
+          "type": "array"
+        },
+        "activation_event_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Activation Event Ids",
+          "type": "array"
+        },
+        "termination_event_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Termination Event Ids",
+          "type": "array"
+        },
+        "initial_view_id": {
+          "title": "Initial View Id",
+          "type": "string"
+        },
+        "final_view_id": {
+          "title": "Final View Id",
+          "type": "string"
+        },
+        "persistent_core_ids": {
+          "items": {
+            "exclusiveMinimum": 0,
+            "type": "integer"
+          },
+          "title": "Persistent Core Ids",
+          "type": "array"
+        },
+        "carrier_mapping": {
+          "additionalProperties": {
+            "type": "integer"
+          },
+          "title": "Carrier Mapping",
+          "type": "object"
+        },
+        "product_atom_groups": {
+          "items": {
+            "items": {
+              "exclusiveMinimum": 0,
+              "type": "integer"
+            },
+            "type": "array"
+          },
+          "minItems": 1,
+          "title": "Product Atom Groups",
+          "type": "array"
+        },
+        "exchangeable_atom_ids": {
+          "items": {
+            "exclusiveMinimum": 0,
+            "type": "integer"
+          },
+          "title": "Exchangeable Atom Ids",
+          "type": "array"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "minItems": 1,
+          "title": "Evidence",
+          "type": "array"
+        },
+        "closure_claim": {
+          "const": "candidate",
+          "default": "candidate",
+          "title": "Closure Claim",
+          "type": "string"
+        }
+      },
+      "required": [
+        "cycle_id",
+        "kind",
+        "event_ids",
+        "initial_view_id",
+        "final_view_id",
+        "carrier_mapping",
+        "product_atom_groups",
+        "evidence"
+      ],
+      "title": "CycleRecord",
+      "type": "object"
+    },
+    "ElectronOwnershipTransfer": {
+      "additionalProperties": false,
+      "properties": {
+        "donor_atom_id": {
+          "exclusiveMinimum": 0,
+          "title": "Donor Atom Id",
+          "type": "integer"
+        },
+        "acceptor_atom_id": {
+          "exclusiveMinimum": 0,
+          "title": "Acceptor Atom Id",
+          "type": "integer"
+        },
+        "electron_count": {
+          "const": 1,
+          "default": 1,
+          "title": "Electron Count",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "donor_atom_id",
+        "acceptor_atom_id"
+      ],
+      "title": "ElectronOwnershipTransfer",
+      "type": "object"
+    },
+    "ElectronicState": {
+      "additionalProperties": false,
+      "properties": {
+        "character": {
+          "default": "unknown",
+          "enum": [
+            "closed_shell",
+            "open_shell",
+            "open_shell_singlet",
+            "unknown"
+          ],
+          "title": "Character",
+          "type": "string"
+        },
+        "coupling": {
+          "default": "unknown",
+          "enum": [
+            "closed_shell",
+            "high_spin",
+            "one_unpaired",
+            "unknown",
+            "unimplemented"
+          ],
+          "title": "Coupling",
+          "type": "string"
+        },
+        "label": {
+          "default": "unknown",
+          "title": "Label",
+          "type": "string"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "title": "Evidence",
+          "type": "array"
+        }
+      },
+      "title": "ElectronicState",
+      "type": "object"
+    },
+    "ElementDeclaration": {
+      "additionalProperties": false,
+      "properties": {
+        "atom_id": {
+          "exclusiveMinimum": 0,
+          "title": "Atom Id",
+          "type": "integer"
+        },
+        "valence_category": {
+          "default": "unknown",
+          "title": "Valence Category",
+          "type": "string"
+        },
+        "oxidation_state": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Oxidation State"
+        },
+        "coordination_number": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Coordination Number"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "title": "Evidence",
+          "type": "array"
+        }
+      },
+      "required": [
+        "atom_id"
+      ],
+      "title": "ElementDeclaration",
+      "type": "object"
+    },
+    "Evidence": {
+      "additionalProperties": false,
+      "properties": {
+        "level": {
+          "default": "inferred",
+          "enum": [
+            "observed",
+            "inferred",
+            "proposed_completion"
+          ],
+          "title": "Level",
+          "type": "string"
+        },
+        "source": {
+          "default": "unknown",
+          "title": "Source",
+          "type": "string"
+        },
+        "locations": {
+          "items": {
+            "additionalProperties": {
+              "$ref": "#/$defs/JsonValue"
+            },
+            "type": "object"
+          },
+          "title": "Locations",
+          "type": "array"
+        },
+        "note": {
+          "default": "",
+          "title": "Note",
+          "type": "string"
+        }
+      },
+      "title": "Evidence",
+      "type": "object"
+    },
+    "EvidenceException": {
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "umr-exception/0.1",
+          "default": "umr-exception/0.1",
+          "title": "Schema Version",
+          "type": "string"
+        },
+        "exception_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "Exception Id",
+          "type": "string"
+        },
+        "event_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "Event Id",
+          "type": "string"
+        },
+        "mode": {
+          "enum": [
+            "rule_waiver",
+            "manual_bridge",
+            "external_event"
+          ],
+          "title": "Mode",
+          "type": "string"
+        },
+        "rule_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Rule Ids",
+          "type": "array"
+        },
+        "rule_version": {
+          "default": "umr-rules/0.8-r1",
+          "title": "Rule Version",
+          "type": "string"
+        },
+        "explanation": {
+          "minLength": 1,
+          "title": "Explanation",
+          "type": "string"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "minItems": 1,
+          "title": "Evidence",
+          "type": "array"
+        },
+        "conditions": {
+          "additionalProperties": true,
+          "title": "Conditions",
+          "type": "object"
+        },
+        "domain": {
+          "default": "chemistry",
+          "enum": [
+            "chemistry",
+            "nuclear",
+            "other"
+          ],
+          "title": "Domain",
+          "type": "string"
+        },
+        "target_state": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ChemicalState"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "target_view": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/mechanism_workbench__umr__v09__ast__LewisView"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "correspondence": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Correspondence",
+          "type": "array"
+        }
+      },
+      "required": [
+        "exception_id",
+        "event_id",
+        "mode",
+        "explanation",
+        "evidence"
+      ],
+      "title": "EvidenceException",
+      "type": "object"
+    },
+    "IntermediateRule": {
+      "additionalProperties": false,
+      "properties": {
+        "rule_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "Rule Id",
+          "type": "string"
+        },
+        "view_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "View Id",
+          "type": "string"
+        },
+        "description": {
+          "minLength": 1,
+          "title": "Description",
+          "type": "string"
+        },
+        "source": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source"
+        },
+        "atoms": {
+          "items": {
+            "$ref": "#/$defs/AtomTest"
+          },
+          "title": "Atoms",
+          "type": "array"
+        },
+        "bonds": {
+          "items": {
+            "$ref": "#/$defs/BondTest"
+          },
+          "title": "Bonds",
+          "type": "array"
+        },
+        "total_charge": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Total Charge"
+        }
+      },
+      "required": [
+        "rule_id",
+        "view_id",
+        "description"
+      ],
+      "title": "IntermediateRule",
+      "type": "object"
+    },
+    "JsonValue": {},
+    "LewisAdduct": {
+      "additionalProperties": false,
+      "properties": {
+        "binding_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "Binding Id",
+          "type": "string"
+        },
+        "donor_atom_id": {
+          "exclusiveMinimum": 0,
+          "title": "Donor Atom Id",
+          "type": "integer"
+        },
+        "acceptor_atom_id": {
+          "exclusiveMinimum": 0,
+          "title": "Acceptor Atom Id",
+          "type": "integer"
+        },
+        "electrons": {
+          "const": 2,
+          "default": 2,
+          "title": "Electrons",
+          "type": "integer"
+        },
+        "convention": {
+          "const": "donor_owned_dative/1",
+          "default": "donor_owned_dative/1",
+          "title": "Convention",
+          "type": "string"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "title": "Evidence",
+          "type": "array"
+        }
+      },
+      "required": [
+        "binding_id",
+        "donor_atom_id",
+        "acceptor_atom_id"
+      ],
+      "title": "LewisAdduct",
+      "type": "object"
+    },
+    "Ligand": {
+      "additionalProperties": false,
+      "properties": {
+        "ligand_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "Ligand Id",
+          "type": "string"
+        },
+        "atom_ids": {
+          "items": {
+            "exclusiveMinimum": 0,
+            "type": "integer"
+          },
+          "minItems": 1,
+          "title": "Atom Ids",
+          "type": "array"
+        },
+        "donor_atom_ids": {
+          "items": {
+            "exclusiveMinimum": 0,
+            "type": "integer"
+          },
+          "minItems": 1,
+          "title": "Donor Atom Ids",
+          "type": "array"
+        },
+        "ionic_class": {
+          "default": "unknown",
+          "enum": [
+            "L",
+            "X",
+            "X2",
+            "X3",
+            "L2",
+            "LX",
+            "L2X",
+            "LX2",
+            "L2X2",
+            "unknown"
+          ],
+          "title": "Ionic Class",
+          "type": "string"
+        },
+        "ionic_charge": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Ionic Charge"
+        },
+        "identity_note": {
+          "default": "Declared fragment identity; unbound entries do not assert an isolated species.",
+          "title": "Identity Note",
+          "type": "string"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "title": "Evidence",
+          "type": "array"
+        },
+        "assignment_basis": {
+          "default": "unknown",
+          "title": "Assignment Basis",
+          "type": "string"
+        },
+        "ligand_type": {
+          "default": "generic",
+          "enum": [
+            "generic",
+            "CO",
+            "NHC",
+            "oxo",
+            "imido",
+            "hydride",
+            "Fischer_carbene",
+            "Schrock_alkylidene",
+            "Ru_alkylidene",
+            "Schrock_alkylidyne",
+            "metallacyclobutadiene",
+            "Cp",
+            "allyl"
+          ],
+          "title": "Ligand Type",
+          "type": "string"
+        },
+        "internal_metal_ids": {
+          "items": {
+            "exclusiveMinimum": 0,
+            "type": "integer"
+          },
+          "title": "Internal Metal Ids",
+          "type": "array"
+        },
+        "remote_ionic_charge": {
+          "default": 0,
+          "title": "Remote Ionic Charge",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "ligand_id",
+        "atom_ids",
+        "donor_atom_ids"
+      ],
+      "title": "Ligand",
+      "type": "object"
+    },
+    "LonePairDestination": {
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "const": "lone_pair",
+          "default": "lone_pair",
+          "title": "Kind",
+          "type": "string"
+        },
+        "atom_id": {
+          "exclusiveMinimum": 0,
+          "title": "Atom Id",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "atom_id"
+      ],
+      "title": "LonePairDestination",
+      "type": "object"
+    },
+    "LonePairSource": {
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "const": "lone_pair",
+          "default": "lone_pair",
+          "title": "Kind",
+          "type": "string"
+        },
+        "atom_id": {
+          "exclusiveMinimum": 0,
+          "title": "Atom Id",
+          "type": "integer"
+        },
+        "pair_index": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Pair Index",
+          "type": "integer"
+        },
+        "slot": {
+          "enum": [
+            0,
+            1
+          ],
+          "title": "Slot",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "atom_id",
+        "slot"
+      ],
+      "title": "LonePairSource",
+      "type": "object"
+    },
+    "MaterialBoundary": {
+      "additionalProperties": false,
+      "properties": {
+        "boundary_id": {
+          "title": "Boundary Id",
+          "type": "string"
+        },
+        "domain": {
+          "enum": [
+            "gas",
+            "bulk_metal",
+            "surface",
+            "external_electron_reservoir"
+          ],
+          "title": "Domain",
+          "type": "string"
+        },
+        "atom_ids": {
+          "items": {
+            "exclusiveMinimum": 0,
+            "type": "integer"
+          },
+          "title": "Atom Ids",
+          "type": "array"
+        },
+        "direction": {
+          "default": "inside",
+          "enum": [
+            "inside",
+            "in",
+            "out"
+          ],
+          "title": "Direction",
+          "type": "string"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "minItems": 1,
+          "title": "Evidence",
+          "type": "array"
+        },
+        "model_note": {
+          "title": "Model Note",
+          "type": "string"
+        }
+      },
+      "required": [
+        "boundary_id",
+        "domain",
+        "atom_ids",
+        "evidence",
+        "model_note"
+      ],
+      "title": "MaterialBoundary",
+      "type": "object"
+    },
+    "MetalBinding": {
+      "additionalProperties": false,
+      "properties": {
+        "binding_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "Binding Id",
+          "type": "string"
+        },
+        "metal_atom_id": {
+          "exclusiveMinimum": 0,
+          "title": "Metal Atom Id",
+          "type": "integer"
+        },
+        "ligand_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "Ligand Id",
+          "type": "string"
+        },
+        "donor_atom_ids": {
+          "items": {
+            "exclusiveMinimum": 0,
+            "type": "integer"
+          },
+          "minItems": 1,
+          "title": "Donor Atom Ids",
+          "type": "array"
+        },
+        "mode": {
+          "enum": [
+            "sigma_covalent",
+            "dative",
+            "eta"
+          ],
+          "title": "Mode",
+          "type": "string"
+        },
+        "hapticity": {
+          "default": 1,
+          "minimum": 1,
+          "title": "Hapticity",
+          "type": "integer"
+        },
+        "site_id": {
+          "anyOf": [
+            {
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Site Id"
+        },
+        "ionic_allocation": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Ionic Allocation"
+        },
+        "donated_electrons": {
+          "anyOf": [
+            {
+              "maximum": 12,
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Donated Electrons"
+        },
+        "pi_pool_slot": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Pi Pool Slot"
+        }
+      },
+      "required": [
+        "binding_id",
+        "metal_atom_id",
+        "ligand_id",
+        "donor_atom_ids",
+        "mode"
+      ],
+      "title": "MetalBinding",
+      "type": "object"
+    },
+    "MetalCenter": {
+      "additionalProperties": false,
+      "properties": {
+        "atom_id": {
+          "exclusiveMinimum": 0,
+          "title": "Atom Id",
+          "type": "integer"
+        },
+        "oxidation_state": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Oxidation State"
+        },
+        "d_electrons": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "D Electrons"
+        },
+        "valence_electrons": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Valence Electrons"
+        },
+        "counting_method": {
+          "const": "ionic",
+          "default": "ionic",
+          "title": "Counting Method",
+          "type": "string"
+        },
+        "spin_state": {
+          "default": "unknown",
+          "enum": [
+            "closed_shell",
+            "open_shell",
+            "unknown"
+          ],
+          "title": "Spin State",
+          "type": "string"
+        },
+        "geometry": {
+          "default": "unknown",
+          "enum": [
+            "unknown",
+            "linear",
+            "square_planar",
+            "tetrahedral",
+            "octahedral",
+            "trigonal_bipyramidal",
+            "square_pyramidal"
+          ],
+          "title": "Geometry",
+          "type": "string"
+        },
+        "site_ids": {
+          "items": {
+            "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+            "type": "string"
+          },
+          "title": "Site Ids",
+          "type": "array"
+        },
+        "vacant_site_ids": {
+          "anyOf": [
+            {
+              "items": {
+                "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Vacant Site Ids"
+        },
+        "relative_positions": {
+          "items": {
+            "$ref": "#/$defs/SiteRelation"
+          },
+          "title": "Relative Positions",
+          "type": "array"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "title": "Evidence",
+          "type": "array"
+        }
+      },
+      "required": [
+        "atom_id"
+      ],
+      "title": "MetalCenter",
+      "type": "object"
+    },
+    "MethylenationObservation": {
+      "additionalProperties": false,
+      "properties": {
+        "observation_id": {
+          "title": "Observation Id",
+          "type": "string"
+        },
+        "view_id": {
+          "title": "View Id",
+          "type": "string"
+        },
+        "profile": {
+          "const": "NYSTED_CARBONYL_METHYLENATION",
+          "title": "Profile",
+          "type": "string"
+        },
+        "carbonyl": {
+          "exclusiveMinimum": 0,
+          "title": "Carbonyl",
+          "type": "integer"
+        },
+        "carbonyl_oxygen": {
+          "exclusiveMinimum": 0,
+          "title": "Carbonyl Oxygen",
+          "type": "integer"
+        },
+        "methylene": {
+          "exclusiveMinimum": 0,
+          "title": "Methylene",
+          "type": "integer"
+        },
+        "zinc_ends": {
+          "items": {
+            "exclusiveMinimum": 0,
+            "type": "integer"
+          },
+          "maxItems": 2,
+          "minItems": 2,
+          "title": "Zinc Ends",
+          "type": "array"
+        },
+        "titanium": {
+          "exclusiveMinimum": 0,
+          "title": "Titanium",
+          "type": "integer"
+        },
+        "unassigned_atom_ids": {
+          "items": {
+            "exclusiveMinimum": 0,
+            "type": "integer"
+          },
+          "minItems": 1,
+          "title": "Unassigned Atom Ids",
+          "type": "array"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "minItems": 1,
+          "title": "Evidence",
+          "type": "array"
+        }
+      },
+      "required": [
+        "observation_id",
+        "view_id",
+        "profile",
+        "carbonyl",
+        "carbonyl_oxygen",
+        "methylene",
+        "zinc_ends",
+        "titanium",
+        "unassigned_atom_ids",
+        "evidence"
+      ],
+      "title": "MethylenationObservation",
+      "type": "object"
+    },
+    "Pair": {
+      "additionalProperties": false,
+      "properties": {
+        "op": {
+          "const": "PAIR",
+          "default": "PAIR",
+          "title": "Op",
+          "type": "string"
+        },
+        "a": {
+          "exclusiveMinimum": 0,
+          "title": "A",
+          "type": "integer"
+        },
+        "b": {
+          "exclusiveMinimum": 0,
+          "title": "B",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "a",
+        "b"
+      ],
+      "title": "Pair",
+      "type": "object"
+    },
+    "RadicalSource": {
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "const": "radical",
+          "default": "radical",
+          "title": "Kind",
+          "type": "string"
+        },
+        "atom_id": {
+          "exclusiveMinimum": 0,
+          "title": "Atom Id",
+          "type": "integer"
+        },
+        "slot": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Slot",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "atom_id"
+      ],
+      "title": "RadicalSource",
+      "type": "object"
+    },
+    "ReactionEvent": {
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "const": "ReactionEvent",
+          "default": "ReactionEvent",
+          "title": "Kind",
+          "type": "string"
+        },
+        "event_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "Event Id",
+          "type": "string"
+        },
+        "event_type": {
+          "enum": [
+            "POLAR",
+            "PROTON_TRANSFER",
+            "HETEROLYSIS",
+            "CARBONYL_ADDITION",
+            "SN2",
+            "E1_IONIZATION",
+            "E1_ELIMINATION",
+            "E1CB_DEPROTONATION",
+            "E1CB_ELIMINATION",
+            "E2",
+            "RADICAL",
+            "PERICYCLIC",
+            "SET",
+            "ISC",
+            "COORDINATION"
+          ],
+          "title": "Event Type",
+          "type": "string"
+        },
+        "reactant_view_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "Reactant View Id",
+          "type": "string"
+        },
+        "product_state_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "Product State Id",
+          "type": "string"
+        },
+        "product_view_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "Product View Id",
+          "type": "string"
+        },
+        "actions": {
+          "anyOf": [
+            {
+              "items": {
+                "discriminator": {
+                  "mapping": {
+                    "FISHHOOK": "#/$defs/mechanism_workbench__umr__v07__ast__Fishhook",
+                    "PAIR": "#/$defs/Pair",
+                    "SHIFT": "#/$defs/Shift",
+                    "SPLIT": "#/$defs/Split"
+                  },
+                  "propertyName": "op"
+                },
+                "oneOf": [
+                  {
+                    "$ref": "#/$defs/Pair"
+                  },
+                  {
+                    "$ref": "#/$defs/Split"
+                  },
+                  {
+                    "$ref": "#/$defs/Shift"
+                  },
+                  {
+                    "$ref": "#/$defs/mechanism_workbench__umr__v07__ast__Fishhook"
+                  }
+                ]
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Actions"
+        },
+        "bindings": {
+          "additionalProperties": {
+            "anyOf": [
+              {
+                "exclusiveMinimum": 0,
+                "type": "integer"
+              },
+              {
+                "items": {
+                  "exclusiveMinimum": 0,
+                  "type": "integer"
+                },
+                "type": "array"
+              }
+            ]
+          },
+          "title": "Bindings",
+          "type": "object"
+        },
+        "depends_on_event": {
+          "anyOf": [
+            {
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Depends On Event"
+        },
+        "conditions": {
+          "additionalProperties": {
+            "$ref": "#/$defs/JsonValue"
+          },
+          "title": "Conditions",
+          "type": "object"
+        },
+        "explanation": {
+          "default": "",
+          "title": "Explanation",
+          "type": "string"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "title": "Evidence",
+          "type": "array"
+        },
+        "template_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Template Id"
+        },
+        "template_version": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Template Version"
+        },
+        "region_atom_ids": {
+          "items": {
+            "exclusiveMinimum": 0,
+            "type": "integer"
+          },
+          "title": "Region Atom Ids",
+          "type": "array"
+        },
+        "activation": {
+          "default": "unknown",
+          "enum": [
+            "thermal",
+            "photochemical",
+            "hν",
+            "unknown"
+          ],
+          "title": "Activation",
+          "type": "string"
+        },
+        "direction": {
+          "default": "forward",
+          "enum": [
+            "forward",
+            "reverse"
+          ],
+          "title": "Direction",
+          "type": "string"
+        },
+        "facial_mode": {
+          "default": "unknown",
+          "title": "Facial Mode",
+          "type": "string"
+        },
+        "rotation_mode": {
+          "default": "unknown",
+          "title": "Rotation Mode",
+          "type": "string"
+        },
+        "mechanism_assumption": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Mechanism Assumption"
+        },
+        "mechanism_evidence": {
+          "default": "unknown",
+          "enum": [
+            "assumed_by_template",
+            "declared_only",
+            "supported",
+            "unknown"
+          ],
+          "title": "Mechanism Evidence",
+          "type": "string"
+        },
+        "model_assumption": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Model Assumption"
+        },
+        "radical_polarity": {
+          "default": "unknown",
+          "enum": [
+            "nucleophilic",
+            "electrophilic",
+            "ambiphilic",
+            "unknown"
+          ],
+          "title": "Radical Polarity",
+          "type": "string"
+        },
+        "spin_correlation": {
+          "default": "unknown",
+          "enum": [
+            "singlet",
+            "triplet",
+            "unknown"
+          ],
+          "title": "Spin Correlation",
+          "type": "string"
+        },
+        "product_multiplicity": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Product Multiplicity"
+        },
+        "stereo_constraints": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Stereo Constraints",
+          "type": "array"
+        },
+        "metal_participation": {
+          "default": false,
+          "title": "Metal Participation",
+          "type": "boolean"
+        },
+        "metal_template": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Metal Template"
+        },
+        "metal_rule_version": {
+          "const": "umr-metal/0.3",
+          "default": "umr-metal/0.3",
+          "title": "Metal Rule Version",
+          "type": "string"
+        },
+        "ligand_roles": {
+          "additionalProperties": {
+            "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+            "type": "string"
+          },
+          "title": "Ligand Roles",
+          "type": "object"
+        },
+        "binding_roles": {
+          "additionalProperties": {
+            "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+            "type": "string"
+          },
+          "title": "Binding Roles",
+          "type": "object"
+        },
+        "site_roles": {
+          "additionalProperties": {
+            "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+            "type": "string"
+          },
+          "title": "Site Roles",
+          "type": "object"
+        },
+        "reactive_template": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reactive Template"
+        },
+        "reactive_rule_version": {
+          "default": "umr-reactive/0.4",
+          "enum": [
+            "umr-reactive/0.4",
+            "umr-aryne/0.9-r2"
+          ],
+          "title": "Reactive Rule Version",
+          "type": "string"
+        },
+        "element_template": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Element Template"
+        },
+        "foundation_template": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Foundation Template"
+        },
+        "template_roles": {
+          "additionalProperties": {
+            "type": "integer"
+          },
+          "title": "Template Roles",
+          "type": "object"
+        },
+        "stereo_effects": {
+          "items": {
+            "$ref": "#/$defs/StereoEffect"
+          },
+          "title": "Stereo Effects",
+          "type": "array"
+        },
+        "phase": {
+          "default": "unknown",
+          "enum": [
+            "reaction",
+            "acid_treatment",
+            "base_treatment",
+            "workup",
+            "unknown"
+          ],
+          "title": "Phase",
+          "type": "string"
+        },
+        "exception_ids": {
+          "items": {
+            "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+            "type": "string"
+          },
+          "title": "Exception Ids",
+          "type": "array"
+        },
+        "rule_template": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Rule Template"
+        },
+        "expansion": {
+          "additionalProperties": true,
+          "title": "Expansion",
+          "type": "object"
+        },
+        "execution_level": {
+          "default": "electron_actions",
+          "enum": [
+            "electron_actions",
+            "net_transformation"
+          ],
+          "title": "Execution Level",
+          "type": "string"
+        },
+        "net_template": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Net Template"
+        },
+        "net_roles": {
+          "additionalProperties": {
+            "type": "integer"
+          },
+          "title": "Net Roles",
+          "type": "object"
+        },
+        "source_stereo": {
+          "items": {
+            "$ref": "#/$defs/SourceStereo"
+          },
+          "title": "Source Stereo",
+          "type": "array"
+        },
+        "general_event": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "General Event"
+        },
+        "general_roles": {
+          "additionalProperties": {
+            "type": "integer"
+          },
+          "title": "General Roles",
+          "type": "object"
+        },
+        "released_fragments": {
+          "items": {
+            "items": {
+              "exclusiveMinimum": 0,
+              "type": "integer"
+            },
+            "type": "array"
+          },
+          "title": "Released Fragments",
+          "type": "array"
+        },
+        "electronic_outcome": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ElectronicState"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "electron_transfers": {
+          "items": {
+            "$ref": "#/$defs/ElectronOwnershipTransfer"
+          },
+          "title": "Electron Transfers",
+          "type": "array"
+        },
+        "phase_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Phase Id"
+        }
+      },
+      "required": [
+        "event_id",
+        "event_type",
+        "reactant_view_id",
+        "product_state_id",
+        "product_view_id"
+      ],
+      "title": "ReactionEvent",
+      "type": "object"
+    },
+    "ReactionPhase": {
+      "additionalProperties": false,
+      "properties": {
+        "phase_id": {
+          "title": "Phase Id",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "reaction",
+            "workup",
+            "quench"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "event_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Event Ids",
+          "type": "array"
+        },
+        "activate_atom_ids": {
+          "items": {
+            "exclusiveMinimum": 0,
+            "type": "integer"
+          },
+          "title": "Activate Atom Ids",
+          "type": "array"
+        },
+        "conditions": {
+          "additionalProperties": true,
+          "title": "Conditions",
+          "type": "object"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "minItems": 1,
+          "title": "Evidence",
+          "type": "array"
+        },
+        "status": {
+          "default": "specified",
+          "enum": [
+            "specified",
+            "missing_details"
+          ],
+          "title": "Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "phase_id",
+        "kind",
+        "evidence"
+      ],
+      "title": "ReactionPhase",
+      "type": "object"
+    },
+    "ReactiveCenter": {
+      "additionalProperties": false,
+      "properties": {
+        "center_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "Center Id",
+          "type": "string"
+        },
+        "atom_id": {
+          "exclusiveMinimum": 0,
+          "title": "Atom Id",
+          "type": "integer"
+        },
+        "species": {
+          "enum": [
+            "carbene",
+            "carbyne",
+            "nitrene"
+          ],
+          "title": "Species",
+          "type": "string"
+        },
+        "profile": {
+          "enum": [
+            "carbene_paired",
+            "carbene_two_singly",
+            "carbyne_one_singly",
+            "carbyne_three_singly",
+            "nitrene_paired",
+            "nitrene_two_singly",
+            "unknown"
+          ],
+          "title": "Profile",
+          "type": "string"
+        },
+        "environment": {
+          "default": "free",
+          "enum": [
+            "free",
+            "metal_bound",
+            "unknown"
+          ],
+          "title": "Environment",
+          "type": "string"
+        },
+        "existence_basis": {
+          "default": "unknown",
+          "enum": [
+            "formal_model",
+            "literature_analogy",
+            "source_supported",
+            "unknown"
+          ],
+          "title": "Existence Basis",
+          "type": "string"
+        },
+        "reaction_context": {
+          "default": "unknown",
+          "title": "Reaction Context",
+          "type": "string"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "title": "Evidence",
+          "type": "array"
+        }
+      },
+      "required": [
+        "center_id",
+        "atom_id",
+        "species",
+        "profile"
+      ],
+      "title": "ReactiveCenter",
+      "type": "object"
+    },
+    "ReagentDeclaration": {
+      "additionalProperties": false,
+      "properties": {
+        "reagent_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "Reagent Id",
+          "type": "string"
+        },
+        "view_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "View Id",
+          "type": "string"
+        },
+        "description": {
+          "minLength": 1,
+          "title": "Description",
+          "type": "string"
+        },
+        "atom_ids": {
+          "items": {
+            "exclusiveMinimum": 0,
+            "type": "integer"
+          },
+          "minItems": 1,
+          "title": "Atom Ids",
+          "type": "array"
+        },
+        "role": {
+          "minLength": 1,
+          "title": "Role",
+          "type": "string"
+        },
+        "phase_id": {
+          "anyOf": [
+            {
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Phase Id"
+        },
+        "source": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source"
+        }
+      },
+      "required": [
+        "reagent_id",
+        "view_id",
+        "description",
+        "atom_ids",
+        "role"
+      ],
+      "title": "ReagentDeclaration",
+      "type": "object"
+    },
+    "ResonanceTransform": {
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "const": "ResonanceTransform",
+          "default": "ResonanceTransform",
+          "title": "Kind",
+          "type": "string"
+        },
+        "transform_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "Transform Id",
+          "type": "string"
+        },
+        "state_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "State Id",
+          "type": "string"
+        },
+        "source_view_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "Source View Id",
+          "type": "string"
+        },
+        "target_view_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "Target View Id",
+          "type": "string"
+        },
+        "actions": {
+          "items": {
+            "discriminator": {
+              "mapping": {
+                "FISHHOOK": "#/$defs/mechanism_workbench__umr__v02__ast__Fishhook",
+                "PAIR": "#/$defs/Pair",
+                "SHIFT": "#/$defs/Shift",
+                "SPLIT": "#/$defs/Split"
+              },
+              "propertyName": "op"
+            },
+            "oneOf": [
+              {
+                "$ref": "#/$defs/Pair"
+              },
+              {
+                "$ref": "#/$defs/Split"
+              },
+              {
+                "$ref": "#/$defs/Shift"
+              },
+              {
+                "$ref": "#/$defs/mechanism_workbench__umr__v02__ast__Fishhook"
+              }
+            ]
+          },
+          "minItems": 1,
+          "title": "Actions",
+          "type": "array"
+        },
+        "rule": {
+          "title": "Rule",
+          "type": "string"
+        },
+        "rule_version": {
+          "default": "umr-resonance/0.2",
+          "title": "Rule Version",
+          "type": "string"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "title": "Evidence",
+          "type": "array"
+        },
+        "resonance_mode": {
+          "default": "POLAR",
+          "enum": [
+            "POLAR",
+            "RADICAL"
+          ],
+          "title": "Resonance Mode",
+          "type": "string"
+        }
+      },
+      "required": [
+        "transform_id",
+        "state_id",
+        "source_view_id",
+        "target_view_id",
+        "actions",
+        "rule"
+      ],
+      "title": "ResonanceTransform",
+      "type": "object"
+    },
+    "Shift": {
+      "additionalProperties": false,
+      "properties": {
+        "op": {
+          "const": "SHIFT",
+          "default": "SHIFT",
+          "title": "Op",
+          "type": "string"
+        },
+        "a": {
+          "exclusiveMinimum": 0,
+          "title": "A",
+          "type": "integer"
+        },
+        "b": {
+          "exclusiveMinimum": 0,
+          "title": "B",
+          "type": "integer"
+        },
+        "c": {
+          "exclusiveMinimum": 0,
+          "title": "C",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "a",
+        "b",
+        "c"
+      ],
+      "title": "Shift",
+      "type": "object"
+    },
+    "SiteRelation": {
+      "additionalProperties": false,
+      "properties": {
+        "first_binding_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "First Binding Id",
+          "type": "string"
+        },
+        "second_binding_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "Second Binding Id",
+          "type": "string"
+        },
+        "relation": {
+          "default": "unknown",
+          "enum": [
+            "cis",
+            "trans",
+            "unknown"
+          ],
+          "title": "Relation",
+          "type": "string"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "title": "Evidence",
+          "type": "array"
+        }
+      },
+      "required": [
+        "first_binding_id",
+        "second_binding_id"
+      ],
+      "title": "SiteRelation",
+      "type": "object"
+    },
+    "SourceStereo": {
+      "additionalProperties": false,
+      "properties": {
+        "atom_ids": {
+          "items": {
+            "exclusiveMinimum": 0,
+            "type": "integer"
+          },
+          "minItems": 1,
+          "title": "Atom Ids",
+          "type": "array"
+        },
+        "assertion": {
+          "additionalProperties": true,
+          "title": "Assertion",
+          "type": "object"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "minItems": 1,
+          "title": "Evidence",
+          "type": "array"
+        },
+        "basis": {
+          "const": "source_record",
+          "default": "source_record",
+          "title": "Basis",
+          "type": "string"
+        },
+        "execution_derived": {
+          "const": false,
+          "default": false,
+          "title": "Execution Derived",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "atom_ids",
+        "assertion",
+        "evidence"
+      ],
+      "title": "SourceStereo",
+      "type": "object"
+    },
+    "Split": {
+      "additionalProperties": false,
+      "properties": {
+        "op": {
+          "const": "SPLIT",
+          "default": "SPLIT",
+          "title": "Op",
+          "type": "string"
+        },
+        "a": {
+          "exclusiveMinimum": 0,
+          "title": "A",
+          "type": "integer"
+        },
+        "b": {
+          "exclusiveMinimum": 0,
+          "title": "B",
+          "type": "integer"
+        },
+        "target": {
+          "exclusiveMinimum": 0,
+          "title": "Target",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "a",
+        "b",
+        "target"
+      ],
+      "title": "Split",
+      "type": "object"
+    },
+    "StereoEffect": {
+      "additionalProperties": false,
+      "properties": {
+        "atom_id": {
+          "exclusiveMinimum": 0,
+          "title": "Atom Id",
+          "type": "integer"
+        },
+        "effect": {
+          "enum": [
+            "retention",
+            "inversion",
+            "destroyed",
+            "created_unspecified",
+            "unknown"
+          ],
+          "title": "Effect",
+          "type": "string"
+        },
+        "basis": {
+          "title": "Basis",
+          "type": "string"
+        }
+      },
+      "required": [
+        "atom_id",
+        "effect",
+        "basis"
+      ],
+      "title": "StereoEffect",
+      "type": "object"
+    },
+    "ValenceRule": {
+      "additionalProperties": false,
+      "properties": {
+        "rule_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "Rule Id",
+          "type": "string"
+        },
+        "view_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "View Id",
+          "type": "string"
+        },
+        "description": {
+          "minLength": 1,
+          "title": "Description",
+          "type": "string"
+        },
+        "source": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source"
+        },
+        "atom_id": {
+          "exclusiveMinimum": 0,
+          "title": "Atom Id",
+          "type": "integer"
+        },
+        "element": {
+          "minLength": 1,
+          "title": "Element",
+          "type": "string"
+        },
+        "bond_order_sum": {
+          "minimum": 0,
+          "title": "Bond Order Sum",
+          "type": "integer"
+        },
+        "nonbonding_electrons": {
+          "minimum": 0,
+          "title": "Nonbonding Electrons",
+          "type": "integer"
+        },
+        "radical_electrons": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Radical Electrons"
+        },
+        "formal_charge": {
+          "title": "Formal Charge",
+          "type": "integer"
+        },
+        "oxidation_state": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Oxidation State"
+        },
+        "occupied_sites": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Occupied Sites"
+        }
+      },
+      "required": [
+        "rule_id",
+        "view_id",
+        "description",
+        "atom_id",
+        "element",
+        "bond_order_sum",
+        "nonbonding_electrons",
+        "radical_electrons",
+        "formal_charge"
+      ],
+      "title": "ValenceRule",
+      "type": "object"
+    },
+    "mechanism_workbench__umr__v02__ast__Fishhook": {
+      "additionalProperties": false,
+      "properties": {
+        "op": {
+          "const": "FISHHOOK",
+          "default": "FISHHOOK",
+          "title": "Op",
+          "type": "string"
+        },
+        "source": {
+          "discriminator": {
+            "mapping": {
+              "bond": "#/$defs/BondSource",
+              "radical": "#/$defs/RadicalSource"
+            },
+            "propertyName": "kind"
+          },
+          "oneOf": [
+            {
+              "$ref": "#/$defs/RadicalSource"
+            },
+            {
+              "$ref": "#/$defs/BondSource"
+            }
+          ],
+          "title": "Source"
+        },
+        "destination": {
+          "discriminator": {
+            "mapping": {
+              "atom": "#/$defs/AtomDestination",
+              "bond": "#/$defs/BondDestination"
+            },
+            "propertyName": "kind"
+          },
+          "oneOf": [
+            {
+              "$ref": "#/$defs/AtomDestination"
+            },
+            {
+              "$ref": "#/$defs/BondDestination"
+            }
+          ],
+          "title": "Destination"
+        }
+      },
+      "required": [
+        "source",
+        "destination"
+      ],
+      "title": "Fishhook",
+      "type": "object"
+    },
+    "mechanism_workbench__umr__v07__ast__Fishhook": {
+      "additionalProperties": false,
+      "properties": {
+        "op": {
+          "const": "FISHHOOK",
+          "default": "FISHHOOK",
+          "title": "Op",
+          "type": "string"
+        },
+        "source": {
+          "discriminator": {
+            "mapping": {
+              "bond": "#/$defs/BondSource",
+              "lone_pair": "#/$defs/LonePairSource",
+              "radical": "#/$defs/RadicalSource"
+            },
+            "propertyName": "kind"
+          },
+          "oneOf": [
+            {
+              "$ref": "#/$defs/RadicalSource"
+            },
+            {
+              "$ref": "#/$defs/BondSource"
+            },
+            {
+              "$ref": "#/$defs/LonePairSource"
+            }
+          ],
+          "title": "Source"
+        },
+        "destination": {
+          "discriminator": {
+            "mapping": {
+              "atom": "#/$defs/AtomDestination",
+              "bond": "#/$defs/BondDestination",
+              "lone_pair": "#/$defs/LonePairDestination"
+            },
+            "propertyName": "kind"
+          },
+          "oneOf": [
+            {
+              "$ref": "#/$defs/AtomDestination"
+            },
+            {
+              "$ref": "#/$defs/BondDestination"
+            },
+            {
+              "$ref": "#/$defs/LonePairDestination"
+            }
+          ],
+          "title": "Destination"
+        }
+      },
+      "required": [
+        "source",
+        "destination"
+      ],
+      "title": "Fishhook",
+      "type": "object"
+    },
+    "mechanism_workbench__umr__v09__ast__LewisView": {
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "const": "LewisView",
+          "default": "LewisView",
+          "title": "Kind",
+          "type": "string"
+        },
+        "view_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "View Id",
+          "type": "string"
+        },
+        "state_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "State Id",
+          "type": "string"
+        },
+        "atoms": {
+          "items": {
+            "$ref": "#/$defs/Atom"
+          },
+          "minItems": 1,
+          "title": "Atoms",
+          "type": "array"
+        },
+        "bonds": {
+          "items": {
+            "$ref": "#/$defs/Bond"
+          },
+          "title": "Bonds",
+          "type": "array"
+        },
+        "annotations": {
+          "additionalProperties": {
+            "$ref": "#/$defs/JsonValue"
+          },
+          "title": "Annotations",
+          "type": "object"
+        },
+        "metal_centers": {
+          "items": {
+            "$ref": "#/$defs/MetalCenter"
+          },
+          "title": "Metal Centers",
+          "type": "array"
+        },
+        "ligands": {
+          "items": {
+            "$ref": "#/$defs/Ligand"
+          },
+          "title": "Ligands",
+          "type": "array"
+        },
+        "metal_bindings": {
+          "items": {
+            "$ref": "#/$defs/MetalBinding"
+          },
+          "title": "Metal Bindings",
+          "type": "array"
+        },
+        "electron_ownership_convention": {
+          "const": "donor_owned_dative/1",
+          "default": "donor_owned_dative/1",
+          "title": "Electron Ownership Convention",
+          "type": "string"
+        },
+        "electronic_state": {
+          "$ref": "#/$defs/ElectronicState"
+        },
+        "reactive_centers": {
+          "items": {
+            "$ref": "#/$defs/ReactiveCenter"
+          },
+          "title": "Reactive Centers",
+          "type": "array"
+        },
+        "aryne_regions": {
+          "items": {
+            "$ref": "#/$defs/AryneRegion"
+          },
+          "title": "Aryne Regions",
+          "type": "array"
+        },
+        "element_rule_version": {
+          "default": "umr-elements/0.9",
+          "enum": [
+            "umr-elements/0.7",
+            "umr-elements/0.8",
+            "umr-elements/0.9"
+          ],
+          "title": "Element Rule Version",
+          "type": "string"
+        },
+        "element_declarations": {
+          "items": {
+            "$ref": "#/$defs/ElementDeclaration"
+          },
+          "title": "Element Declarations",
+          "type": "array"
+        },
+        "lewis_adducts": {
+          "items": {
+            "$ref": "#/$defs/LewisAdduct"
+          },
+          "title": "Lewis Adducts",
+          "type": "array"
+        },
+        "material_boundaries": {
+          "items": {
+            "$ref": "#/$defs/MaterialBoundary"
+          },
+          "title": "Material Boundaries",
+          "type": "array"
+        }
+      },
+      "required": [
+        "view_id",
+        "state_id",
+        "atoms"
+      ],
+      "title": "LewisView",
+      "type": "object"
+    },
+    "mechanism_workbench__umr__v10__ast__LewisView": {
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "const": "LewisView",
+          "default": "LewisView",
+          "title": "Kind",
+          "type": "string"
+        },
+        "view_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "View Id",
+          "type": "string"
+        },
+        "state_id": {
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+          "title": "State Id",
+          "type": "string"
+        },
+        "atoms": {
+          "items": {
+            "$ref": "#/$defs/Atom"
+          },
+          "minItems": 1,
+          "title": "Atoms",
+          "type": "array"
+        },
+        "bonds": {
+          "items": {
+            "$ref": "#/$defs/Bond"
+          },
+          "title": "Bonds",
+          "type": "array"
+        },
+        "annotations": {
+          "additionalProperties": {
+            "$ref": "#/$defs/JsonValue"
+          },
+          "title": "Annotations",
+          "type": "object"
+        },
+        "metal_centers": {
+          "items": {
+            "$ref": "#/$defs/MetalCenter"
+          },
+          "title": "Metal Centers",
+          "type": "array"
+        },
+        "ligands": {
+          "items": {
+            "$ref": "#/$defs/Ligand"
+          },
+          "title": "Ligands",
+          "type": "array"
+        },
+        "metal_bindings": {
+          "items": {
+            "$ref": "#/$defs/MetalBinding"
+          },
+          "title": "Metal Bindings",
+          "type": "array"
+        },
+        "electron_ownership_convention": {
+          "const": "donor_owned_dative/1",
+          "default": "donor_owned_dative/1",
+          "title": "Electron Ownership Convention",
+          "type": "string"
+        },
+        "electronic_state": {
+          "$ref": "#/$defs/ElectronicState"
+        },
+        "reactive_centers": {
+          "items": {
+            "$ref": "#/$defs/ReactiveCenter"
+          },
+          "title": "Reactive Centers",
+          "type": "array"
+        },
+        "aryne_regions": {
+          "items": {
+            "$ref": "#/$defs/AryneRegion"
+          },
+          "title": "Aryne Regions",
+          "type": "array"
+        },
+        "element_rule_version": {
+          "default": "umr-elements/1.0",
+          "enum": [
+            "umr-elements/0.7",
+            "umr-elements/0.8",
+            "umr-elements/0.9",
+            "umr-elements/1.0"
+          ],
+          "title": "Element Rule Version",
+          "type": "string"
+        },
+        "element_declarations": {
+          "items": {
+            "$ref": "#/$defs/ElementDeclaration"
+          },
+          "title": "Element Declarations",
+          "type": "array"
+        },
+        "lewis_adducts": {
+          "items": {
+            "$ref": "#/$defs/LewisAdduct"
+          },
+          "title": "Lewis Adducts",
+          "type": "array"
+        },
+        "material_boundaries": {
+          "items": {
+            "$ref": "#/$defs/MaterialBoundary"
+          },
+          "title": "Material Boundaries",
+          "type": "array"
+        }
+      },
+      "required": [
+        "view_id",
+        "state_id",
+        "atoms"
+      ],
+      "title": "LewisView",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "umr/1.0",
+      "default": "umr/1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "initial_state_id": {
+      "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+      "title": "Initial State Id",
+      "type": "string"
+    },
+    "states": {
+      "items": {
+        "$ref": "#/$defs/ChemicalState"
+      },
+      "minItems": 1,
+      "title": "States",
+      "type": "array"
+    },
+    "views": {
+      "items": {
+        "$ref": "#/$defs/mechanism_workbench__umr__v10__ast__LewisView"
+      },
+      "minItems": 1,
+      "title": "Views",
+      "type": "array"
+    },
+    "events": {
+      "items": {
+        "$ref": "#/$defs/ReactionEvent"
+      },
+      "title": "Events",
+      "type": "array"
+    },
+    "resonance_transforms": {
+      "items": {
+        "$ref": "#/$defs/ResonanceTransform"
+      },
+      "title": "Resonance Transforms",
+      "type": "array"
+    },
+    "analyses": {
+      "items": {
+        "$ref": "#/$defs/AnalysisRecord"
+      },
+      "title": "Analyses",
+      "type": "array"
+    },
+    "metadata": {
+      "additionalProperties": {
+        "$ref": "#/$defs/JsonValue"
+      },
+      "title": "Metadata",
+      "type": "object"
+    },
+    "record_id": {
+      "default": "document",
+      "pattern": "^[A-Za-z_][A-Za-z0-9_.:~\\-]*$",
+      "title": "Record Id",
+      "type": "string"
+    },
+    "revision": {
+      "default": 1,
+      "minimum": 1,
+      "title": "Revision",
+      "type": "integer"
+    },
+    "evidence_exceptions": {
+      "items": {
+        "$ref": "#/$defs/EvidenceException"
+      },
+      "title": "Evidence Exceptions",
+      "type": "array"
+    },
+    "symbolic_mode": {
+      "default": "disabled",
+      "enum": [
+        "disabled",
+        "unchanged_boundary"
+      ],
+      "title": "Symbolic Mode",
+      "type": "string"
+    },
+    "cycles": {
+      "items": {
+        "$ref": "#/$defs/CycleRecord"
+      },
+      "title": "Cycles",
+      "type": "array"
+    },
+    "phases": {
+      "items": {
+        "$ref": "#/$defs/ReactionPhase"
+      },
+      "title": "Phases",
+      "type": "array"
+    },
+    "valence_rules": {
+      "items": {
+        "$ref": "#/$defs/ValenceRule"
+      },
+      "title": "Valence Rules",
+      "type": "array"
+    },
+    "intermediate_rules": {
+      "items": {
+        "$ref": "#/$defs/IntermediateRule"
+      },
+      "title": "Intermediate Rules",
+      "type": "array"
+    },
+    "reagents": {
+      "items": {
+        "$ref": "#/$defs/ReagentDeclaration"
+      },
+      "title": "Reagents",
+      "type": "array"
+    },
+    "observations": {
+      "items": {
+        "$ref": "#/$defs/MethylenationObservation"
+      },
+      "title": "Observations",
+      "type": "array"
+    }
+  },
+  "required": [
+    "initial_state_id",
+    "states",
+    "views"
+  ],
+  "title": "MechanismDocument",
+  "type": "object"
+}

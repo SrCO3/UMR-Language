@@ -1,0 +1,354 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "conditions": {},
+      "electronic_state": {
+        "character": "closed_shell",
+        "coupling": "closed_shell",
+        "label": "Book paired dichlorocarbene route; no spin kinetics claim",
+        "evidence": [
+          {
+            "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 112 (Ciamician–Dennsted rearrangement).",
+            "note": "The declared electronic state has closed_shell character."
+          }
+        ]
+      },
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 6,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 2,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 3,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 4,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 10,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 11,
+          "element": "Cl",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 12,
+          "element": "Cl",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 13,
+          "element": "Cl",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 14,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 20,
+          "element": "O",
+          "formal_charge": -1,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 21,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 22,
+          "element": "O",
+          "formal_charge": -1,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 23,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 30,
+          "element": "Na",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 31,
+          "element": "Na",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 6,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "order": 2
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 2
+        },
+        {
+          "a": 10,
+          "b": 11,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 12,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 13,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 14,
+          "order": 1
+        },
+        {
+          "a": 20,
+          "b": 21,
+          "order": 1
+        },
+        {
+          "a": 22,
+          "b": 23,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 1,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "metal_centers": [
+        {
+          "atom_id": 30
+        },
+        {
+          "atom_id": 31
+        }
+      ],
+      "electronic_state": {
+        "character": "closed_shell",
+        "coupling": "closed_shell",
+        "label": "Book paired dichlorocarbene route; no spin kinetics claim",
+        "evidence": [
+          {
+            "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 112 (Ciamician–Dennsted rearrangement).",
+            "note": "The declared electronic state has closed_shell character."
+          }
+        ]
+      },
+      "element_rule_version": "umr-elements/0.8",
+      "element_declarations": [
+        {
+          "atom_id": 11
+        },
+        {
+          "atom_id": 12
+        },
+        {
+          "atom_id": 13
+        }
+      ],
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 20,
+          "b": 14,
+          "op": "PAIR"
+        },
+        {
+          "a": 14,
+          "b": 10,
+          "target": 10,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 20–14 from a lone pair on 20; move the 14–10 pair to 10.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 112 (Ciamician–Dennsted rearrangement).",
+          "note": "In one event, form 20–14 from a lone pair on 20; move the 14–10 pair to 10."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "POLAR",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "bindings": {
+        "center": 10,
+        "leaving_group": 13
+      },
+      "depends_on_event": "e1",
+      "explanation": "Apply CARBENE_ALPHA_ELIMINATION to the mapped reaction sites in view v1.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 112 (Ciamician–Dennsted rearrangement).",
+          "note": "Apply CARBENE_ALPHA_ELIMINATION to the mapped reaction sites in view v1."
+        }
+      ],
+      "mechanism_assumption": "Source paired free-carbene model; registered finite template",
+      "reactive_template": "CARBENE_ALPHA_ELIMINATION",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "POLAR",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "bindings": {
+        "center": 10,
+        "alkene_a": 2,
+        "alkene_b": 3
+      },
+      "depends_on_event": "e2",
+      "explanation": "Apply CARBENE_CYCLOPROPANATION to the mapped reaction sites in view v2.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 112 (Ciamician–Dennsted rearrangement).",
+          "note": "Apply CARBENE_CYCLOPROPANATION to the mapped reaction sites in view v2."
+        }
+      ],
+      "mechanism_assumption": "Source paired free-carbene model; registered finite template",
+      "reactive_template": "CARBENE_CYCLOPROPANATION",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4",
+      "event_type": "POLAR",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "actions": [
+        {
+          "a": 22,
+          "b": 6,
+          "op": "PAIR"
+        },
+        {
+          "a": 6,
+          "b": 1,
+          "c": 2,
+          "op": "SHIFT"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "c": 10,
+          "op": "SHIFT"
+        },
+        {
+          "a": 10,
+          "b": 12,
+          "target": 12,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 22–6 from a lone pair on 22; move the 6–1 pair to 1–2; move the 2–3 pair to 3–10; move the 10–12 pair to 12.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 112 (Ciamician–Dennsted rearrangement).",
+          "note": "In one event, form 22–6 from a lone pair on 22; move the 6–1 pair to 1–2; move the 2–3 pair to 3–10; move the 10–12 pair to 12."
+        }
+      ],
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-054",
+  "symbolic_mode": "unchanged_boundary",
+  "schema_version": "umr/1.0"
+}

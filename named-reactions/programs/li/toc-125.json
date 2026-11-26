@@ -1,0 +1,877 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 7,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 8,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 9,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 2,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 3,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 4,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 6,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 60,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 20,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 22,
+          "element": "Cl",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 23,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 24,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 25,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 26,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 30,
+          "element": "S",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 31,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 32,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 33,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 34,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 35,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 36,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 37,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 40,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 41,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 42,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 43,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 44,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 45,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 46,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 7,
+          "order": 1
+        },
+        {
+          "a": 7,
+          "b": 8,
+          "order": 1
+        },
+        {
+          "a": 7,
+          "b": 9,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "order": 2
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "order": 2
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 6,
+          "order": 2
+        },
+        {
+          "a": 6,
+          "b": 60,
+          "order": 1
+        },
+        {
+          "a": 20,
+          "b": 22,
+          "order": 1
+        },
+        {
+          "a": 20,
+          "b": 23,
+          "order": 1
+        },
+        {
+          "a": 23,
+          "b": 24,
+          "order": 1
+        },
+        {
+          "a": 23,
+          "b": 25,
+          "order": 1
+        },
+        {
+          "a": 23,
+          "b": 26,
+          "order": 1
+        },
+        {
+          "a": 30,
+          "b": 31,
+          "order": 1
+        },
+        {
+          "a": 30,
+          "b": 32,
+          "order": 1
+        },
+        {
+          "a": 32,
+          "b": 33,
+          "order": 1
+        },
+        {
+          "a": 32,
+          "b": 34,
+          "order": 1
+        },
+        {
+          "a": 32,
+          "b": 35,
+          "order": 1
+        },
+        {
+          "a": 35,
+          "b": 36,
+          "order": 2
+        },
+        {
+          "a": 35,
+          "b": 37,
+          "order": 1
+        },
+        {
+          "a": 40,
+          "b": 41,
+          "order": 1
+        },
+        {
+          "a": 41,
+          "b": 42,
+          "order": 1
+        },
+        {
+          "a": 40,
+          "b": 43,
+          "order": 1
+        },
+        {
+          "a": 43,
+          "b": 44,
+          "order": 1
+        },
+        {
+          "a": 40,
+          "b": 45,
+          "order": 1
+        },
+        {
+          "a": 45,
+          "b": 46,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 1,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "element_rule_version": "umr-elements/0.8",
+      "element_declarations": [
+        {
+          "atom_id": 22,
+          "oxidation_state": 1
+        },
+        {
+          "atom_id": 30
+        }
+      ],
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 7,
+          "b": 22,
+          "op": "PAIR"
+        },
+        {
+          "a": 22,
+          "b": 20,
+          "target": 20,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 7–22 from a lone pair on 7; move the 22–20 pair to 20.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 251 (Gassman indole synthesis).",
+          "note": "In one event, form 7–22 from a lone pair on 7; move the 22–20 pair to 20."
+        }
+      ],
+      "phase_id": "phase1",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 20,
+          "b": 8,
+          "op": "PAIR"
+        },
+        {
+          "a": 8,
+          "b": 7,
+          "target": 7,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 20,
+        "hydrogen": 8,
+        "acid": 7
+      },
+      "explanation": "In one event, form 20–8 from a lone pair on 20; move the 8–7 pair to 7.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 251 (Gassman indole synthesis).",
+          "note": "In one event, form 20–8 from a lone pair on 20; move the 8–7 pair to 7."
+        }
+      ],
+      "phase_id": "phase1",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "POLAR",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "actions": [
+        {
+          "a": 30,
+          "b": 7,
+          "op": "PAIR"
+        },
+        {
+          "a": 7,
+          "b": 22,
+          "target": 22,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 30–7 from a lone pair on 30; move the 7–22 pair to 22.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 251 (Gassman indole synthesis).",
+          "note": "In one event, form 30–7 from a lone pair on 30; move the 7–22 pair to 22."
+        }
+      ],
+      "phase_id": "phase2",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "actions": [
+        {
+          "a": 40,
+          "b": 33,
+          "op": "PAIR"
+        },
+        {
+          "a": 33,
+          "b": 32,
+          "target": 32,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 40,
+        "hydrogen": 33,
+        "acid": 32
+      },
+      "explanation": "In one event, form 40–33 from a lone pair on 40; move the 33–32 pair to 32.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 251 (Gassman indole synthesis).",
+          "note": "In one event, form 40–33 from a lone pair on 40; move the 33–32 pair to 32."
+        }
+      ],
+      "phase_id": "phase3",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e5",
+      "event_type": "PERICYCLIC",
+      "reactant_view_id": "v4",
+      "product_state_id": "s5",
+      "product_view_id": "v5",
+      "bindings": {
+        "ordered_atoms": [
+          32,
+          30,
+          7,
+          1,
+          6
+        ]
+      },
+      "explanation": "Apply GASSMAN_2_3 to the mapped reaction sites in view v4.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 251 (Gassman indole synthesis).",
+          "note": "Apply GASSMAN_2_3 to the mapped reaction sites in view v4."
+        }
+      ],
+      "region_atom_ids": [
+        32,
+        30,
+        7,
+        1,
+        6
+      ],
+      "mechanism_assumption": "concerted",
+      "general_event": "GASSMAN_2_3",
+      "general_roles": {
+        "a": 32,
+        "s": 30,
+        "n": 7,
+        "d": 1,
+        "e": 6
+      },
+      "phase_id": "phase3",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e6",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v5",
+      "product_state_id": "s6",
+      "product_view_id": "v6",
+      "actions": [
+        {
+          "a": 7,
+          "b": 33,
+          "op": "PAIR"
+        },
+        {
+          "a": 33,
+          "b": 40,
+          "target": 40,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 7,
+        "hydrogen": 33,
+        "acid": 40
+      },
+      "explanation": "In one event, form 7–33 from a lone pair on 7; move the 33–40 pair to 40.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 251 (Gassman indole synthesis).",
+          "note": "In one event, form 7–33 from a lone pair on 7; move the 33–40 pair to 40."
+        }
+      ],
+      "phase_id": "phase3",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e7",
+      "event_type": "POLAR",
+      "reactant_view_id": "v6",
+      "product_state_id": "s7",
+      "product_view_id": "v7",
+      "actions": [
+        {
+          "a": 40,
+          "b": 60,
+          "op": "PAIR"
+        },
+        {
+          "a": 60,
+          "b": 6,
+          "c": 1,
+          "op": "SHIFT"
+        },
+        {
+          "a": 1,
+          "b": 7,
+          "target": 7,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 40–60 from a lone pair on 40; move the 60–6 pair to 6–1; move the 1–7 pair to 7.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 251 (Gassman indole synthesis).",
+          "note": "In one event, form 40–60 from a lone pair on 40; move the 60–6 pair to 6–1; move the 1–7 pair to 7."
+        }
+      ],
+      "phase_id": "phase3",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e8",
+      "event_type": "POLAR",
+      "reactant_view_id": "v7",
+      "product_state_id": "s8",
+      "product_view_id": "v8",
+      "actions": [
+        {
+          "a": 7,
+          "b": 35,
+          "op": "PAIR"
+        },
+        {
+          "a": 35,
+          "b": 36,
+          "target": 36,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 7–35 from a lone pair on 7; move the 35–36 pair to 36.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 251 (Gassman indole synthesis).",
+          "note": "In one event, form 7–35 from a lone pair on 7; move the 35–36 pair to 36."
+        }
+      ],
+      "phase_id": "phase3",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e9",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v8",
+      "product_state_id": "s9",
+      "product_view_id": "v9",
+      "actions": [
+        {
+          "a": 36,
+          "b": 33,
+          "op": "PAIR"
+        },
+        {
+          "a": 33,
+          "b": 7,
+          "target": 7,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 36,
+        "hydrogen": 33,
+        "acid": 7
+      },
+      "explanation": "In one event, form 36–33 from a lone pair on 36; move the 33–7 pair to 7.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 251 (Gassman indole synthesis).",
+          "note": "In one event, form 36–33 from a lone pair on 36; move the 33–7 pair to 7."
+        }
+      ],
+      "phase_id": "phase3",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e10",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v9",
+      "product_state_id": "s10",
+      "product_view_id": "v10",
+      "actions": [
+        {
+          "a": 36,
+          "b": 60,
+          "op": "PAIR"
+        },
+        {
+          "a": 60,
+          "b": 40,
+          "target": 40,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 36,
+        "hydrogen": 60,
+        "acid": 40
+      },
+      "explanation": "In one event, form 36–60 from a lone pair on 36; move the 60–40 pair to 40.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 251 (Gassman indole synthesis).",
+          "note": "In one event, form 36–60 from a lone pair on 36; move the 60–40 pair to 40."
+        }
+      ],
+      "phase_id": "phase3",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e11",
+      "event_type": "POLAR",
+      "reactant_view_id": "v10",
+      "product_state_id": "s11",
+      "product_view_id": "v11",
+      "actions": [
+        {
+          "a": 7,
+          "b": 35,
+          "op": "PAIR"
+        },
+        {
+          "a": 35,
+          "b": 36,
+          "target": 36,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 7–35 from a lone pair on 7; move the 35–36 pair to 36.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 251 (Gassman indole synthesis).",
+          "note": "In one event, form 7–35 from a lone pair on 7; move the 35–36 pair to 36."
+        }
+      ],
+      "phase_id": "phase3",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e12",
+      "event_type": "POLAR",
+      "reactant_view_id": "v11",
+      "product_state_id": "s12",
+      "product_view_id": "v12",
+      "actions": [
+        {
+          "a": 40,
+          "b": 34,
+          "op": "PAIR"
+        },
+        {
+          "a": 34,
+          "b": 32,
+          "c": 35,
+          "op": "SHIFT"
+        },
+        {
+          "a": 35,
+          "b": 7,
+          "target": 7,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 40–34 from a lone pair on 40; move the 34–32 pair to 32–35; move the 35–7 pair to 7.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 251 (Gassman indole synthesis).",
+          "note": "In one event, form 40–34 from a lone pair on 40; move the 34–32 pair to 32–35; move the 35–7 pair to 7."
+        }
+      ],
+      "phase_id": "phase3",
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-125",
+  "phases": [
+    {
+      "phase_id": "phase1",
+      "kind": "reaction",
+      "event_ids": [
+        "e1",
+        "e2"
+      ],
+      "activate_atom_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        20,
+        22,
+        23,
+        24,
+        25,
+        26,
+        60
+      ],
+      "conditions": {},
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 251 (Gassman indole synthesis).",
+          "note": "These reaction conditions apply to the phase1 phase."
+        }
+      ]
+    },
+    {
+      "phase_id": "phase2",
+      "kind": "reaction",
+      "event_ids": [
+        "e3"
+      ],
+      "activate_atom_ids": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "conditions": {},
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 251 (Gassman indole synthesis).",
+          "note": "These reaction conditions apply to the phase2 phase."
+        }
+      ]
+    },
+    {
+      "phase_id": "phase3",
+      "kind": "reaction",
+      "event_ids": [
+        "e4",
+        "e5",
+        "e6",
+        "e7",
+        "e8",
+        "e9",
+        "e10",
+        "e11",
+        "e12"
+      ],
+      "activate_atom_ids": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "conditions": {},
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 251 (Gassman indole synthesis).",
+          "note": "These reaction conditions apply to the phase3 phase."
+        }
+      ]
+    }
+  ],
+  "schema_version": "umr/1.0"
+}

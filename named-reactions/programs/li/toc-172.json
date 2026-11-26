@@ -1,0 +1,611 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 2,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 3,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 4,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 6,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 7,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 10,
+          "element": "S",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 11,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 12,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 13,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 14,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 8,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 9,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 21,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 22,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 23,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 24,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 25,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 26,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 27,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 30,
+          "element": "S",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 31,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 32,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 33,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 34,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 28,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 29,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 50,
+          "element": "Ti",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "radical_electrons": null
+        },
+        {
+          "atom_id": 51,
+          "element": "Cl",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 52,
+          "element": "Cl",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 53,
+          "element": "Cl",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 54,
+          "element": "Cl",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 55,
+          "element": "Zn",
+          "formal_charge": 0,
+          "nonbonding_electrons": 12
+        },
+        {
+          "atom_id": 60,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 61,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 62,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 63,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 64,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 2,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "order": 2
+        },
+        {
+          "a": 1,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 2
+        },
+        {
+          "a": 5,
+          "b": 6,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 7,
+          "order": 2
+        },
+        {
+          "a": 7,
+          "b": 10,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 11,
+          "order": 1
+        },
+        {
+          "a": 11,
+          "b": 12,
+          "order": 1
+        },
+        {
+          "a": 11,
+          "b": 13,
+          "order": 1
+        },
+        {
+          "a": 11,
+          "b": 14,
+          "order": 1
+        },
+        {
+          "a": 7,
+          "b": 8,
+          "order": 1
+        },
+        {
+          "a": 8,
+          "b": 9,
+          "order": 2
+        },
+        {
+          "a": 21,
+          "b": 22,
+          "order": 1
+        },
+        {
+          "a": 21,
+          "b": 23,
+          "order": 2
+        },
+        {
+          "a": 21,
+          "b": 24,
+          "order": 1
+        },
+        {
+          "a": 24,
+          "b": 25,
+          "order": 2
+        },
+        {
+          "a": 25,
+          "b": 26,
+          "order": 1
+        },
+        {
+          "a": 26,
+          "b": 27,
+          "order": 2
+        },
+        {
+          "a": 27,
+          "b": 30,
+          "order": 1
+        },
+        {
+          "a": 30,
+          "b": 31,
+          "order": 1
+        },
+        {
+          "a": 31,
+          "b": 32,
+          "order": 1
+        },
+        {
+          "a": 31,
+          "b": 33,
+          "order": 1
+        },
+        {
+          "a": 31,
+          "b": 34,
+          "order": 1
+        },
+        {
+          "a": 27,
+          "b": 28,
+          "order": 1
+        },
+        {
+          "a": 28,
+          "b": 29,
+          "order": 2
+        },
+        {
+          "a": 50,
+          "b": 51,
+          "order": 1
+        },
+        {
+          "a": 50,
+          "b": 52,
+          "order": 1
+        },
+        {
+          "a": 50,
+          "b": 53,
+          "order": 1
+        },
+        {
+          "a": 50,
+          "b": 54,
+          "order": 1
+        },
+        {
+          "a": 60,
+          "b": 61,
+          "order": 1
+        },
+        {
+          "a": 61,
+          "b": 62,
+          "order": 1
+        },
+        {
+          "a": 62,
+          "b": 63,
+          "order": 1
+        },
+        {
+          "a": 63,
+          "b": 64,
+          "order": 1
+        },
+        {
+          "a": 9,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 29,
+          "b": 24,
+          "order": 1
+        },
+        {
+          "a": 64,
+          "b": 60,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "metal_centers": [
+        {
+          "atom_id": 50
+        },
+        {
+          "atom_id": 55
+        }
+      ],
+      "ligands": [
+        {
+          "ligand_id": "ligand.51",
+          "atom_ids": [
+            51
+          ],
+          "donor_atom_ids": [
+            51
+          ],
+          "ionic_class": "X",
+          "ionic_charge": -1,
+          "assignment_basis": "inferred finite ionic partition from mapped graph; not measured charge"
+        },
+        {
+          "ligand_id": "ligand.52",
+          "atom_ids": [
+            52
+          ],
+          "donor_atom_ids": [
+            52
+          ],
+          "ionic_class": "X",
+          "ionic_charge": -1,
+          "assignment_basis": "inferred finite ionic partition from mapped graph; not measured charge"
+        },
+        {
+          "ligand_id": "ligand.53",
+          "atom_ids": [
+            53
+          ],
+          "donor_atom_ids": [
+            53
+          ],
+          "ionic_class": "X",
+          "ionic_charge": -1,
+          "assignment_basis": "inferred finite ionic partition from mapped graph; not measured charge"
+        },
+        {
+          "ligand_id": "ligand.54",
+          "atom_ids": [
+            54
+          ],
+          "donor_atom_ids": [
+            54
+          ],
+          "ionic_class": "X",
+          "ionic_charge": -1,
+          "assignment_basis": "inferred finite ionic partition from mapped graph; not measured charge"
+        }
+      ],
+      "metal_bindings": [
+        {
+          "binding_id": "bind.ligand.51.0",
+          "metal_atom_id": 50,
+          "ligand_id": "ligand.51",
+          "donor_atom_ids": [
+            51
+          ],
+          "mode": "sigma_covalent"
+        },
+        {
+          "binding_id": "bind.ligand.52.0",
+          "metal_atom_id": 50,
+          "ligand_id": "ligand.52",
+          "donor_atom_ids": [
+            52
+          ],
+          "mode": "sigma_covalent"
+        },
+        {
+          "binding_id": "bind.ligand.53.0",
+          "metal_atom_id": 50,
+          "ligand_id": "ligand.53",
+          "donor_atom_ids": [
+            53
+          ],
+          "mode": "sigma_covalent"
+        },
+        {
+          "binding_id": "bind.ligand.54.0",
+          "metal_atom_id": 50,
+          "ligand_id": "ligand.54",
+          "donor_atom_ids": [
+            54
+          ],
+          "mode": "sigma_covalent"
+        }
+      ],
+      "element_rule_version": "umr-elements/0.8",
+      "element_declarations": [
+        {
+          "atom_id": 10
+        },
+        {
+          "atom_id": 30
+        },
+        {
+          "atom_id": 51
+        },
+        {
+          "atom_id": 52
+        },
+        {
+          "atom_id": 53
+        },
+        {
+          "atom_id": 54
+        }
+      ],
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "SET",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "conditions": {
+        "solvent": "THF",
+        "temperature": "110 C",
+        "activation": "microwave 10 W",
+        "time": "10 min"
+      },
+      "explanation": "Transfer one electron from atom 55 to atom 50.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 335 (McMurry coupling).",
+          "note": "Transfer one electron from atom 55 to atom 50."
+        }
+      ],
+      "mechanism_assumption": "Conditional first Zn-to-TiIV electron transfer while all actual substrate/precursor atoms remain. No low-valent Ti surface or spin is postulated as achieved.",
+      "general_event": "METAL_SET",
+      "electron_transfers": [
+        {
+          "donor_atom_id": 55,
+          "acceptor_atom_id": 50
+        }
+      ],
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-172",
+  "schema_version": "umr/1.0"
+}

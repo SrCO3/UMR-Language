@@ -1,0 +1,348 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": -2,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 8,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 2,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 3,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 4,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 6,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 7,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 9,
+          "element": "Cl",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 20,
+          "element": "O",
+          "formal_charge": -1,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 21,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R"
+        },
+        {
+          "atom_id": 30,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 40,
+          "element": "O",
+          "formal_charge": -1,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 41,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R"
+        }
+      ],
+      "bonds": [
+        {
+          "a": 8,
+          "b": 1,
+          "order": 2
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 6,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 7,
+          "order": 1
+        },
+        {
+          "a": 7,
+          "b": 9,
+          "order": 1
+        },
+        {
+          "a": 7,
+          "b": 1,
+          "order": 1
+        },
+        {
+          "a": 20,
+          "b": 21,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 30,
+          "order": 1
+        },
+        {
+          "a": 40,
+          "b": 41,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "element_rule_version": "umr-elements/0.7",
+      "element_declarations": [
+        {
+          "atom_id": 9
+        }
+      ],
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "f1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "sf1",
+      "product_view_id": "vf1",
+      "actions": [
+        {
+          "a": 40,
+          "b": 30,
+          "op": "PAIR"
+        },
+        {
+          "a": 30,
+          "b": 2,
+          "c": 1,
+          "op": "SHIFT"
+        },
+        {
+          "a": 1,
+          "b": 8,
+          "target": 8,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 40–30 from a lone pair on 40; move the 30–2 pair to 2–1; move the 1–8 pair to 8.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 214 (Favorskii rearrangement).",
+          "note": "In one event, form 40–30 from a lone pair on 40; move the 30–2 pair to 2–1; move the 1–8 pair to 8."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "f2",
+      "event_type": "POLAR",
+      "reactant_view_id": "vf1",
+      "product_state_id": "sf2",
+      "product_view_id": "vf2",
+      "actions": [
+        {
+          "a": 8,
+          "b": 1,
+          "op": "PAIR"
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "c": 7,
+          "op": "SHIFT"
+        },
+        {
+          "a": 7,
+          "b": 9,
+          "target": 9,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "f1",
+      "explanation": "In one event, form 8–1 from a lone pair on 8; move the 1–2 pair to 2–7; move the 7–9 pair to 9.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 214 (Favorskii rearrangement).",
+          "note": "In one event, form 8–1 from a lone pair on 8; move the 1–2 pair to 2–7; move the 7–9 pair to 9."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "f3",
+      "event_type": "POLAR",
+      "reactant_view_id": "vf2",
+      "product_state_id": "sf3",
+      "product_view_id": "vf3",
+      "actions": [
+        {
+          "a": 20,
+          "b": 1,
+          "op": "PAIR"
+        },
+        {
+          "a": 1,
+          "b": 8,
+          "target": 8,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "f2",
+      "explanation": "In one event, form 20–1 from a lone pair on 20; move the 1–8 pair to 8.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 214 (Favorskii rearrangement).",
+          "note": "In one event, form 20–1 from a lone pair on 20; move the 1–8 pair to 8."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "f4",
+      "event_type": "POLAR",
+      "reactant_view_id": "vf3",
+      "product_state_id": "sf4",
+      "product_view_id": "vf4",
+      "actions": [
+        {
+          "a": 8,
+          "b": 1,
+          "op": "PAIR"
+        },
+        {
+          "a": 1,
+          "b": 7,
+          "target": 7,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "f3",
+      "explanation": "In one event, form 8–1 from a lone pair on 8; move the 1–7 pair to 7.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 214 (Favorskii rearrangement).",
+          "note": "In one event, form 8–1 from a lone pair on 8; move the 1–7 pair to 7."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "f5",
+      "event_type": "POLAR",
+      "reactant_view_id": "vf4",
+      "product_state_id": "sf5",
+      "product_view_id": "vf5",
+      "actions": [
+        {
+          "a": 7,
+          "b": 30,
+          "op": "PAIR"
+        },
+        {
+          "a": 30,
+          "b": 40,
+          "target": 40,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "f4",
+      "explanation": "In one event, form 7–30 from a lone pair on 7; move the 30–40 pair to 40.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 214 (Favorskii rearrangement).",
+          "note": "In one event, form 7–30 from a lone pair on 7; move the 30–40 pair to 40."
+        }
+      ],
+      "kind": "ReactionEvent"
+    }
+  ],
+  "symbolic_mode": "unchanged_boundary",
+  "schema_version": "umr/1.0"
+}

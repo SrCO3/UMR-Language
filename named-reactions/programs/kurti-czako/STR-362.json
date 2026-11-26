@@ -1,0 +1,156 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 2,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 3,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 4,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 5,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 6,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 7,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 8,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 2,
+          "order": 2
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 2
+        },
+        {
+          "a": 4,
+          "b": 6,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 7,
+          "order": 1
+        },
+        {
+          "a": 7,
+          "b": 8,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 2,
+          "b": 1,
+          "c": 7,
+          "op": "SHIFT"
+        },
+        {
+          "a": 8,
+          "b": 7,
+          "c": 2,
+          "op": "SHIFT"
+        },
+        {
+          "a": 7,
+          "b": 6,
+          "c": 4,
+          "op": "SHIFT"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "c": 8,
+          "op": "SHIFT"
+        }
+      ],
+      "conditions": {
+        "temperature": "unknown",
+        "oxidant": "peracetic acid",
+        "solvent": "unknown"
+      },
+      "explanation": "In one event, move the 2–1 pair to 1–7; move the 8–7 pair to 7–2; move the 7–6 pair to 6–4; move the 4–5 pair to 5–8.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 362 (PRILEZHAEV REACTION).",
+          "note": "In one event, move the 2–1 pair to 1–7; move the 8–7 pair to 7–2; move the 7–6 pair to 6–4; move the 4–5 pair to 5–8."
+        }
+      ],
+      "mechanism_assumption": "原子守恒的乙烯/过乙酸教学实例；不将任意多键变化注册为通用周环反应。",
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "STR-362",
+  "schema_version": "umr/1.0"
+}

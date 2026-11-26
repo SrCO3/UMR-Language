@@ -1,0 +1,463 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 1,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 11,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 2,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 3,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 62,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 4,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 12,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 6,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 30,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R1"
+        },
+        {
+          "atom_id": 7,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 70,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 10,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 16,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 17,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 32,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R3"
+        },
+        {
+          "atom_id": 8,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 9,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 15,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 71,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 31,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R2"
+        },
+        {
+          "atom_id": 90,
+          "element": "H",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 11,
+          "order": 2
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "order": 2
+        },
+        {
+          "a": 3,
+          "b": 62,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 12,
+          "order": 2
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 6,
+          "order": 2
+        },
+        {
+          "a": 6,
+          "b": 30,
+          "order": 1
+        },
+        {
+          "a": 7,
+          "b": 70,
+          "order": 1
+        },
+        {
+          "a": 7,
+          "b": 10,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 16,
+          "order": 2
+        },
+        {
+          "a": 10,
+          "b": 17,
+          "order": 1
+        },
+        {
+          "a": 17,
+          "b": 32,
+          "order": 1
+        },
+        {
+          "a": 7,
+          "b": 8,
+          "order": 2,
+          "stereo": {
+            "status": "specified",
+            "rdkit_stereo": "STEREOE",
+            "reference_atoms": [
+              10,
+              15
+            ]
+          }
+        },
+        {
+          "a": 8,
+          "b": 9,
+          "order": 1
+        },
+        {
+          "a": 8,
+          "b": 15,
+          "order": 1
+        },
+        {
+          "a": 15,
+          "b": 71,
+          "order": 1
+        },
+        {
+          "a": 15,
+          "b": 31,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 1,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "element_rule_version": "umr-elements/0.8",
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 15,
+          "b": 8,
+          "op": "PAIR"
+        },
+        {
+          "a": 8,
+          "b": 7,
+          "c": 3,
+          "op": "SHIFT"
+        },
+        {
+          "a": 3,
+          "b": 2,
+          "c": 1,
+          "op": "SHIFT"
+        },
+        {
+          "a": 1,
+          "b": 11,
+          "target": 11,
+          "op": "SPLIT"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 391 (Nenitzescu indole synthesis).",
+          "note": "In one event, form 15–8 from a lone pair on 15; move the 8–7 pair to 7–3; move the 3–2 pair to 2–1; move the 1–11 pair to 11."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 11,
+          "b": 71,
+          "op": "PAIR"
+        },
+        {
+          "a": 71,
+          "b": 15,
+          "target": 15,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 11,
+        "hydrogen": 71,
+        "acid": 15
+      },
+      "depends_on_event": "e1",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 391 (Nenitzescu indole synthesis).",
+          "note": "In one event, form 11–71 from a lone pair on 11; move the 71–15 pair to 15."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "POLAR",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "actions": [
+        {
+          "a": 12,
+          "b": 90,
+          "op": "PAIR"
+        }
+      ],
+      "depends_on_event": "e2",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 391 (Nenitzescu indole synthesis).",
+          "note": "In one event, form 12–90 from a lone pair on 12."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4",
+      "event_type": "POLAR",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "actions": [
+        {
+          "a": 15,
+          "b": 4,
+          "op": "PAIR"
+        },
+        {
+          "a": 4,
+          "b": 12,
+          "target": 12,
+          "op": "SPLIT"
+        },
+        {
+          "a": 70,
+          "b": 7,
+          "c": 8,
+          "op": "SHIFT"
+        },
+        {
+          "a": 8,
+          "b": 15,
+          "target": 15,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e3",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 391 (Nenitzescu indole synthesis).",
+          "note": "In one event, form 15–4 from a lone pair on 15; move the 4–12 pair to 12; move the 70–7 pair to 7–8; move the 8–15 pair to 15."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e5",
+      "event_type": "POLAR",
+      "reactant_view_id": "v4",
+      "product_state_id": "s5",
+      "product_view_id": "v5",
+      "actions": [
+        {
+          "a": 12,
+          "b": 70,
+          "op": "PAIR"
+        }
+      ],
+      "depends_on_event": "e4",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 391 (Nenitzescu indole synthesis).",
+          "note": "In one event, form 12–70 from a lone pair on 12."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e6",
+      "event_type": "POLAR",
+      "reactant_view_id": "v5",
+      "product_state_id": "s6",
+      "product_view_id": "v6",
+      "actions": [
+        {
+          "a": 62,
+          "b": 3,
+          "c": 4,
+          "op": "SHIFT"
+        },
+        {
+          "a": 4,
+          "b": 12,
+          "target": 12,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e5",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 391 (Nenitzescu indole synthesis).",
+          "note": "In one event, move the 62–3 pair to 3–4; move the 4–12 pair to 12."
+        }
+      ],
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-202",
+  "symbolic_mode": "unchanged_boundary",
+  "schema_version": "umr/1.0"
+}

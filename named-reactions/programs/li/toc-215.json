@@ -1,0 +1,308 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 1,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 3,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R1"
+        },
+        {
+          "atom_id": 2,
+          "element": "N",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": -1,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 4,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 5,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 6,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R2"
+        },
+        {
+          "atom_id": 7,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R3"
+        },
+        {
+          "atom_id": 8,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 9,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 10,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 11,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 12,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R4"
+        },
+        {
+          "atom_id": 13,
+          "element": "H",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0
+        }
+      ],
+      "bonds": [
+        {
+          "a": 3,
+          "b": 2,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "order": 3
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 2
+        },
+        {
+          "a": 4,
+          "b": 6,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 7,
+          "order": 1
+        },
+        {
+          "a": 8,
+          "b": 9,
+          "order": 2
+        },
+        {
+          "a": 8,
+          "b": 10,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 11,
+          "order": 1
+        },
+        {
+          "a": 8,
+          "b": 12,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "element_rule_version": "umr-elements/0.8",
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 1,
+          "b": 4,
+          "op": "PAIR"
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "target": 2,
+          "op": "SPLIT"
+        },
+        {
+          "a": 9,
+          "b": 1,
+          "op": "PAIR"
+        },
+        {
+          "a": 8,
+          "b": 9,
+          "target": 9,
+          "op": "SPLIT"
+        },
+        {
+          "a": 10,
+          "b": 8,
+          "op": "PAIR"
+        },
+        {
+          "a": 11,
+          "b": 10,
+          "target": 10,
+          "op": "SPLIT"
+        },
+        {
+          "a": 5,
+          "b": 11,
+          "op": "PAIR"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "target": 5,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 1–4 from a lone pair on 1; move the 1–2 pair to 2; form 9–1 from a lone pair on 9; move the 8–9 pair to 9; form 10–8 from a lone pair on 10; move the 11–10 pair to 10; form 5–11 from a lone pair on 5; move the 4–5 pair to 5.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 415 (Passerini reaction).",
+          "note": "In one event, form 1–4 from a lone pair on 1; move the 1–2 pair to 2; form 9–1 from a lone pair on 9; move the 8–9 pair to 9; form 10–8 from a lone pair on 10; move the 11–10 pair to 10; form 5–11 from a lone pair on 5; move the 4–5 pair to 5."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "POLAR",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 5,
+          "b": 8,
+          "op": "PAIR"
+        },
+        {
+          "a": 8,
+          "b": 10,
+          "target": 10,
+          "op": "SPLIT"
+        },
+        {
+          "a": 10,
+          "b": 11,
+          "op": "PAIR"
+        },
+        {
+          "a": 11,
+          "b": 5,
+          "target": 5,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 5–8 from a lone pair on 5; move the 8–10 pair to 10; form 10–11 from a lone pair on 10; move the 11–5 pair to 5.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 415 (Passerini reaction).",
+          "note": "In one event, form 5–8 from a lone pair on 5; move the 8–10 pair to 10; form 10–11 from a lone pair on 10; move the 11–5 pair to 5."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "POLAR",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "actions": [
+        {
+          "a": 10,
+          "b": 8,
+          "op": "PAIR"
+        },
+        {
+          "a": 8,
+          "b": 9,
+          "target": 9,
+          "op": "SPLIT"
+        },
+        {
+          "a": 9,
+          "b": 1,
+          "op": "PAIR"
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "c": 13,
+          "op": "SHIFT"
+        },
+        {
+          "a": 11,
+          "b": 10,
+          "target": 10,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 10–8 from a lone pair on 10; move the 8–9 pair to 9; form 9–1 from a lone pair on 9; move the 1–2 pair to 2–13; move the 11–10 pair to 10.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 415 (Passerini reaction).",
+          "note": "In one event, form 10–8 from a lone pair on 10; move the 8–9 pair to 9; form 9–1 from a lone pair on 9; move the 1–2 pair to 2–13; move the 11–10 pair to 10."
+        }
+      ],
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-215",
+  "symbolic_mode": "unchanged_boundary",
+  "schema_version": "umr/1.0"
+}

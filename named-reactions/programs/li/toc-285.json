@@ -1,0 +1,551 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "conditions": {
+        "base": "K2CO3",
+        "solvent": "MeOH",
+        "temperature": "reflux; numeric value not inferred"
+      },
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 3,
+          "element": "C",
+          "formal_charge": -1,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 2,
+          "element": "N",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 4,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 5,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 20,
+          "element": "S",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 21,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 22,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 23,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 24,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 25,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 26,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 29,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 27,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 28,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 10,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 11,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 12,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 13,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 14,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 15,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 16,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 17,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 18,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 40,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 41,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 42,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 50,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 51,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 52,
+          "element": "O",
+          "formal_charge": -1,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 53,
+          "element": "O",
+          "formal_charge": -1,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 54,
+          "element": "K",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 55,
+          "element": "K",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0
+        }
+      ],
+      "bonds": [
+        {
+          "a": 3,
+          "b": 2,
+          "order": 3
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 5,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 20,
+          "order": 1
+        },
+        {
+          "a": 20,
+          "b": 21,
+          "order": 2
+        },
+        {
+          "a": 20,
+          "b": 22,
+          "order": 2
+        },
+        {
+          "a": 20,
+          "b": 23,
+          "order": 1
+        },
+        {
+          "a": 23,
+          "b": 24,
+          "order": 2
+        },
+        {
+          "a": 24,
+          "b": 25,
+          "order": 1
+        },
+        {
+          "a": 25,
+          "b": 26,
+          "order": 2
+        },
+        {
+          "a": 26,
+          "b": 29,
+          "order": 1
+        },
+        {
+          "a": 26,
+          "b": 27,
+          "order": 1
+        },
+        {
+          "a": 27,
+          "b": 28,
+          "order": 2
+        },
+        {
+          "a": 10,
+          "b": 11,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 12,
+          "order": 2
+        },
+        {
+          "a": 10,
+          "b": 13,
+          "order": 1
+        },
+        {
+          "a": 13,
+          "b": 14,
+          "order": 2
+        },
+        {
+          "a": 14,
+          "b": 15,
+          "order": 1
+        },
+        {
+          "a": 15,
+          "b": 16,
+          "order": 2
+        },
+        {
+          "a": 16,
+          "b": 17,
+          "order": 1
+        },
+        {
+          "a": 17,
+          "b": 18,
+          "order": 2
+        },
+        {
+          "a": 40,
+          "b": 41,
+          "order": 1
+        },
+        {
+          "a": 41,
+          "b": 42,
+          "order": 1
+        },
+        {
+          "a": 50,
+          "b": 51,
+          "order": 2
+        },
+        {
+          "a": 50,
+          "b": 52,
+          "order": 1
+        },
+        {
+          "a": 50,
+          "b": 53,
+          "order": 1
+        },
+        {
+          "a": 28,
+          "b": 23,
+          "order": 1
+        },
+        {
+          "a": 18,
+          "b": 13,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "metal_centers": [
+        {
+          "atom_id": 54
+        },
+        {
+          "atom_id": 55
+        }
+      ],
+      "element_rule_version": "umr-elements/0.8",
+      "element_declarations": [
+        {
+          "atom_id": 20
+        }
+      ],
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 52,
+          "b": 4,
+          "op": "PAIR"
+        },
+        {
+          "a": 4,
+          "b": 1,
+          "target": 1,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 52–4 from a lone pair on 52; move the 4–1 pair to 1.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 556 (van Leusen oxazole synthesis).",
+          "note": "In one event, form 52–4 from a lone pair on 52; move the 4–1 pair to 1."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "POLAR",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 1,
+          "b": 10,
+          "op": "PAIR"
+        },
+        {
+          "a": 10,
+          "b": 12,
+          "target": 12,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 1–10 from a lone pair on 1; move the 10–12 pair to 12.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 556 (van Leusen oxazole synthesis).",
+          "note": "In one event, form 1–10 from a lone pair on 1; move the 10–12 pair to 12."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "POLAR",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "actions": [
+        {
+          "a": 12,
+          "b": 3,
+          "op": "PAIR"
+        },
+        {
+          "a": 3,
+          "b": 2,
+          "target": 2,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 12–3 from a lone pair on 12; move the 3–2 pair to 2.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 556 (van Leusen oxazole synthesis).",
+          "note": "In one event, form 12–3 from a lone pair on 12; move the 3–2 pair to 2."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4",
+      "event_type": "POLAR",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "actions": [
+        {
+          "a": 3,
+          "b": 4,
+          "op": "PAIR"
+        },
+        {
+          "a": 4,
+          "b": 52,
+          "target": 52,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 3–4 from a lone pair on 3; move the 4–52 pair to 52.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 556 (van Leusen oxazole synthesis).",
+          "note": "In one event, form 3–4 from a lone pair on 3; move the 4–52 pair to 52."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e5",
+      "event_type": "POLAR",
+      "reactant_view_id": "v4",
+      "product_state_id": "s5",
+      "product_view_id": "v5",
+      "actions": [
+        {
+          "a": 52,
+          "b": 11,
+          "op": "PAIR"
+        },
+        {
+          "a": 11,
+          "b": 10,
+          "c": 1,
+          "op": "SHIFT"
+        },
+        {
+          "a": 1,
+          "b": 20,
+          "target": 20,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 52–11 from a lone pair on 52; move the 11–10 pair to 10–1; move the 1–20 pair to 20.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 556 (van Leusen oxazole synthesis).",
+          "note": "In one event, form 52–11 from a lone pair on 52; move the 11–10 pair to 10–1; move the 1–20 pair to 20."
+        }
+      ],
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-285",
+  "schema_version": "umr/1.0"
+}

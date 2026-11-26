@@ -1,0 +1,546 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 7,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 10,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 8,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 9,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 1000,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 1001,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 1002,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 1003,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 1004,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 1005,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 2,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 11,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 12,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 17,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 3,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 4,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 6,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 13,
+          "element": "N",
+          "formal_charge": -1,
+          "nonbonding_electrons": 4,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 14,
+          "element": "N",
+          "formal_charge": -1,
+          "nonbonding_electrons": 4,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 15,
+          "element": "Na",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0,
+          "radical_electrons": null
+        },
+        {
+          "atom_id": 16,
+          "element": "Na",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0,
+          "radical_electrons": null
+        },
+        {
+          "atom_id": 19,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 20,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 21,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 7,
+          "order": 1
+        },
+        {
+          "a": 7,
+          "b": 10,
+          "order": 1
+        },
+        {
+          "a": 7,
+          "b": 8,
+          "order": 1
+        },
+        {
+          "a": 8,
+          "b": 9,
+          "order": 2
+        },
+        {
+          "a": 8,
+          "b": 1000,
+          "order": 1
+        },
+        {
+          "a": 1000,
+          "b": 1001,
+          "order": 2
+        },
+        {
+          "a": 1001,
+          "b": 1002,
+          "order": 1
+        },
+        {
+          "a": 1002,
+          "b": 1003,
+          "order": 2
+        },
+        {
+          "a": 1003,
+          "b": 1004,
+          "order": 1
+        },
+        {
+          "a": 1004,
+          "b": 1005,
+          "order": 2
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "order": 2
+        },
+        {
+          "a": 2,
+          "b": 11,
+          "order": 1
+        },
+        {
+          "a": 11,
+          "b": 12,
+          "order": 1
+        },
+        {
+          "a": 11,
+          "b": 17,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "order": 2
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 6,
+          "order": 2
+        },
+        {
+          "a": 19,
+          "b": 20,
+          "order": 1
+        },
+        {
+          "a": 19,
+          "b": 21,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 1,
+          "order": 1
+        },
+        {
+          "a": 1005,
+          "b": 1000,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "metal_centers": [
+        {
+          "atom_id": 15
+        },
+        {
+          "atom_id": 16
+        }
+      ],
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 13,
+          "b": 10,
+          "op": "PAIR"
+        },
+        {
+          "a": 10,
+          "b": 7,
+          "target": 7,
+          "op": "SPLIT"
+        }
+      ],
+      "conditions": {
+        "temperature": "unknown",
+        "base": "NaNH2",
+        "aggregation": "unknown"
+      },
+      "explanation": "In one event, form 13–10 from a lone pair on 13; move the 10–7 pair to 7.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 270 (MADELUNG INDOLE SYNTHESIS).",
+          "note": "In one event, form 13–10 from a lone pair on 13; move the 10–7 pair to 7."
+        }
+      ],
+      "mechanism_assumption": "采用书中允许的 NaNH2 强碱类别及有限分离离子表示；热条件只保留范围，未计算离子聚集。末步为推定水淬灭。",
+      "phase_id": "cyclization",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "POLAR",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 14,
+          "b": 12,
+          "op": "PAIR"
+        },
+        {
+          "a": 12,
+          "b": 11,
+          "target": 11,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e1",
+      "conditions": {
+        "temperature": "unknown",
+        "base": "NaNH2",
+        "aggregation": "unknown"
+      },
+      "explanation": "In one event, form 14–12 from a lone pair on 14; move the 12–11 pair to 11.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 270 (MADELUNG INDOLE SYNTHESIS).",
+          "note": "In one event, form 14–12 from a lone pair on 14; move the 12–11 pair to 11."
+        }
+      ],
+      "mechanism_assumption": "采用书中允许的 NaNH2 强碱类别及有限分离离子表示；热条件只保留范围，未计算离子聚集。末步为推定水淬灭。",
+      "phase_id": "cyclization",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "POLAR",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "actions": [
+        {
+          "a": 11,
+          "b": 8,
+          "op": "PAIR"
+        },
+        {
+          "a": 8,
+          "b": 9,
+          "target": 9,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e2",
+      "conditions": {
+        "temperature": "unknown",
+        "base": "NaNH2",
+        "aggregation": "unknown"
+      },
+      "explanation": "In one event, form 11–8 from a lone pair on 11; move the 8–9 pair to 9.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 270 (MADELUNG INDOLE SYNTHESIS).",
+          "note": "In one event, form 11–8 from a lone pair on 11; move the 8–9 pair to 9."
+        }
+      ],
+      "mechanism_assumption": "采用书中允许的 NaNH2 强碱类别及有限分离离子表示；热条件只保留范围，未计算离子聚集。末步为推定水淬灭。",
+      "phase_id": "cyclization",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4",
+      "event_type": "POLAR",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "actions": [
+        {
+          "a": 9,
+          "b": 17,
+          "op": "PAIR"
+        },
+        {
+          "a": 17,
+          "b": 11,
+          "c": 8,
+          "op": "SHIFT"
+        },
+        {
+          "a": 8,
+          "b": 9,
+          "target": 9,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e3",
+      "conditions": {
+        "temperature": "unknown",
+        "base": "NaNH2",
+        "aggregation": "unknown"
+      },
+      "explanation": "In one event, form 9–17 from a lone pair on 9; move the 17–11 pair to 11–8; move the 8–9 pair to 9.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 270 (MADELUNG INDOLE SYNTHESIS).",
+          "note": "In one event, form 9–17 from a lone pair on 9; move the 17–11 pair to 11–8; move the 8–9 pair to 9."
+        }
+      ],
+      "mechanism_assumption": "采用书中允许的 NaNH2 强碱类别及有限分离离子表示；热条件只保留范围，未计算离子聚集。末步为推定水淬灭。",
+      "phase_id": "cyclization",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e5",
+      "event_type": "POLAR",
+      "reactant_view_id": "v4",
+      "product_state_id": "s5",
+      "product_view_id": "v5",
+      "actions": [
+        {
+          "a": 7,
+          "b": 20,
+          "op": "PAIR"
+        },
+        {
+          "a": 20,
+          "b": 19,
+          "target": 19,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e4",
+      "conditions": {
+        "temperature": "unknown",
+        "base": "NaNH2",
+        "aggregation": "unknown"
+      },
+      "explanation": "In one event, form 7–20 from a lone pair on 7; move the 20–19 pair to 19.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 270 (MADELUNG INDOLE SYNTHESIS).",
+          "note": "In one event, form 7–20 from a lone pair on 7; move the 20–19 pair to 19."
+        }
+      ],
+      "mechanism_assumption": "采用书中允许的 NaNH2 强碱类别及有限分离离子表示；热条件只保留范围，未计算离子聚集。末步为推定水淬灭。",
+      "phase_id": "inferred_quench",
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "STR-270",
+  "phases": [
+    {
+      "phase_id": "cyclization",
+      "kind": "reaction",
+      "event_ids": [
+        "e1",
+        "e2",
+        "e3",
+        "e4"
+      ],
+      "conditions": {
+        "activation": "heated; NaNH2 scope"
+      },
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 270 (MADELUNG INDOLE SYNTHESIS).",
+          "note": "These reaction conditions apply to the cyclization phase."
+        }
+      ]
+    },
+    {
+      "phase_id": "inferred_quench",
+      "kind": "quench",
+      "event_ids": [
+        "e5"
+      ],
+      "activate_atom_ids": [
+        19,
+        20,
+        21
+      ],
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 270 (MADELUNG INDOLE SYNTHESIS).",
+          "note": "These reaction conditions apply to the inferred_quench phase."
+        }
+      ]
+    }
+  ],
+  "schema_version": "umr/1.0"
+}

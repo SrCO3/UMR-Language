@@ -1,0 +1,351 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 2,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 3,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 4,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 6,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 11,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 21,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 12,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 13,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 14,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 24,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 15,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 16,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 2,
+          "order": 3
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "order": 2,
+          "stereo": {
+            "status": "specified",
+            "rdkit_stereo": "STEREOZ",
+            "reference_atoms": [
+              2,
+              5
+            ]
+          }
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 6,
+          "order": 3
+        },
+        {
+          "a": 11,
+          "b": 21,
+          "order": 1
+        },
+        {
+          "a": 11,
+          "b": 12,
+          "order": 1
+        },
+        {
+          "a": 12,
+          "b": 13,
+          "order": 2
+        },
+        {
+          "a": 13,
+          "b": 14,
+          "order": 1
+        },
+        {
+          "a": 14,
+          "b": 24,
+          "order": 1
+        },
+        {
+          "a": 14,
+          "b": 15,
+          "order": 1
+        },
+        {
+          "a": 15,
+          "b": 16,
+          "order": 2
+        },
+        {
+          "a": 16,
+          "b": 11,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "element_rule_version": "umr-elements/0.8",
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "RADICAL",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "source": {
+            "a": 1,
+            "b": 2,
+            "pair": "pi2",
+            "slot": 0,
+            "kind": "bond"
+          },
+          "destination": {
+            "a": 1,
+            "b": 6,
+            "pair": "sigma",
+            "kind": "bond"
+          },
+          "op": "FISHHOOK"
+        },
+        {
+          "source": {
+            "a": 1,
+            "b": 2,
+            "pair": "pi2",
+            "slot": 1,
+            "kind": "bond"
+          },
+          "destination": {
+            "atom_id": 2,
+            "kind": "atom"
+          },
+          "op": "FISHHOOK"
+        },
+        {
+          "source": {
+            "a": 5,
+            "b": 6,
+            "pair": "pi2",
+            "slot": 0,
+            "kind": "bond"
+          },
+          "destination": {
+            "a": 1,
+            "b": 6,
+            "pair": "sigma",
+            "kind": "bond"
+          },
+          "op": "FISHHOOK"
+        },
+        {
+          "source": {
+            "a": 5,
+            "b": 6,
+            "pair": "pi2",
+            "slot": 1,
+            "kind": "bond"
+          },
+          "destination": {
+            "atom_id": 5,
+            "kind": "atom"
+          },
+          "op": "FISHHOOK"
+        }
+      ],
+      "explanation": "In one event, move one electron from bond 1–2 to bond 1–6; move one electron from bond 1–2 to atom at 2; move one electron from bond 5–6 to bond 1–6; move one electron from bond 5–6 to atom at 5.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 40 (Bergman cyclization).",
+          "note": "In one event, move one electron from bond 1–2 to bond 1–6; move one electron from bond 1–2 to atom at 2; move one electron from bond 5–6 to bond 1–6; move one electron from bond 5–6 to atom at 5."
+        }
+      ],
+      "region_atom_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "activation": "thermal",
+      "mechanism_assumption": "Source first ring closure: terminal alkyne pi2 one electron each forms C1-C6 sigma; remaining electrons localize C2/C5. Actual diradical topology; not closed-shell hexatriene substitution. No registered Bergman template is invented.",
+      "mechanism_evidence": "declared_only",
+      "model_assumption": "Formal source-topology electron redistribution; spin correlation and energy pathway unverified.",
+      "general_event": "ENEDIYNE_DIRADICAL",
+      "general_roles": {
+        "a": 1,
+        "b": 2,
+        "c": 3,
+        "d": 4,
+        "e": 5,
+        "f": 6
+      },
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "RADICAL",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "depends_on_event": "e1",
+      "explanation": "Apply HAT_ROLE to the mapped reaction sites in view v1.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 40 (Bergman cyclization).",
+          "note": "Apply HAT_ROLE to the mapped reaction sites in view v1."
+        }
+      ],
+      "activation": "thermal",
+      "mechanism_assumption": "Source first ring closure: terminal alkyne pi2 one electron each forms C1-C6 sigma; remaining electrons localize C2/C5. Actual diradical topology; not closed-shell hexatriene substitution. No registered Bergman template is invented.",
+      "mechanism_evidence": "declared_only",
+      "model_assumption": "Formal source-topology electron redistribution; spin correlation and energy pathway unverified.",
+      "general_event": "HAT_ROLE",
+      "general_roles": {
+        "radical": 2,
+        "hydrogen": 21,
+        "donor": 11
+      },
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "RADICAL",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "bindings": {
+        "radical": 5,
+        "hydrogen": 24,
+        "first": 11,
+        "second": 12,
+        "third": 13,
+        "donor": 14
+      },
+      "depends_on_event": "e2",
+      "explanation": "Apply HAT_AROMATIZATION to the mapped reaction sites in view v2.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 40 (Bergman cyclization).",
+          "note": "Apply HAT_AROMATIZATION to the mapped reaction sites in view v2."
+        }
+      ],
+      "activation": "thermal",
+      "mechanism_assumption": "Source drawn donor/aromatization path; conformational and spin dynamics remain unverified.",
+      "mechanism_evidence": "declared_only",
+      "model_assumption": "Formal source-topology electron redistribution; spin correlation and energy pathway unverified.",
+      "rule_template": "HAT_AROMATIZATION",
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-020",
+  "schema_version": "umr/1.0"
+}

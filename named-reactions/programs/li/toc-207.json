@@ -1,0 +1,658 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "Ni",
+          "formal_charge": 2,
+          "nonbonding_electrons": 8,
+          "radical_electrons": null
+        },
+        {
+          "atom_id": 4,
+          "element": "Cl",
+          "formal_charge": -1,
+          "nonbonding_electrons": 8
+        },
+        {
+          "atom_id": 5,
+          "element": "Cl",
+          "formal_charge": -1,
+          "nonbonding_electrons": 8
+        },
+        {
+          "atom_id": 6,
+          "element": "Cl",
+          "formal_charge": -1,
+          "nonbonding_electrons": 8
+        },
+        {
+          "atom_id": 7,
+          "element": "Cl",
+          "formal_charge": -1,
+          "nonbonding_electrons": 8
+        },
+        {
+          "atom_id": 8,
+          "element": "Cl",
+          "formal_charge": -1,
+          "nonbonding_electrons": 8
+        },
+        {
+          "atom_id": 9,
+          "element": "Cl",
+          "formal_charge": -1,
+          "nonbonding_electrons": 8
+        },
+        {
+          "atom_id": 2,
+          "element": "Cr",
+          "formal_charge": 2,
+          "nonbonding_electrons": 4,
+          "radical_electrons": null
+        },
+        {
+          "atom_id": 3,
+          "element": "Cr",
+          "formal_charge": 2,
+          "nonbonding_electrons": 4,
+          "radical_electrons": null
+        },
+        {
+          "atom_id": 10,
+          "element": "Cr",
+          "formal_charge": 2,
+          "nonbonding_electrons": 4,
+          "radical_electrons": null
+        },
+        {
+          "atom_id": 11,
+          "element": "Cr",
+          "formal_charge": 2,
+          "nonbonding_electrons": 4,
+          "radical_electrons": null
+        },
+        {
+          "atom_id": 12,
+          "element": "Cr",
+          "formal_charge": 2,
+          "nonbonding_electrons": 4,
+          "radical_electrons": null
+        },
+        {
+          "atom_id": 13,
+          "element": "Cl",
+          "formal_charge": -1,
+          "nonbonding_electrons": 8
+        },
+        {
+          "atom_id": 14,
+          "element": "Cl",
+          "formal_charge": -1,
+          "nonbonding_electrons": 8
+        },
+        {
+          "atom_id": 15,
+          "element": "Cl",
+          "formal_charge": -1,
+          "nonbonding_electrons": 8
+        },
+        {
+          "atom_id": 16,
+          "element": "Cl",
+          "formal_charge": -1,
+          "nonbonding_electrons": 8
+        },
+        {
+          "atom_id": 17,
+          "element": "Cl",
+          "formal_charge": -1,
+          "nonbonding_electrons": 8
+        },
+        {
+          "atom_id": 18,
+          "element": "Cl",
+          "formal_charge": -1,
+          "nonbonding_electrons": 8
+        },
+        {
+          "atom_id": 101,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 107,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 108,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 109,
+          "element": "I",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 102,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 103,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 104,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 105,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 106,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 110,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 111,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 112,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 113,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 114,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 118,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 119,
+          "element": "Si",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 120,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 121,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 122,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 123,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 124,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 125,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 115,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 116,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 117,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        }
+      ],
+      "bonds": [
+        {
+          "a": 101,
+          "b": 107,
+          "order": 1
+        },
+        {
+          "a": 107,
+          "b": 108,
+          "order": 3
+        },
+        {
+          "a": 108,
+          "b": 109,
+          "order": 1
+        },
+        {
+          "a": 101,
+          "b": 102,
+          "order": 2
+        },
+        {
+          "a": 102,
+          "b": 103,
+          "order": 1
+        },
+        {
+          "a": 103,
+          "b": 104,
+          "order": 2
+        },
+        {
+          "a": 104,
+          "b": 105,
+          "order": 1
+        },
+        {
+          "a": 105,
+          "b": 106,
+          "order": 2
+        },
+        {
+          "a": 106,
+          "b": 110,
+          "order": 1
+        },
+        {
+          "a": 110,
+          "b": 111,
+          "order": 3
+        },
+        {
+          "a": 111,
+          "b": 112,
+          "order": 1
+        },
+        {
+          "a": 112,
+          "b": 113,
+          "order": 1
+        },
+        {
+          "a": 113,
+          "b": 114,
+          "order": 1
+        },
+        {
+          "a": 114,
+          "b": 118,
+          "order": 1
+        },
+        {
+          "a": 118,
+          "b": 119,
+          "order": 1
+        },
+        {
+          "a": 119,
+          "b": 120,
+          "order": 1
+        },
+        {
+          "a": 119,
+          "b": 121,
+          "order": 1
+        },
+        {
+          "a": 119,
+          "b": 122,
+          "order": 1
+        },
+        {
+          "a": 122,
+          "b": 123,
+          "order": 1
+        },
+        {
+          "a": 122,
+          "b": 124,
+          "order": 1
+        },
+        {
+          "a": 122,
+          "b": 125,
+          "order": 1
+        },
+        {
+          "a": 114,
+          "b": 115,
+          "order": 1
+        },
+        {
+          "a": 115,
+          "b": 116,
+          "order": 1
+        },
+        {
+          "a": 116,
+          "b": 117,
+          "order": 2
+        },
+        {
+          "a": 106,
+          "b": 101,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "metal_centers": [
+        {
+          "atom_id": 2,
+          "oxidation_state": 2,
+          "evidence": [
+            {
+              "level": "observed",
+              "source": "Labelled as observed in the source record. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 401 (Nozaki–Hiyama–Kishi reaction).",
+              "note": "The declared local electronic state applies to mapped atom 2."
+            }
+          ]
+        },
+        {
+          "atom_id": 3,
+          "oxidation_state": 2,
+          "evidence": [
+            {
+              "level": "observed",
+              "source": "Labelled as observed in the source record. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 401 (Nozaki–Hiyama–Kishi reaction).",
+              "note": "The declared local electronic state applies to mapped atom 3."
+            }
+          ]
+        },
+        {
+          "atom_id": 1
+        },
+        {
+          "atom_id": 10,
+          "oxidation_state": 2,
+          "evidence": [
+            {
+              "level": "observed",
+              "source": "Labelled as observed in the source record. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 401 (Nozaki–Hiyama–Kishi reaction).",
+              "note": "The declared local electronic state applies to mapped atom 10."
+            }
+          ]
+        },
+        {
+          "atom_id": 11,
+          "oxidation_state": 2,
+          "evidence": [
+            {
+              "level": "observed",
+              "source": "Labelled as observed in the source record. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 401 (Nozaki–Hiyama–Kishi reaction).",
+              "note": "The declared local electronic state applies to mapped atom 11."
+            }
+          ]
+        },
+        {
+          "atom_id": 12,
+          "oxidation_state": 2,
+          "evidence": [
+            {
+              "level": "observed",
+              "source": "Labelled as observed in the source record. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 401 (Nozaki–Hiyama–Kishi reaction).",
+              "note": "The declared local electronic state applies to mapped atom 12."
+            }
+          ]
+        }
+      ],
+      "ligands": [
+        {
+          "ligand_id": "actual_alkynyl",
+          "atom_ids": [
+            101,
+            107,
+            108,
+            102,
+            103,
+            104,
+            105,
+            106,
+            110,
+            111,
+            112,
+            113,
+            114,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            115,
+            116,
+            117
+          ],
+          "donor_atom_ids": [
+            108
+          ],
+          "ionic_class": "X",
+          "ionic_charge": -1,
+          "assignment_basis": "explicit source Example3 fragment for OA"
+        },
+        {
+          "ligand_id": "source_iodide",
+          "atom_ids": [
+            109
+          ],
+          "donor_atom_ids": [
+            109
+          ],
+          "ionic_class": "X",
+          "ionic_charge": -1,
+          "assignment_basis": "explicit source Example3 fragment for OA"
+        }
+      ],
+      "element_rule_version": "umr-elements/0.8",
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "SET",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "conditions": {
+        "solvent": "THF"
+      },
+      "explanation": "Transfer one electron from atom 2 to atom 1.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 401 (Nozaki–Hiyama–Kishi reaction).",
+          "note": "Transfer one electron from atom 2 to atom 1."
+        }
+      ],
+      "mechanism_assumption": "Proposed one-electron CrII atom 2 donation to Ni; the printed catalyst activation is net two-electron. Cr spin and donor microoccupation remain unresolved; native rejection must not be waived.",
+      "general_event": "METAL_SET",
+      "electron_transfers": [
+        {
+          "donor_atom_id": 2,
+          "acceptor_atom_id": 1
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "SET",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "conditions": {
+        "solvent": "THF"
+      },
+      "explanation": "Transfer one electron from atom 3 to atom 1.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 401 (Nozaki–Hiyama–Kishi reaction).",
+          "note": "Transfer one electron from atom 3 to atom 1."
+        }
+      ],
+      "mechanism_assumption": "Proposed one-electron CrII atom 3 donation to Ni; the printed catalyst activation is net two-electron. Cr spin and donor microoccupation remain unresolved; native rejection must not be waived.",
+      "general_event": "METAL_SET",
+      "electron_transfers": [
+        {
+          "donor_atom_id": 3,
+          "acceptor_atom_id": 1
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "POLAR",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "bindings": {
+        "metal": 1,
+        "organic_atom": 108,
+        "leaving_atom": 109
+      },
+      "depends_on_event": "e2",
+      "conditions": {
+        "solvent": "THF"
+      },
+      "explanation": "Apply MONONUCLEAR_OA_2E to the mapped reaction sites in view v2.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 401 (Nozaki–Hiyama–Kishi reaction).",
+          "note": "Apply MONONUCLEAR_OA_2E to the mapped reaction sites in view v2."
+        }
+      ],
+      "mechanism_assumption": "Two SET activation and paired Ni OA are formal main-cycle hypotheses applied to exact Example3; coordination/spin uncertain.",
+      "mechanism_evidence": "declared_only",
+      "metal_participation": true,
+      "metal_template": "OXIDATIVE_ADDITION_2E",
+      "ligand_roles": {
+        "organic": "actual_alkynyl",
+        "leaving": "source_iodide"
+      },
+      "general_event": "MONONUCLEAR_OA_2E",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4",
+      "event_type": "POLAR",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "actions": [
+        {
+          "a": 4,
+          "b": 2,
+          "op": "PAIR"
+        }
+      ],
+      "depends_on_event": "e3",
+      "conditions": {
+        "geometry_status": "unknown",
+        "vacant_site_available": null,
+        "product_alkene_binding": "free"
+      },
+      "explanation": "In one event, form 4–2 from a lone pair on 4.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 401 (Nozaki–Hiyama–Kishi reaction).",
+          "note": "In one event, form 4–2 from a lone pair on 4."
+        }
+      ],
+      "mechanism_assumption": "Source draws CrIIICl3 in transmetallation; current ionic model requires registered ligand association. All five Cr and twelve chloride atoms preserved.",
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-207",
+  "schema_version": "umr/1.0"
+}

@@ -1,0 +1,355 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "conditions": {
+        "preparation": "1.CS2,NaOH;2.MeI"
+      },
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 6,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 30,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R"
+        },
+        {
+          "atom_id": 2,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 3,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 4,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 10,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 11,
+          "element": "S",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 12,
+          "element": "S",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 13,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 14,
+          "element": "I",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 20,
+          "element": "O",
+          "formal_charge": -1,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 21,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 22,
+          "element": "Na",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 6,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 30,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 11,
+          "order": 2
+        },
+        {
+          "a": 10,
+          "b": 12,
+          "order": 2
+        },
+        {
+          "a": 13,
+          "b": 14,
+          "order": 1
+        },
+        {
+          "a": 20,
+          "b": 21,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "metal_centers": [
+        {
+          "atom_id": 22
+        }
+      ],
+      "element_rule_version": "umr-elements/0.8",
+      "element_declarations": [
+        {
+          "atom_id": 11
+        },
+        {
+          "atom_id": 12
+        },
+        {
+          "atom_id": 14
+        }
+      ],
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 20,
+          "b": 4,
+          "op": "PAIR"
+        },
+        {
+          "a": 4,
+          "b": 3,
+          "target": 3,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 20–4 from a lone pair on 20; move the 4–3 pair to 3.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 110 (Chugaev reaction).",
+          "note": "In one event, form 20–4 from a lone pair on 20; move the 4–3 pair to 3."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "POLAR",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 3,
+          "b": 10,
+          "op": "PAIR"
+        },
+        {
+          "a": 10,
+          "b": 12,
+          "target": 12,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 3–10 from a lone pair on 3; move the 10–12 pair to 12.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 110 (Chugaev reaction).",
+          "note": "In one event, form 3–10 from a lone pair on 3; move the 10–12 pair to 12."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "POLAR",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "actions": [
+        {
+          "a": 12,
+          "b": 13,
+          "op": "PAIR"
+        },
+        {
+          "a": 13,
+          "b": 14,
+          "target": 14,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 12–13 from a lone pair on 12; move the 13–14 pair to 14.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 110 (Chugaev reaction).",
+          "note": "In one event, form 12–13 from a lone pair on 12; move the 13–14 pair to 14."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4",
+      "event_type": "PERICYCLIC",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "bindings": {
+        "ordered_hetero_Ei_cycle": [
+          11,
+          10,
+          3,
+          2,
+          1,
+          6
+        ]
+      },
+      "explanation": "Apply XANTHATE_SYN_ELIMINATION to the mapped reaction sites in view v3.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 110 (Chugaev reaction).",
+          "note": "Apply XANTHATE_SYN_ELIMINATION to the mapped reaction sites in view v3."
+        }
+      ],
+      "template_version": "0.2",
+      "region_atom_ids": [
+        11,
+        10,
+        3,
+        2,
+        1,
+        6
+      ],
+      "activation": "thermal",
+      "mechanism_assumption": "Book six-member syn hetero retro-ene/Ei request. RETRO_ENE is explicitly deferred; this probes absent profile, not implemented bindings or a POLAR bypass.",
+      "general_event": "XANTHATE_SYN_ELIMINATION",
+      "general_roles": {
+        "sulfur": 11,
+        "carbon": 10,
+        "oxygen": 3,
+        "alpha": 2,
+        "beta": 1,
+        "hydrogen": 6
+      },
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e5",
+      "event_type": "POLAR",
+      "reactant_view_id": "v4",
+      "product_state_id": "s5",
+      "product_view_id": "v5",
+      "actions": [
+        {
+          "a": 11,
+          "b": 10,
+          "op": "PAIR"
+        },
+        {
+          "a": 10,
+          "b": 12,
+          "target": 12,
+          "op": "SPLIT"
+        },
+        {
+          "a": 12,
+          "b": 6,
+          "op": "PAIR"
+        },
+        {
+          "a": 6,
+          "b": 11,
+          "target": 11,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e4",
+      "explanation": "In one event, form 11–10 from a lone pair on 11; move the 10–12 pair to 12; form 12–6 from a lone pair on 12; move the 6–11 pair to 11.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 110 (Chugaev reaction).",
+          "note": "In one event, form 11–10 from a lone pair on 11; move the 10–12 pair to 12; form 12–6 from a lone pair on 12; move the 6–11 pair to 11."
+        }
+      ],
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-053",
+  "symbolic_mode": "unchanged_boundary",
+  "schema_version": "umr/1.0"
+}

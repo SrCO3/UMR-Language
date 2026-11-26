@@ -1,0 +1,1159 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "conditions": {
+        "reagents": [
+          "NaOAc",
+          "Ac2O"
+        ],
+        "temperature": "110 °C",
+        "yield": "69%–73%"
+      },
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 2,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 3,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 4,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 6,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 7,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 17,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 15,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 16,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 14,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 8,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 9,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 18,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 10,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 19,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 11,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 20,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 12,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 21,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 13,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 22,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 101,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 102,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 103,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 104,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 114,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 105,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 115,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 106,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 107,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 108,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 116,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 117,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 118,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 109,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 110,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 111,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 119,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 120,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 121,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 112,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 122,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 113,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 201,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 202,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 203,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 204,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 205,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 206,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 207,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 211,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 212,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 213,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 208,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 209,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 210,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 301,
+          "element": "Na",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 302,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 303,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 304,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 305,
+          "element": "O",
+          "formal_charge": -1,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 306,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 307,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 308,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 2,
+          "order": 2
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 6,
+          "order": 2
+        },
+        {
+          "a": 5,
+          "b": 7,
+          "order": 1
+        },
+        {
+          "a": 7,
+          "b": 17,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 15,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 16,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 14,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 8,
+          "order": 1
+        },
+        {
+          "a": 8,
+          "b": 9,
+          "order": 2
+        },
+        {
+          "a": 9,
+          "b": 18,
+          "order": 1
+        },
+        {
+          "a": 9,
+          "b": 10,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 19,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 11,
+          "order": 2
+        },
+        {
+          "a": 11,
+          "b": 20,
+          "order": 1
+        },
+        {
+          "a": 11,
+          "b": 12,
+          "order": 1
+        },
+        {
+          "a": 12,
+          "b": 21,
+          "order": 1
+        },
+        {
+          "a": 12,
+          "b": 13,
+          "order": 2
+        },
+        {
+          "a": 13,
+          "b": 22,
+          "order": 1
+        },
+        {
+          "a": 101,
+          "b": 102,
+          "order": 2
+        },
+        {
+          "a": 102,
+          "b": 103,
+          "order": 1
+        },
+        {
+          "a": 103,
+          "b": 104,
+          "order": 2
+        },
+        {
+          "a": 104,
+          "b": 114,
+          "order": 1
+        },
+        {
+          "a": 104,
+          "b": 105,
+          "order": 1
+        },
+        {
+          "a": 105,
+          "b": 115,
+          "order": 1
+        },
+        {
+          "a": 105,
+          "b": 106,
+          "order": 2
+        },
+        {
+          "a": 106,
+          "b": 107,
+          "order": 1
+        },
+        {
+          "a": 107,
+          "b": 108,
+          "order": 1
+        },
+        {
+          "a": 108,
+          "b": 116,
+          "order": 1
+        },
+        {
+          "a": 108,
+          "b": 117,
+          "order": 1
+        },
+        {
+          "a": 108,
+          "b": 118,
+          "order": 1
+        },
+        {
+          "a": 106,
+          "b": 109,
+          "order": 1
+        },
+        {
+          "a": 109,
+          "b": 110,
+          "order": 1
+        },
+        {
+          "a": 110,
+          "b": 111,
+          "order": 1
+        },
+        {
+          "a": 111,
+          "b": 119,
+          "order": 1
+        },
+        {
+          "a": 111,
+          "b": 120,
+          "order": 1
+        },
+        {
+          "a": 111,
+          "b": 121,
+          "order": 1
+        },
+        {
+          "a": 109,
+          "b": 112,
+          "order": 2
+        },
+        {
+          "a": 112,
+          "b": 122,
+          "order": 1
+        },
+        {
+          "a": 102,
+          "b": 113,
+          "order": 1
+        },
+        {
+          "a": 201,
+          "b": 202,
+          "order": 1
+        },
+        {
+          "a": 202,
+          "b": 203,
+          "order": 2
+        },
+        {
+          "a": 202,
+          "b": 204,
+          "order": 1
+        },
+        {
+          "a": 204,
+          "b": 205,
+          "order": 1
+        },
+        {
+          "a": 205,
+          "b": 206,
+          "order": 2
+        },
+        {
+          "a": 205,
+          "b": 207,
+          "order": 1
+        },
+        {
+          "a": 207,
+          "b": 211,
+          "order": 1
+        },
+        {
+          "a": 207,
+          "b": 212,
+          "order": 1
+        },
+        {
+          "a": 207,
+          "b": 213,
+          "order": 1
+        },
+        {
+          "a": 201,
+          "b": 208,
+          "order": 1
+        },
+        {
+          "a": 201,
+          "b": 209,
+          "order": 1
+        },
+        {
+          "a": 201,
+          "b": 210,
+          "order": 1
+        },
+        {
+          "a": 302,
+          "b": 303,
+          "order": 1
+        },
+        {
+          "a": 303,
+          "b": 304,
+          "order": 2
+        },
+        {
+          "a": 303,
+          "b": 305,
+          "order": 1
+        },
+        {
+          "a": 302,
+          "b": 306,
+          "order": 1
+        },
+        {
+          "a": 302,
+          "b": 307,
+          "order": 1
+        },
+        {
+          "a": 302,
+          "b": 308,
+          "order": 1
+        },
+        {
+          "a": 13,
+          "b": 8,
+          "order": 1
+        },
+        {
+          "a": 112,
+          "b": 103,
+          "order": 1
+        }
+      ],
+      "metal_centers": [
+        {
+          "atom_id": 301
+        }
+      ],
+      "element_rule_version": "umr-elements/0.7",
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "CARBONYL_ADDITION",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 7,
+          "b": 202,
+          "op": "PAIR"
+        },
+        {
+          "a": 202,
+          "b": 203,
+          "target": 203,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "nucleophile": 7,
+        "carbonyl_carbon": 202,
+        "oxygen": 203
+      },
+      "explanation": "In one event, form 7–202 from a lone pair on 7; move the 202–203 pair to 203.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 204 (Erlenmeyer−Plöchl azlactone synthesis).",
+          "note": "In one event, form 7–202 from a lone pair on 7; move the 202–203 pair to 203."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 305,
+          "b": 17,
+          "op": "PAIR"
+        },
+        {
+          "a": 17,
+          "b": 7,
+          "target": 7,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 305,
+        "hydrogen": 17,
+        "acid": 7
+      },
+      "explanation": "In one event, form 305–17 from a lone pair on 305; move the 17–7 pair to 7.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 204 (Erlenmeyer−Plöchl azlactone synthesis).",
+          "note": "In one event, form 305–17 from a lone pair on 305; move the 17–7 pair to 7."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "POLAR",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "actions": [
+        {
+          "a": 203,
+          "b": 202,
+          "op": "PAIR"
+        },
+        {
+          "a": 202,
+          "b": 204,
+          "target": 204,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 203–202 from a lone pair on 203; move the 202–204 pair to 204.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 204 (Erlenmeyer−Plöchl azlactone synthesis).",
+          "note": "In one event, form 203–202 from a lone pair on 203; move the 202–204 pair to 204."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "actions": [
+        {
+          "a": 204,
+          "b": 14,
+          "op": "PAIR"
+        },
+        {
+          "a": 14,
+          "b": 3,
+          "target": 3,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 204,
+        "hydrogen": 14,
+        "acid": 3
+      },
+      "explanation": "In one event, form 204–14 from a lone pair on 204; move the 14–3 pair to 3.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 204 (Erlenmeyer−Plöchl azlactone synthesis).",
+          "note": "In one event, form 204–14 from a lone pair on 204; move the 14–3 pair to 3."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e5",
+      "event_type": "CARBONYL_ADDITION",
+      "reactant_view_id": "v4",
+      "product_state_id": "s5",
+      "product_view_id": "v5",
+      "actions": [
+        {
+          "a": 1,
+          "b": 5,
+          "op": "PAIR"
+        },
+        {
+          "a": 5,
+          "b": 6,
+          "target": 6,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "nucleophile": 1,
+        "carbonyl_carbon": 5,
+        "oxygen": 6
+      },
+      "explanation": "In one event, form 1–5 from a lone pair on 1; move the 5–6 pair to 6.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 204 (Erlenmeyer−Plöchl azlactone synthesis).",
+          "note": "In one event, form 1–5 from a lone pair on 1; move the 5–6 pair to 6."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e6",
+      "event_type": "POLAR",
+      "reactant_view_id": "v5",
+      "product_state_id": "s6",
+      "product_view_id": "v6",
+      "actions": [
+        {
+          "a": 3,
+          "b": 2,
+          "op": "PAIR"
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "target": 1,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 3–2 from a lone pair on 3; move the 2–1 pair to 1.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 204 (Erlenmeyer−Plöchl azlactone synthesis).",
+          "note": "In one event, form 3–2 from a lone pair on 3; move the 2–1 pair to 1."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e7",
+      "event_type": "POLAR",
+      "reactant_view_id": "v6",
+      "product_state_id": "s7",
+      "product_view_id": "v7",
+      "actions": [
+        {
+          "a": 6,
+          "b": 5,
+          "op": "PAIR"
+        },
+        {
+          "a": 5,
+          "b": 7,
+          "target": 7,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 6–5 from a lone pair on 6; move the 5–7 pair to 7.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 204 (Erlenmeyer−Plöchl azlactone synthesis).",
+          "note": "In one event, form 6–5 from a lone pair on 6; move the 5–7 pair to 7."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e8",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v7",
+      "product_state_id": "s8",
+      "product_view_id": "v8",
+      "actions": [
+        {
+          "a": 7,
+          "b": 15,
+          "op": "PAIR"
+        },
+        {
+          "a": 15,
+          "b": 4,
+          "target": 4,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 7,
+        "hydrogen": 15,
+        "acid": 4
+      },
+      "explanation": "In one event, form 7–15 from a lone pair on 7; move the 15–4 pair to 4.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 204 (Erlenmeyer−Plöchl azlactone synthesis).",
+          "note": "In one event, form 7–15 from a lone pair on 7; move the 15–4 pair to 4."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e9",
+      "event_type": "CARBONYL_ADDITION",
+      "reactant_view_id": "v8",
+      "product_state_id": "s9",
+      "product_view_id": "v9",
+      "actions": [
+        {
+          "a": 4,
+          "b": 102,
+          "op": "PAIR"
+        },
+        {
+          "a": 102,
+          "b": 101,
+          "target": 101,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "nucleophile": 4,
+        "carbonyl_carbon": 102,
+        "oxygen": 101
+      },
+      "explanation": "In one event, form 4–102 from a lone pair on 4; move the 102–101 pair to 101.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 204 (Erlenmeyer−Plöchl azlactone synthesis).",
+          "note": "In one event, form 4–102 from a lone pair on 4; move the 102–101 pair to 101."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e10",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v9",
+      "product_state_id": "s10",
+      "product_view_id": "v10",
+      "actions": [
+        {
+          "a": 101,
+          "b": 15,
+          "op": "PAIR"
+        },
+        {
+          "a": 15,
+          "b": 7,
+          "target": 7,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 101,
+        "hydrogen": 15,
+        "acid": 7
+      },
+      "explanation": "In one event, form 101–15 from a lone pair on 101; move the 15–7 pair to 7.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 204 (Erlenmeyer−Plöchl azlactone synthesis).",
+          "note": "In one event, form 101–15 from a lone pair on 101; move the 15–7 pair to 7."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e11",
+      "event_type": "E1CB_DEPROTONATION",
+      "reactant_view_id": "v10",
+      "product_state_id": "s11",
+      "product_view_id": "v11",
+      "actions": [
+        {
+          "a": 7,
+          "b": 16,
+          "op": "PAIR"
+        },
+        {
+          "a": 16,
+          "b": 4,
+          "target": 4,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "alpha_carbon": 102,
+        "beta_carbon": 4,
+        "hydrogen": 16,
+        "leaving_group": 101,
+        "base": 7
+      },
+      "explanation": "In one event, form 7–16 from a lone pair on 7; move the 16–4 pair to 4.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 204 (Erlenmeyer−Plöchl azlactone synthesis).",
+          "note": "In one event, form 7–16 from a lone pair on 7; move the 16–4 pair to 4."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e12",
+      "event_type": "E1CB_ELIMINATION",
+      "reactant_view_id": "v11",
+      "product_state_id": "s12",
+      "product_view_id": "v12",
+      "actions": [
+        {
+          "a": 4,
+          "b": 102,
+          "op": "PAIR"
+        },
+        {
+          "a": 102,
+          "b": 101,
+          "target": 101,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "alpha_carbon": 102,
+        "beta_carbon": 4,
+        "hydrogen": 16,
+        "leaving_group": 101,
+        "base": 7
+      },
+      "depends_on_event": "e11",
+      "explanation": "In one event, form 4–102 from a lone pair on 4; move the 102–101 pair to 101.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 204 (Erlenmeyer−Plöchl azlactone synthesis).",
+          "note": "In one event, form 4–102 from a lone pair on 4; move the 102–101 pair to 101."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e13",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v12",
+      "product_state_id": "s13",
+      "product_view_id": "v13",
+      "actions": [
+        {
+          "a": 101,
+          "b": 16,
+          "op": "PAIR"
+        },
+        {
+          "a": 16,
+          "b": 7,
+          "target": 7,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 101,
+        "hydrogen": 16,
+        "acid": 7
+      },
+      "explanation": "In one event, form 101–16 from a lone pair on 101; move the 16–7 pair to 7.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 204 (Erlenmeyer−Plöchl azlactone synthesis).",
+          "note": "In one event, form 101–16 from a lone pair on 101; move the 16–7 pair to 7."
+        }
+      ],
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-100",
+  "schema_version": "umr/1.0"
+}

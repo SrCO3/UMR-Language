@@ -1,0 +1,1817 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "Pd",
+          "formal_charge": 0,
+          "nonbonding_electrons": 8
+        },
+        {
+          "atom_id": 10,
+          "element": "P",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 100,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 101,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 102,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 103,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 104,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 105,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 110,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 111,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 112,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 113,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 114,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 115,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 120,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 121,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 122,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 123,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 124,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 125,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 20,
+          "element": "P",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 130,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 131,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 132,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 133,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 134,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 135,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 140,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 141,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 142,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 143,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 144,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 145,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 150,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 151,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 152,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 153,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 154,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 155,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 30,
+          "element": "P",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 160,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 161,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 162,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 163,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 164,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 165,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 170,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 171,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 172,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 173,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 174,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 175,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 180,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 181,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 182,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 183,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 184,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 185,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 40,
+          "element": "P",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 190,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 191,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 192,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 193,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 194,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 195,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 200,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 201,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 202,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 203,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 204,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 205,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 210,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 211,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 212,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 213,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 214,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 215,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 450,
+          "element": "Cl",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 451,
+          "element": "Cl",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 500,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 501,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 502,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 503,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 504,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 505,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 506,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 507,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 508,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 509,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 510,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 511,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 512,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 513,
+          "element": "S",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 514,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 515,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 516,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 517,
+          "element": "F",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 518,
+          "element": "F",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 519,
+          "element": "F",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 520,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 521,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 522,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 523,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 600,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 601,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 602,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 603,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 604,
+          "element": "B",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 605,
+          "element": "B",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 606,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 607,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 608,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 609,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 610,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 611,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 612,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 613,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 614,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 615,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 616,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 617,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 700,
+          "element": "K",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0,
+          "radical_electrons": null
+        },
+        {
+          "atom_id": 701,
+          "element": "K",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0,
+          "radical_electrons": null
+        },
+        {
+          "atom_id": 702,
+          "element": "O",
+          "formal_charge": -1,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 703,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 704,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 705,
+          "element": "O",
+          "formal_charge": -1,
+          "nonbonding_electrons": 6
+        }
+      ],
+      "bonds": [
+        {
+          "a": 10,
+          "b": 100,
+          "order": 1
+        },
+        {
+          "a": 100,
+          "b": 101,
+          "order": 2
+        },
+        {
+          "a": 101,
+          "b": 102,
+          "order": 1
+        },
+        {
+          "a": 102,
+          "b": 103,
+          "order": 2
+        },
+        {
+          "a": 103,
+          "b": 104,
+          "order": 1
+        },
+        {
+          "a": 104,
+          "b": 105,
+          "order": 2
+        },
+        {
+          "a": 10,
+          "b": 110,
+          "order": 1
+        },
+        {
+          "a": 110,
+          "b": 111,
+          "order": 2
+        },
+        {
+          "a": 111,
+          "b": 112,
+          "order": 1
+        },
+        {
+          "a": 112,
+          "b": 113,
+          "order": 2
+        },
+        {
+          "a": 113,
+          "b": 114,
+          "order": 1
+        },
+        {
+          "a": 114,
+          "b": 115,
+          "order": 2
+        },
+        {
+          "a": 10,
+          "b": 120,
+          "order": 1
+        },
+        {
+          "a": 120,
+          "b": 121,
+          "order": 2
+        },
+        {
+          "a": 121,
+          "b": 122,
+          "order": 1
+        },
+        {
+          "a": 122,
+          "b": 123,
+          "order": 2
+        },
+        {
+          "a": 123,
+          "b": 124,
+          "order": 1
+        },
+        {
+          "a": 124,
+          "b": 125,
+          "order": 2
+        },
+        {
+          "a": 20,
+          "b": 130,
+          "order": 1
+        },
+        {
+          "a": 130,
+          "b": 131,
+          "order": 2
+        },
+        {
+          "a": 131,
+          "b": 132,
+          "order": 1
+        },
+        {
+          "a": 132,
+          "b": 133,
+          "order": 2
+        },
+        {
+          "a": 133,
+          "b": 134,
+          "order": 1
+        },
+        {
+          "a": 134,
+          "b": 135,
+          "order": 2
+        },
+        {
+          "a": 20,
+          "b": 140,
+          "order": 1
+        },
+        {
+          "a": 140,
+          "b": 141,
+          "order": 2
+        },
+        {
+          "a": 141,
+          "b": 142,
+          "order": 1
+        },
+        {
+          "a": 142,
+          "b": 143,
+          "order": 2
+        },
+        {
+          "a": 143,
+          "b": 144,
+          "order": 1
+        },
+        {
+          "a": 144,
+          "b": 145,
+          "order": 2
+        },
+        {
+          "a": 20,
+          "b": 150,
+          "order": 1
+        },
+        {
+          "a": 150,
+          "b": 151,
+          "order": 2
+        },
+        {
+          "a": 151,
+          "b": 152,
+          "order": 1
+        },
+        {
+          "a": 152,
+          "b": 153,
+          "order": 2
+        },
+        {
+          "a": 153,
+          "b": 154,
+          "order": 1
+        },
+        {
+          "a": 154,
+          "b": 155,
+          "order": 2
+        },
+        {
+          "a": 30,
+          "b": 160,
+          "order": 1
+        },
+        {
+          "a": 160,
+          "b": 161,
+          "order": 2
+        },
+        {
+          "a": 161,
+          "b": 162,
+          "order": 1
+        },
+        {
+          "a": 162,
+          "b": 163,
+          "order": 2
+        },
+        {
+          "a": 163,
+          "b": 164,
+          "order": 1
+        },
+        {
+          "a": 164,
+          "b": 165,
+          "order": 2
+        },
+        {
+          "a": 30,
+          "b": 170,
+          "order": 1
+        },
+        {
+          "a": 170,
+          "b": 171,
+          "order": 2
+        },
+        {
+          "a": 171,
+          "b": 172,
+          "order": 1
+        },
+        {
+          "a": 172,
+          "b": 173,
+          "order": 2
+        },
+        {
+          "a": 173,
+          "b": 174,
+          "order": 1
+        },
+        {
+          "a": 174,
+          "b": 175,
+          "order": 2
+        },
+        {
+          "a": 30,
+          "b": 180,
+          "order": 1
+        },
+        {
+          "a": 180,
+          "b": 181,
+          "order": 2
+        },
+        {
+          "a": 181,
+          "b": 182,
+          "order": 1
+        },
+        {
+          "a": 182,
+          "b": 183,
+          "order": 2
+        },
+        {
+          "a": 183,
+          "b": 184,
+          "order": 1
+        },
+        {
+          "a": 184,
+          "b": 185,
+          "order": 2
+        },
+        {
+          "a": 40,
+          "b": 190,
+          "order": 1
+        },
+        {
+          "a": 190,
+          "b": 191,
+          "order": 2
+        },
+        {
+          "a": 191,
+          "b": 192,
+          "order": 1
+        },
+        {
+          "a": 192,
+          "b": 193,
+          "order": 2
+        },
+        {
+          "a": 193,
+          "b": 194,
+          "order": 1
+        },
+        {
+          "a": 194,
+          "b": 195,
+          "order": 2
+        },
+        {
+          "a": 40,
+          "b": 200,
+          "order": 1
+        },
+        {
+          "a": 200,
+          "b": 201,
+          "order": 2
+        },
+        {
+          "a": 201,
+          "b": 202,
+          "order": 1
+        },
+        {
+          "a": 202,
+          "b": 203,
+          "order": 2
+        },
+        {
+          "a": 203,
+          "b": 204,
+          "order": 1
+        },
+        {
+          "a": 204,
+          "b": 205,
+          "order": 2
+        },
+        {
+          "a": 40,
+          "b": 210,
+          "order": 1
+        },
+        {
+          "a": 210,
+          "b": 211,
+          "order": 2
+        },
+        {
+          "a": 211,
+          "b": 212,
+          "order": 1
+        },
+        {
+          "a": 212,
+          "b": 213,
+          "order": 2
+        },
+        {
+          "a": 213,
+          "b": 214,
+          "order": 1
+        },
+        {
+          "a": 214,
+          "b": 215,
+          "order": 2
+        },
+        {
+          "a": 105,
+          "b": 100,
+          "order": 1
+        },
+        {
+          "a": 115,
+          "b": 110,
+          "order": 1
+        },
+        {
+          "a": 125,
+          "b": 120,
+          "order": 1
+        },
+        {
+          "a": 135,
+          "b": 130,
+          "order": 1
+        },
+        {
+          "a": 145,
+          "b": 140,
+          "order": 1
+        },
+        {
+          "a": 155,
+          "b": 150,
+          "order": 1
+        },
+        {
+          "a": 165,
+          "b": 160,
+          "order": 1
+        },
+        {
+          "a": 175,
+          "b": 170,
+          "order": 1
+        },
+        {
+          "a": 185,
+          "b": 180,
+          "order": 1
+        },
+        {
+          "a": 195,
+          "b": 190,
+          "order": 1
+        },
+        {
+          "a": 205,
+          "b": 200,
+          "order": 1
+        },
+        {
+          "a": 215,
+          "b": 210,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 450,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 451,
+          "order": 1
+        },
+        {
+          "a": 500,
+          "b": 501,
+          "order": 2
+        },
+        {
+          "a": 501,
+          "b": 502,
+          "order": 1
+        },
+        {
+          "a": 502,
+          "b": 503,
+          "order": 1
+        },
+        {
+          "a": 503,
+          "b": 504,
+          "order": 1
+        },
+        {
+          "a": 504,
+          "b": 505,
+          "order": 2
+        },
+        {
+          "a": 505,
+          "b": 506,
+          "order": 1
+        },
+        {
+          "a": 506,
+          "b": 507,
+          "order": 2
+        },
+        {
+          "a": 507,
+          "b": 508,
+          "order": 1
+        },
+        {
+          "a": 508,
+          "b": 509,
+          "order": 2
+        },
+        {
+          "a": 501,
+          "b": 510,
+          "order": 1
+        },
+        {
+          "a": 510,
+          "b": 511,
+          "order": 1
+        },
+        {
+          "a": 511,
+          "b": 512,
+          "order": 1
+        },
+        {
+          "a": 512,
+          "b": 513,
+          "order": 1
+        },
+        {
+          "a": 513,
+          "b": 514,
+          "order": 2
+        },
+        {
+          "a": 513,
+          "b": 515,
+          "order": 2
+        },
+        {
+          "a": 513,
+          "b": 516,
+          "order": 1
+        },
+        {
+          "a": 516,
+          "b": 517,
+          "order": 1
+        },
+        {
+          "a": 516,
+          "b": 518,
+          "order": 1
+        },
+        {
+          "a": 516,
+          "b": 519,
+          "order": 1
+        },
+        {
+          "a": 511,
+          "b": 520,
+          "order": 2
+        },
+        {
+          "a": 520,
+          "b": 521,
+          "order": 1
+        },
+        {
+          "a": 521,
+          "b": 522,
+          "order": 1
+        },
+        {
+          "a": 522,
+          "b": 523,
+          "order": 1
+        },
+        {
+          "a": 509,
+          "b": 504,
+          "order": 1
+        },
+        {
+          "a": 523,
+          "b": 510,
+          "order": 1
+        },
+        {
+          "a": 600,
+          "b": 601,
+          "order": 1
+        },
+        {
+          "a": 601,
+          "b": 602,
+          "order": 1
+        },
+        {
+          "a": 601,
+          "b": 603,
+          "order": 1
+        },
+        {
+          "a": 603,
+          "b": 604,
+          "order": 1
+        },
+        {
+          "a": 604,
+          "b": 605,
+          "order": 1
+        },
+        {
+          "a": 605,
+          "b": 606,
+          "order": 1
+        },
+        {
+          "a": 606,
+          "b": 607,
+          "order": 1
+        },
+        {
+          "a": 607,
+          "b": 608,
+          "order": 1
+        },
+        {
+          "a": 607,
+          "b": 609,
+          "order": 1
+        },
+        {
+          "a": 607,
+          "b": 610,
+          "order": 1
+        },
+        {
+          "a": 610,
+          "b": 611,
+          "order": 1
+        },
+        {
+          "a": 610,
+          "b": 612,
+          "order": 1
+        },
+        {
+          "a": 610,
+          "b": 613,
+          "order": 1
+        },
+        {
+          "a": 604,
+          "b": 614,
+          "order": 1
+        },
+        {
+          "a": 614,
+          "b": 615,
+          "order": 1
+        },
+        {
+          "a": 615,
+          "b": 616,
+          "order": 1
+        },
+        {
+          "a": 615,
+          "b": 617,
+          "order": 1
+        },
+        {
+          "a": 615,
+          "b": 601,
+          "order": 1
+        },
+        {
+          "a": 613,
+          "b": 605,
+          "order": 1
+        },
+        {
+          "a": 702,
+          "b": 703,
+          "order": 1
+        },
+        {
+          "a": 703,
+          "b": 704,
+          "order": 2
+        },
+        {
+          "a": 703,
+          "b": 705,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "metal_centers": [
+        {
+          "atom_id": 1,
+          "oxidation_state": 2
+        },
+        {
+          "atom_id": 700
+        },
+        {
+          "atom_id": 701
+        }
+      ],
+      "ligands": [
+        {
+          "ligand_id": "ligand.10",
+          "atom_ids": [
+            10,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125
+          ],
+          "donor_atom_ids": [
+            10
+          ],
+          "ionic_class": "L",
+          "ionic_charge": 0,
+          "assignment_basis": "inferred finite ionic partition from mapped graph; not measured charge"
+        },
+        {
+          "ligand_id": "ligand.20",
+          "atom_ids": [
+            20,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155
+          ],
+          "donor_atom_ids": [
+            20
+          ],
+          "ionic_class": "L",
+          "ionic_charge": 0,
+          "assignment_basis": "inferred finite ionic partition from mapped graph; not measured charge"
+        },
+        {
+          "ligand_id": "ligand.30",
+          "atom_ids": [
+            30,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185
+          ],
+          "donor_atom_ids": [
+            30
+          ],
+          "ionic_class": "L",
+          "ionic_charge": 0,
+          "assignment_basis": "inferred finite ionic partition from mapped graph; not measured charge"
+        },
+        {
+          "ligand_id": "ligand.40",
+          "atom_ids": [
+            40,
+            190,
+            191,
+            192,
+            193,
+            194,
+            195,
+            200,
+            201,
+            202,
+            203,
+            204,
+            205,
+            210,
+            211,
+            212,
+            213,
+            214,
+            215
+          ],
+          "donor_atom_ids": [
+            40
+          ],
+          "ionic_class": "L",
+          "ionic_charge": 0,
+          "assignment_basis": "inferred finite ionic partition from mapped graph; not measured charge"
+        },
+        {
+          "ligand_id": "chloride450",
+          "atom_ids": [
+            450
+          ],
+          "donor_atom_ids": [
+            450
+          ],
+          "ionic_class": "X",
+          "ionic_charge": -1
+        },
+        {
+          "ligand_id": "chloride451",
+          "atom_ids": [
+            451
+          ],
+          "donor_atom_ids": [
+            451
+          ],
+          "ionic_class": "X",
+          "ionic_charge": -1
+        }
+      ],
+      "metal_bindings": [
+        {
+          "binding_id": "bind.ligand.30.0",
+          "metal_atom_id": 1,
+          "ligand_id": "ligand.30",
+          "donor_atom_ids": [
+            30
+          ],
+          "mode": "dative"
+        },
+        {
+          "binding_id": "bind.ligand.40.0",
+          "metal_atom_id": 1,
+          "ligand_id": "ligand.40",
+          "donor_atom_ids": [
+            40
+          ],
+          "mode": "dative"
+        },
+        {
+          "binding_id": "PdCl450",
+          "metal_atom_id": 1,
+          "ligand_id": "chloride450",
+          "donor_atom_ids": [
+            450
+          ],
+          "mode": "sigma_covalent"
+        },
+        {
+          "binding_id": "PdCl451",
+          "metal_atom_id": 1,
+          "ligand_id": "chloride451",
+          "donor_atom_ids": [
+            451
+          ],
+          "mode": "sigma_covalent"
+        }
+      ],
+      "element_rule_version": "umr-elements/0.8",
+      "element_declarations": [
+        {
+          "atom_id": 10
+        },
+        {
+          "atom_id": 20
+        },
+        {
+          "atom_id": 30
+        },
+        {
+          "atom_id": 40
+        },
+        {
+          "atom_id": 513
+        },
+        {
+          "atom_id": 604
+        },
+        {
+          "atom_id": 605
+        }
+      ],
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 702,
+          "b": 604,
+          "op": "PAIR"
+        }
+      ],
+      "conditions": {
+        "solvent": "dioxane",
+        "temperature": "90 C"
+      },
+      "explanation": "In one event, form 702–604 from a lone pair on 702.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 368 (Miyaura borylation).",
+          "note": "In one event, form 702–604 from a lone pair on 702."
+        }
+      ],
+      "mechanism_assumption": "Actual source Example2 K2CO3 activates one B of full B2pin2; all pinacol methyl groups, Cbz-vinyl OTf and PdCl2(PPh3)2 plus two extra PPh3 retained.",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "POLAR",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 604,
+          "b": 605,
+          "c": 1,
+          "op": "SHIFT"
+        },
+        {
+          "a": 1,
+          "b": 450,
+          "target": 450,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e1",
+      "conditions": {
+        "solvent": "dioxane",
+        "temperature": "90 C"
+      },
+      "explanation": "In one event, move the 604–605 pair to 605–1; move the 1–450 pair to 450.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 368 (Miyaura borylation).",
+          "note": "In one event, move the 604–605 pair to 605–1; move the 1–450 pair to 450."
+        }
+      ],
+      "mechanism_assumption": "Formal borate-to-PdII boryl transfer as possible precursor activation channel; source omits PdII reduction, so not source-verified. No Pd0 replacement or missing chloride inventory.",
+      "metal_participation": true,
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-189",
+  "schema_version": "umr/1.0"
+}

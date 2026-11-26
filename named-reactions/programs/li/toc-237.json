@@ -1,0 +1,362 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 100,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R100"
+        },
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 2,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 101,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R101"
+        },
+        {
+          "atom_id": 4,
+          "element": "Br",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 6,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 7,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 8,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 102,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R102"
+        },
+        {
+          "atom_id": 20,
+          "element": "Zn",
+          "formal_charge": 0,
+          "nonbonding_electrons": 12
+        },
+        {
+          "atom_id": 30,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 31,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 32,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        }
+      ],
+      "bonds": [
+        {
+          "a": 100,
+          "b": 1,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "order": 2
+        },
+        {
+          "a": 1,
+          "b": 101,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 6,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 7,
+          "order": 2
+        },
+        {
+          "a": 6,
+          "b": 8,
+          "order": 1
+        },
+        {
+          "a": 8,
+          "b": 102,
+          "order": 1
+        },
+        {
+          "a": 30,
+          "b": 31,
+          "order": 1
+        },
+        {
+          "a": 30,
+          "b": 32,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "metal_centers": [
+        {
+          "atom_id": 20
+        }
+      ],
+      "element_rule_version": "umr-elements/0.8",
+      "element_declarations": [
+        {
+          "atom_id": 4
+        }
+      ],
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 20,
+          "b": 5,
+          "op": "PAIR"
+        },
+        {
+          "a": 5,
+          "b": 4,
+          "c": 20,
+          "op": "SHIFT"
+        }
+      ],
+      "explanation": "In one event, form 20–5 from a lone pair on 20; move the 5–4 pair to 4–20.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 456 (Reformatsky reaction).",
+          "note": "In one event, form 20–5 from a lone pair on 20; move the 5–4 pair to 4–20."
+        }
+      ],
+      "mechanism_assumption": "Main explicitly allowed formal two-electron Zn0 insertion into C-Br; metal electron recipe required.",
+      "general_event": "METAL_RX_INSERTION",
+      "general_roles": {
+        "metal": 20,
+        "organic": 5,
+        "halogen": 4
+      },
+      "phase_id": "reaction",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "POLAR",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 20,
+          "b": 5,
+          "c": 1,
+          "op": "SHIFT"
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "target": 2,
+          "op": "SPLIT"
+        },
+        {
+          "a": 2,
+          "b": 20,
+          "op": "PAIR"
+        }
+      ],
+      "depends_on_event": "e1",
+      "explanation": "In one event, move the 20–5 pair to 5–1; move the 1–2 pair to 2; form 2–20 from a lone pair on 2.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 456 (Reformatsky reaction).",
+          "note": "In one event, move the 20–5 pair to 5–1; move the 1–2 pair to 2; form 2–20 from a lone pair on 2."
+        }
+      ],
+      "mechanism_assumption": "Proposed organozinc carbonyl addition retains ZnBr on oxygen; no free carbanion substitution.",
+      "general_event": "METAL_CARBONYL_ADDITION",
+      "general_roles": {
+        "metal": 20,
+        "nucleophile": 5,
+        "carbon": 1,
+        "oxygen": 2
+      },
+      "phase_id": "reaction",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "POLAR",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "actions": [
+        {
+          "a": 30,
+          "b": 20,
+          "op": "PAIR"
+        },
+        {
+          "a": 20,
+          "b": 2,
+          "target": 2,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e2",
+      "explanation": "In one event, form 30–20 from a lone pair on 30; move the 20–2 pair to 2.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 456 (Reformatsky reaction).",
+          "note": "In one event, form 30–20 from a lone pair on 30; move the 20–2 pair to 2."
+        }
+      ],
+      "mechanism_assumption": "Declared water ligand substitution gives alkoxide and zinc-bound water.",
+      "general_event": "METAL_SOLVENT_X_EXCHANGE",
+      "general_roles": {
+        "metal": 20,
+        "leaving": 2,
+        "donor": 30
+      },
+      "phase_id": "workup",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4",
+      "event_type": "POLAR",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "actions": [
+        {
+          "a": 2,
+          "b": 31,
+          "op": "PAIR"
+        },
+        {
+          "a": 31,
+          "b": 30,
+          "target": 30,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e3",
+      "explanation": "In one event, form 2–31 from a lone pair on 2; move the 31–30 pair to 30.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 456 (Reformatsky reaction).",
+          "note": "In one event, form 2–31 from a lone pair on 2; move the 31–30 pair to 30."
+        }
+      ],
+      "phase_id": "workup",
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-237",
+  "symbolic_mode": "unchanged_boundary",
+  "phases": [
+    {
+      "phase_id": "reaction",
+      "kind": "reaction",
+      "event_ids": [
+        "e1",
+        "e2"
+      ],
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 456 (Reformatsky reaction).",
+          "note": "These reaction conditions apply to the reaction phase."
+        }
+      ]
+    },
+    {
+      "phase_id": "workup",
+      "kind": "quench",
+      "event_ids": [
+        "e3",
+        "e4"
+      ],
+      "activate_atom_ids": [
+        30,
+        31,
+        32
+      ],
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 456 (Reformatsky reaction).",
+          "note": "These reaction conditions apply to the workup phase."
+        }
+      ]
+    }
+  ],
+  "schema_version": "umr/1.0"
+}

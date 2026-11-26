@@ -1,0 +1,385 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 20,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 21,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 5,
+          "radical_electrons": 1
+        },
+        {
+          "atom_id": 22,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 23,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 24,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 25,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 26,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 27,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 28,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 29,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 30,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 120,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 121,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 5,
+          "radical_electrons": 1
+        },
+        {
+          "atom_id": 122,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 123,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 124,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 125,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 126,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 127,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 128,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 129,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 130,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 50,
+          "element": "O",
+          "formal_charge": -1,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 51,
+          "element": "Cl",
+          "formal_charge": 0,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 52,
+          "element": "Na",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0
+        }
+      ],
+      "bonds": [
+        {
+          "a": 20,
+          "b": 21,
+          "order": 1
+        },
+        {
+          "a": 20,
+          "b": 22,
+          "order": 1
+        },
+        {
+          "a": 22,
+          "b": 23,
+          "order": 1
+        },
+        {
+          "a": 22,
+          "b": 24,
+          "order": 1
+        },
+        {
+          "a": 22,
+          "b": 25,
+          "order": 1
+        },
+        {
+          "a": 25,
+          "b": 26,
+          "order": 1
+        },
+        {
+          "a": 26,
+          "b": 27,
+          "order": 1
+        },
+        {
+          "a": 27,
+          "b": 28,
+          "order": 1
+        },
+        {
+          "a": 28,
+          "b": 29,
+          "order": 1
+        },
+        {
+          "a": 28,
+          "b": 30,
+          "order": 1
+        },
+        {
+          "a": 120,
+          "b": 121,
+          "order": 1
+        },
+        {
+          "a": 120,
+          "b": 122,
+          "order": 1
+        },
+        {
+          "a": 122,
+          "b": 123,
+          "order": 1
+        },
+        {
+          "a": 122,
+          "b": 124,
+          "order": 1
+        },
+        {
+          "a": 122,
+          "b": 125,
+          "order": 1
+        },
+        {
+          "a": 125,
+          "b": 126,
+          "order": 1
+        },
+        {
+          "a": 126,
+          "b": 127,
+          "order": 1
+        },
+        {
+          "a": 127,
+          "b": 128,
+          "order": 1
+        },
+        {
+          "a": 128,
+          "b": 129,
+          "order": 1
+        },
+        {
+          "a": 128,
+          "b": 130,
+          "order": 1
+        },
+        {
+          "a": 50,
+          "b": 51,
+          "order": 1
+        },
+        {
+          "a": 28,
+          "b": 20,
+          "order": 1
+        },
+        {
+          "a": 128,
+          "b": 120,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "metal_centers": [
+        {
+          "atom_id": 52
+        }
+      ],
+      "element_rule_version": "umr-elements/0.8",
+      "element_declarations": [
+        {
+          "atom_id": 51,
+          "oxidation_state": 1
+        }
+      ],
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "SET",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "source": {
+            "atom_id": 21,
+            "kind": "radical"
+          },
+          "destination": {
+            "atom_id": 50,
+            "kind": "atom"
+          },
+          "op": "FISHHOOK"
+        },
+        {
+          "source": {
+            "atom_id": 121,
+            "kind": "radical"
+          },
+          "destination": {
+            "atom_id": 50,
+            "kind": "atom"
+          },
+          "op": "FISHHOOK"
+        },
+        {
+          "a": 20,
+          "b": 21,
+          "op": "PAIR"
+        },
+        {
+          "a": 120,
+          "b": 121,
+          "op": "PAIR"
+        },
+        {
+          "a": 50,
+          "b": 51,
+          "target": 51,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, move one electron from radical at 21 to atom at 50; move one electron from radical at 121 to atom at 50; form 20–21 from a lone pair on 20; form 120–121 from a lone pair on 120; move the 50–51 pair to 51.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 544 (TEMPO oxidation).",
+          "note": "In one event, move one electron from radical at 21 to atom at 50; move one electron from radical at 121 to atom at 50; form 20–21 from a lone pair on 20; form 120–121 from a lone pair on 120; move the 50–51 pair to 51."
+        }
+      ],
+      "region_atom_ids": [
+        20,
+        21,
+        120,
+        121,
+        50,
+        51
+      ],
+      "mechanism_evidence": "declared_only",
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-280",
+  "schema_version": "umr/1.0"
+}

@@ -1,0 +1,1012 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 1,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 2,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 3,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 4,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 5,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 6,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 7,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 8,
+          "element": "H",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 9,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 10,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 12,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 13,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 14,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 15,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 16,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 21,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 17,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 18,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 19,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 20,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 33,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 30,
+          "element": "N",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 31,
+          "element": "O",
+          "formal_charge": -1,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 32,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 34,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 35,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 36,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 37,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 38,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 29,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 2,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 6,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 7,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 9,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 10,
+          "order": 1
+        },
+        {
+          "a": 12,
+          "b": 13,
+          "order": 1
+        },
+        {
+          "a": 12,
+          "b": 14,
+          "order": 1
+        },
+        {
+          "a": 12,
+          "b": 15,
+          "order": 1
+        },
+        {
+          "a": 15,
+          "b": 16,
+          "order": 2
+        },
+        {
+          "a": 16,
+          "b": 21,
+          "order": 1
+        },
+        {
+          "a": 16,
+          "b": 17,
+          "order": 1
+        },
+        {
+          "a": 17,
+          "b": 18,
+          "order": 2
+        },
+        {
+          "a": 18,
+          "b": 19,
+          "order": 1
+        },
+        {
+          "a": 19,
+          "b": 20,
+          "order": 2
+        },
+        {
+          "a": 20,
+          "b": 15,
+          "order": 1
+        },
+        {
+          "a": 33,
+          "b": 30,
+          "order": 1
+        },
+        {
+          "a": 30,
+          "b": 31,
+          "order": 1
+        },
+        {
+          "a": 30,
+          "b": 32,
+          "order": 2
+        },
+        {
+          "a": 33,
+          "b": 34,
+          "order": 2
+        },
+        {
+          "a": 34,
+          "b": 35,
+          "order": 1
+        },
+        {
+          "a": 35,
+          "b": 36,
+          "order": 2
+        },
+        {
+          "a": 36,
+          "b": 37,
+          "order": 1
+        },
+        {
+          "a": 37,
+          "b": 38,
+          "order": 2
+        },
+        {
+          "a": 38,
+          "b": 33,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 29,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "element_rule_version": "umr-elements/0.7",
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 4,
+          "b": 8,
+          "op": "PAIR"
+        }
+      ],
+      "explanation": "In one event, form 4–8 from a lone pair on 4.",
+      "evidence": [
+        {
+          "level": "observed",
+          "source": "Labelled as observed in the source record. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 509 (Skraup quinoline synthesis).",
+          "note": "In one event, form 4–8 from a lone pair on 4."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "POLAR",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 9,
+          "b": 2,
+          "c": 3,
+          "op": "SHIFT"
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "target": 4,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e1",
+      "explanation": "In one event, move the 9–2 pair to 2–3; move the 3–4 pair to 4.",
+      "evidence": [
+        {
+          "level": "observed",
+          "source": "Labelled as observed in the source record. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 509 (Skraup quinoline synthesis).",
+          "note": "In one event, move the 9–2 pair to 2–3; move the 3–4 pair to 4."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "POLAR",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "actions": [
+        {
+          "a": 2,
+          "b": 3,
+          "c": 9,
+          "op": "SHIFT"
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "op": "PAIR"
+        }
+      ],
+      "depends_on_event": "e2",
+      "explanation": "In one event, move the 2–3 pair to 3–9; form 1–2 from a lone pair on 1.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 509 (Skraup quinoline synthesis).",
+          "note": "In one event, move the 2–3 pair to 3–9; form 1–2 from a lone pair on 1."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4",
+      "event_type": "POLAR",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "actions": [
+        {
+          "a": 10,
+          "b": 1,
+          "target": 1,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e3",
+      "explanation": "In one event, move the 10–1 pair to 1.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 509 (Skraup quinoline synthesis).",
+          "note": "In one event, move the 10–1 pair to 1."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e5",
+      "event_type": "POLAR",
+      "reactant_view_id": "v4",
+      "product_state_id": "s5",
+      "product_view_id": "v5",
+      "actions": [
+        {
+          "a": 7,
+          "b": 10,
+          "op": "PAIR"
+        }
+      ],
+      "depends_on_event": "e4",
+      "explanation": "In one event, form 7–10 from a lone pair on 7.",
+      "evidence": [
+        {
+          "level": "observed",
+          "source": "Labelled as observed in the source record. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 509 (Skraup quinoline synthesis).",
+          "note": "In one event, form 7–10 from a lone pair on 7."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e6",
+      "event_type": "POLAR",
+      "reactant_view_id": "v5",
+      "product_state_id": "s6",
+      "product_view_id": "v6",
+      "actions": [
+        {
+          "a": 9,
+          "b": 3,
+          "c": 6,
+          "op": "SHIFT"
+        },
+        {
+          "a": 6,
+          "b": 7,
+          "target": 7,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e5",
+      "explanation": "In one event, move the 9–3 pair to 3–6; move the 6–7 pair to 7.",
+      "evidence": [
+        {
+          "level": "observed",
+          "source": "Labelled as observed in the source record. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 509 (Skraup quinoline synthesis).",
+          "note": "In one event, move the 9–3 pair to 3–6; move the 6–7 pair to 7."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e7",
+      "event_type": "POLAR",
+      "reactant_view_id": "v6",
+      "product_state_id": "s7",
+      "product_view_id": "v7",
+      "actions": [
+        {
+          "a": 1,
+          "b": 9,
+          "op": "PAIR"
+        }
+      ],
+      "depends_on_event": "e6",
+      "explanation": "In one event, form 1–9 from a lone pair on 1.",
+      "evidence": [
+        {
+          "level": "observed",
+          "source": "Labelled as observed in the source record. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 509 (Skraup quinoline synthesis).",
+          "note": "In one event, form 1–9 from a lone pair on 1."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e8",
+      "event_type": "POLAR",
+      "reactant_view_id": "v7",
+      "product_state_id": "s8",
+      "product_view_id": "v8",
+      "actions": [
+        {
+          "a": 12,
+          "b": 6,
+          "op": "PAIR"
+        },
+        {
+          "a": 6,
+          "b": 3,
+          "c": 2,
+          "op": "SHIFT"
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "target": 1,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e7",
+      "explanation": "In one event, form 12–6 from a lone pair on 12; move the 6–3 pair to 3–2; move the 2–1 pair to 1.",
+      "evidence": [
+        {
+          "level": "observed",
+          "source": "Labelled as observed in the source record. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 509 (Skraup quinoline synthesis).",
+          "note": "In one event, form 12–6 from a lone pair on 12; move the 6–3 pair to 3–2; move the 2–1 pair to 1."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e9",
+      "event_type": "POLAR",
+      "reactant_view_id": "v8",
+      "product_state_id": "s9",
+      "product_view_id": "v9",
+      "actions": [
+        {
+          "a": 4,
+          "b": 13,
+          "op": "PAIR"
+        },
+        {
+          "a": 13,
+          "b": 12,
+          "target": 12,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e8",
+      "explanation": "In one event, form 4–13 from a lone pair on 4; move the 13–12 pair to 12.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 509 (Skraup quinoline synthesis).",
+          "note": "In one event, form 4–13 from a lone pair on 4; move the 13–12 pair to 12."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e10",
+      "event_type": "POLAR",
+      "reactant_view_id": "v9",
+      "product_state_id": "s10",
+      "product_view_id": "v10",
+      "actions": [
+        {
+          "a": 2,
+          "b": 3,
+          "c": 13,
+          "op": "SHIFT"
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "op": "PAIR"
+        },
+        {
+          "a": 13,
+          "b": 4,
+          "target": 4,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e9",
+      "explanation": "In one event, move the 2–3 pair to 3–13; form 1–2 from a lone pair on 1; move the 13–4 pair to 4.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 509 (Skraup quinoline synthesis).",
+          "note": "In one event, move the 2–3 pair to 3–13; form 1–2 from a lone pair on 1; move the 13–4 pair to 4."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e11",
+      "event_type": "POLAR",
+      "reactant_view_id": "v10",
+      "product_state_id": "s11",
+      "product_view_id": "v11",
+      "actions": [
+        {
+          "a": 9,
+          "b": 1,
+          "target": 1,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e10",
+      "explanation": "In one event, move the 9–1 pair to 1.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 509 (Skraup quinoline synthesis).",
+          "note": "In one event, move the 9–1 pair to 1."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e12",
+      "event_type": "POLAR",
+      "reactant_view_id": "v11",
+      "product_state_id": "s12",
+      "product_view_id": "v12",
+      "actions": [
+        {
+          "a": 1,
+          "b": 9,
+          "op": "PAIR"
+        }
+      ],
+      "depends_on_event": "e11",
+      "explanation": "In one event, form 1–9 from a lone pair on 1.",
+      "evidence": [
+        {
+          "level": "observed",
+          "source": "Labelled as observed in the source record. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 509 (Skraup quinoline synthesis).",
+          "note": "In one event, form 1–9 from a lone pair on 1."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e13",
+      "event_type": "POLAR",
+      "reactant_view_id": "v12",
+      "product_state_id": "s13",
+      "product_view_id": "v13",
+      "actions": [
+        {
+          "a": 12,
+          "b": 15,
+          "op": "PAIR"
+        },
+        {
+          "a": 15,
+          "b": 16,
+          "c": 2,
+          "op": "SHIFT"
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "target": 1,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e12",
+      "explanation": "In one event, form 12–15 from a lone pair on 12; move the 15–16 pair to 16–2; move the 2–1 pair to 1.",
+      "evidence": [
+        {
+          "level": "observed",
+          "source": "Labelled as observed in the source record. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 509 (Skraup quinoline synthesis).",
+          "note": "In one event, form 12–15 from a lone pair on 12; move the 15–16 pair to 16–2; move the 2–1 pair to 1."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e14",
+      "event_type": "POLAR",
+      "reactant_view_id": "v13",
+      "product_state_id": "s14",
+      "product_view_id": "v14",
+      "actions": [
+        {
+          "a": 4,
+          "b": 21,
+          "op": "PAIR"
+        },
+        {
+          "a": 21,
+          "b": 16,
+          "c": 15,
+          "op": "SHIFT"
+        },
+        {
+          "a": 15,
+          "b": 12,
+          "target": 12,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e13",
+      "explanation": "In one event, form 4–21 from a lone pair on 4; move the 21–16 pair to 16–15; move the 15–12 pair to 12.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 509 (Skraup quinoline synthesis).",
+          "note": "In one event, form 4–21 from a lone pair on 4; move the 21–16 pair to 16–15; move the 15–12 pair to 12."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e15",
+      "event_type": "POLAR",
+      "reactant_view_id": "v14",
+      "product_state_id": "s15",
+      "product_view_id": "v15",
+      "actions": [
+        {
+          "a": 1,
+          "b": 21,
+          "op": "PAIR"
+        },
+        {
+          "a": 21,
+          "b": 4,
+          "target": 4,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e14",
+      "explanation": "In one event, form 1–21 from a lone pair on 1; move the 21–4 pair to 4.",
+      "evidence": [
+        {
+          "level": "observed",
+          "source": "Labelled as observed in the source record. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 509 (Skraup quinoline synthesis).",
+          "note": "In one event, form 1–21 from a lone pair on 1; move the 21–4 pair to 4."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e16",
+      "event_type": "POLAR",
+      "reactant_view_id": "v15",
+      "product_state_id": "s16",
+      "product_view_id": "v16",
+      "actions": [
+        {
+          "a": 13,
+          "b": 3,
+          "c": 2,
+          "op": "SHIFT"
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "target": 1,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e15",
+      "explanation": "In one event, move the 13–3 pair to 3–2; move the 2–1 pair to 1.",
+      "evidence": [
+        {
+          "level": "observed",
+          "source": "Labelled as observed in the source record. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 509 (Skraup quinoline synthesis).",
+          "note": "In one event, move the 13–3 pair to 3–2; move the 2–1 pair to 1."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e17",
+      "event_type": "POLAR",
+      "reactant_view_id": "v16",
+      "product_state_id": "s17",
+      "product_view_id": "v17",
+      "actions": [
+        {
+          "a": 31,
+          "b": 13,
+          "op": "PAIR"
+        }
+      ],
+      "depends_on_event": "e16",
+      "explanation": "In one event, form 31–13 from a lone pair on 31.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 509 (Skraup quinoline synthesis). https://doi.org/10.1002/slct.201600459",
+          "note": "In one event, form 31–13 from a lone pair on 31."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e18",
+      "event_type": "POLAR",
+      "reactant_view_id": "v17",
+      "product_state_id": "s18",
+      "product_view_id": "v18",
+      "actions": [
+        {
+          "a": 12,
+          "b": 6,
+          "op": "PAIR"
+        },
+        {
+          "a": 6,
+          "b": 29,
+          "c": 30,
+          "op": "SHIFT"
+        },
+        {
+          "a": 30,
+          "b": 32,
+          "target": 32,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e17",
+      "explanation": "In one event, form 12–6 from a lone pair on 12; move the 6–29 pair to 29–30; move the 30–32 pair to 32.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 509 (Skraup quinoline synthesis). https://doi.org/10.1002/slct.201600459",
+          "note": "In one event, form 12–6 from a lone pair on 12; move the 6–29 pair to 29–30; move the 30–32 pair to 32."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e19",
+      "event_type": "POLAR",
+      "reactant_view_id": "v18",
+      "product_state_id": "s19",
+      "product_view_id": "v19",
+      "actions": [
+        {
+          "a": 32,
+          "b": 29,
+          "op": "PAIR"
+        },
+        {
+          "a": 29,
+          "b": 30,
+          "target": 30,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e18",
+      "explanation": "In one event, form 32–29 from a lone pair on 32; move the 29–30 pair to 30.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 509 (Skraup quinoline synthesis). https://doi.org/10.1002/slct.201600459",
+          "note": "In one event, form 32–29 from a lone pair on 32; move the 29–30 pair to 30."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e20",
+      "event_type": "POLAR",
+      "reactant_view_id": "v19",
+      "product_state_id": "s20",
+      "product_view_id": "v20",
+      "actions": [
+        {
+          "a": 31,
+          "b": 30,
+          "op": "PAIR"
+        },
+        {
+          "a": 30,
+          "b": 32,
+          "target": 32,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e19",
+      "explanation": "In one event, form 31–30 from a lone pair on 31; move the 30–32 pair to 32.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 509 (Skraup quinoline synthesis). https://doi.org/10.1002/slct.201600459",
+          "note": "In one event, form 31–30 from a lone pair on 31; move the 30–32 pair to 32."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e21",
+      "event_type": "POLAR",
+      "reactant_view_id": "v20",
+      "product_state_id": "s21",
+      "product_view_id": "v21",
+      "actions": [
+        {
+          "a": 32,
+          "b": 13,
+          "op": "PAIR"
+        },
+        {
+          "a": 13,
+          "b": 31,
+          "target": 31,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e20",
+      "explanation": "In one event, form 32–13 from a lone pair on 32; move the 13–31 pair to 31.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 509 (Skraup quinoline synthesis). https://doi.org/10.1002/slct.201600459",
+          "note": "In one event, form 32–13 from a lone pair on 32; move the 13–31 pair to 31."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e22",
+      "event_type": "POLAR",
+      "reactant_view_id": "v21",
+      "product_state_id": "s22",
+      "product_view_id": "v22",
+      "actions": [
+        {
+          "a": 1,
+          "b": 14,
+          "op": "PAIR"
+        },
+        {
+          "a": 14,
+          "b": 12,
+          "target": 12,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e21",
+      "explanation": "In one event, form 1–14 from a lone pair on 1; move the 14–12 pair to 12.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 509 (Skraup quinoline synthesis). https://doi.org/10.1002/slct.201600459",
+          "note": "In one event, form 1–14 from a lone pair on 1; move the 14–12 pair to 12."
+        }
+      ],
+      "kind": "ReactionEvent"
+    }
+  ],
+  "schema_version": "umr/1.0"
+}

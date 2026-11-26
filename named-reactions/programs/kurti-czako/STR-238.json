@@ -1,0 +1,958 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 2,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 3,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 51,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 4,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 6,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 7,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 8,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 9,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 10,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 11,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 12,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 13,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 14,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 15,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 16,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 17,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 18,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 52,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 20,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 21,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 1000,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 1001,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 1002,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 1003,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 1004,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 1005,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 22,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 1006,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 1007,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 1008,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 1009,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 1010,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 1011,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 30,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 1012,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 1013,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 1014,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 1015,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 1016,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 1017,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 1018,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 1019,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 40,
+          "element": "N",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 61,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 1020,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 1021,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 1022,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 1023,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 1024,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 1025,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 1026,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 1027,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 62,
+          "element": "Cl",
+          "formal_charge": -1,
+          "nonbonding_electrons": 8
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 2,
+          "order": 2
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 51,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 6,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 7,
+          "order": 1
+        },
+        {
+          "a": 7,
+          "b": 8,
+          "order": 1
+        },
+        {
+          "a": 8,
+          "b": 9,
+          "order": 1
+        },
+        {
+          "a": 9,
+          "b": 10,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 11,
+          "order": 1
+        },
+        {
+          "a": 11,
+          "b": 12,
+          "order": 1
+        },
+        {
+          "a": 12,
+          "b": 13,
+          "order": 1
+        },
+        {
+          "a": 13,
+          "b": 14,
+          "order": 1
+        },
+        {
+          "a": 14,
+          "b": 15,
+          "order": 1
+        },
+        {
+          "a": 15,
+          "b": 16,
+          "order": 1
+        },
+        {
+          "a": 16,
+          "b": 17,
+          "order": 1
+        },
+        {
+          "a": 17,
+          "b": 18,
+          "order": 1
+        },
+        {
+          "a": 18,
+          "b": 52,
+          "order": 1
+        },
+        {
+          "a": 20,
+          "b": 21,
+          "order": 2
+        },
+        {
+          "a": 21,
+          "b": 1000,
+          "order": 1
+        },
+        {
+          "a": 1000,
+          "b": 1001,
+          "order": 1
+        },
+        {
+          "a": 1001,
+          "b": 1002,
+          "order": 1
+        },
+        {
+          "a": 1002,
+          "b": 1003,
+          "order": 1
+        },
+        {
+          "a": 1003,
+          "b": 1004,
+          "order": 1
+        },
+        {
+          "a": 1004,
+          "b": 1005,
+          "order": 1
+        },
+        {
+          "a": 20,
+          "b": 22,
+          "order": 2
+        },
+        {
+          "a": 22,
+          "b": 1006,
+          "order": 1
+        },
+        {
+          "a": 1006,
+          "b": 1007,
+          "order": 1
+        },
+        {
+          "a": 1007,
+          "b": 1008,
+          "order": 1
+        },
+        {
+          "a": 1008,
+          "b": 1009,
+          "order": 1
+        },
+        {
+          "a": 1009,
+          "b": 1010,
+          "order": 1
+        },
+        {
+          "a": 1010,
+          "b": 1011,
+          "order": 1
+        },
+        {
+          "a": 30,
+          "b": 1012,
+          "order": 2
+        },
+        {
+          "a": 1012,
+          "b": 1013,
+          "order": 1
+        },
+        {
+          "a": 1013,
+          "b": 1014,
+          "order": 2
+        },
+        {
+          "a": 1014,
+          "b": 1015,
+          "order": 1
+        },
+        {
+          "a": 1015,
+          "b": 1016,
+          "order": 1
+        },
+        {
+          "a": 1015,
+          "b": 1017,
+          "order": 1
+        },
+        {
+          "a": 1014,
+          "b": 1018,
+          "order": 1
+        },
+        {
+          "a": 1018,
+          "b": 1019,
+          "order": 2
+        },
+        {
+          "a": 40,
+          "b": 61,
+          "order": 1
+        },
+        {
+          "a": 40,
+          "b": 1020,
+          "order": 2
+        },
+        {
+          "a": 1020,
+          "b": 1021,
+          "order": 1
+        },
+        {
+          "a": 1021,
+          "b": 1022,
+          "order": 2
+        },
+        {
+          "a": 1022,
+          "b": 1023,
+          "order": 1
+        },
+        {
+          "a": 1023,
+          "b": 1024,
+          "order": 1
+        },
+        {
+          "a": 1023,
+          "b": 1025,
+          "order": 1
+        },
+        {
+          "a": 1022,
+          "b": 1026,
+          "order": 1
+        },
+        {
+          "a": 1026,
+          "b": 1027,
+          "order": 2
+        },
+        {
+          "a": 1005,
+          "b": 1000,
+          "order": 1
+        },
+        {
+          "a": 1011,
+          "b": 1006,
+          "order": 1
+        },
+        {
+          "a": 1019,
+          "b": 30,
+          "order": 1
+        },
+        {
+          "a": 1027,
+          "b": 40,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "element_declarations": [
+        {
+          "atom_id": 62,
+          "oxidation_state": -1
+        }
+      ],
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 21,
+          "b": 51,
+          "op": "PAIR"
+        },
+        {
+          "a": 51,
+          "b": 3,
+          "target": 3,
+          "op": "SPLIT"
+        }
+      ],
+      "conditions": {
+        "temperature": "unknown",
+        "concentration": "high dilution; value unknown",
+        "addition": "slow addition"
+      },
+      "explanation": "In one event, form 21–51 from a lone pair on 21; move the 51–3 pair to 3.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 238 (KECK MACROLACTONIZATION).",
+          "note": "In one event, form 21–51 from a lone pair on 21; move the 51–3 pair to 3."
+        }
+      ],
+      "mechanism_assumption": "15-羟基十五酸的 16 元环有限实例；采用本章质子辅助直接环化支路，不强加酰基吡啶鎓中间体。质子接力顺序为待审核补全。",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "POLAR",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 3,
+          "b": 20,
+          "op": "PAIR"
+        },
+        {
+          "a": 20,
+          "b": 21,
+          "target": 21,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e1",
+      "conditions": {
+        "temperature": "unknown",
+        "concentration": "high dilution; value unknown",
+        "addition": "slow addition"
+      },
+      "explanation": "In one event, form 3–20 from a lone pair on 3; move the 20–21 pair to 21.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 238 (KECK MACROLACTONIZATION).",
+          "note": "In one event, form 3–20 from a lone pair on 3; move the 20–21 pair to 21."
+        }
+      ],
+      "mechanism_assumption": "15-羟基十五酸的 16 元环有限实例；采用本章质子辅助直接环化支路，不强加酰基吡啶鎓中间体。质子接力顺序为待审核补全。",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "POLAR",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "actions": [
+        {
+          "a": 2,
+          "b": 61,
+          "op": "PAIR"
+        },
+        {
+          "a": 61,
+          "b": 40,
+          "target": 40,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e2",
+      "conditions": {
+        "temperature": "unknown",
+        "concentration": "high dilution; value unknown",
+        "addition": "slow addition"
+      },
+      "explanation": "In one event, form 2–61 from a lone pair on 2; move the 61–40 pair to 40.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 238 (KECK MACROLACTONIZATION).",
+          "note": "In one event, form 2–61 from a lone pair on 2; move the 61–40 pair to 40."
+        }
+      ],
+      "mechanism_assumption": "15-羟基十五酸的 16 元环有限实例；采用本章质子辅助直接环化支路，不强加酰基吡啶鎓中间体。质子接力顺序为待审核补全。",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4",
+      "event_type": "POLAR",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "actions": [
+        {
+          "a": 18,
+          "b": 1,
+          "op": "PAIR"
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "target": 2,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e3",
+      "conditions": {
+        "temperature": "unknown",
+        "concentration": "high dilution; value unknown",
+        "addition": "slow addition"
+      },
+      "explanation": "In one event, form 18–1 from a lone pair on 18; move the 1–2 pair to 2.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 238 (KECK MACROLACTONIZATION).",
+          "note": "In one event, form 18–1 from a lone pair on 18; move the 1–2 pair to 2."
+        }
+      ],
+      "mechanism_assumption": "15-羟基十五酸的 16 元环有限实例；采用本章质子辅助直接环化支路，不强加酰基吡啶鎓中间体。质子接力顺序为待审核补全。",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e5",
+      "event_type": "POLAR",
+      "reactant_view_id": "v4",
+      "product_state_id": "s5",
+      "product_view_id": "v5",
+      "actions": [
+        {
+          "a": 40,
+          "b": 52,
+          "op": "PAIR"
+        },
+        {
+          "a": 52,
+          "b": 18,
+          "target": 18,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e4",
+      "conditions": {
+        "temperature": "unknown",
+        "concentration": "high dilution; value unknown",
+        "addition": "slow addition"
+      },
+      "explanation": "In one event, form 40–52 from a lone pair on 40; move the 52–18 pair to 18.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 238 (KECK MACROLACTONIZATION).",
+          "note": "In one event, form 40–52 from a lone pair on 40; move the 52–18 pair to 18."
+        }
+      ],
+      "mechanism_assumption": "15-羟基十五酸的 16 元环有限实例；采用本章质子辅助直接环化支路，不强加酰基吡啶鎓中间体。质子接力顺序为待审核补全。",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e6",
+      "event_type": "POLAR",
+      "reactant_view_id": "v5",
+      "product_state_id": "s6",
+      "product_view_id": "v6",
+      "actions": [
+        {
+          "a": 22,
+          "b": 61,
+          "op": "PAIR"
+        },
+        {
+          "a": 61,
+          "b": 2,
+          "target": 2,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e5",
+      "conditions": {
+        "temperature": "unknown",
+        "concentration": "high dilution; value unknown",
+        "addition": "slow addition"
+      },
+      "explanation": "In one event, form 22–61 from a lone pair on 22; move the 61–2 pair to 2.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 238 (KECK MACROLACTONIZATION).",
+          "note": "In one event, form 22–61 from a lone pair on 22; move the 61–2 pair to 2."
+        }
+      ],
+      "mechanism_assumption": "15-羟基十五酸的 16 元环有限实例；采用本章质子辅助直接环化支路，不强加酰基吡啶鎓中间体。质子接力顺序为待审核补全。",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e7",
+      "event_type": "POLAR",
+      "reactant_view_id": "v6",
+      "product_state_id": "s7",
+      "product_view_id": "v7",
+      "actions": [
+        {
+          "a": 2,
+          "b": 1,
+          "op": "PAIR"
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "target": 3,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e6",
+      "conditions": {
+        "temperature": "unknown",
+        "concentration": "high dilution; value unknown",
+        "addition": "slow addition"
+      },
+      "explanation": "In one event, form 2–1 from a lone pair on 2; move the 1–3 pair to 3.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 238 (KECK MACROLACTONIZATION).",
+          "note": "In one event, form 2–1 from a lone pair on 2; move the 1–3 pair to 3."
+        }
+      ],
+      "mechanism_assumption": "15-羟基十五酸的 16 元环有限实例；采用本章质子辅助直接环化支路，不强加酰基吡啶鎓中间体。质子接力顺序为待审核补全。",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e8",
+      "event_type": "POLAR",
+      "reactant_view_id": "v7",
+      "product_state_id": "s8",
+      "product_view_id": "v8",
+      "actions": [
+        {
+          "a": 3,
+          "b": 20,
+          "op": "PAIR"
+        },
+        {
+          "a": 20,
+          "b": 22,
+          "target": 22,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e7",
+      "conditions": {
+        "temperature": "unknown",
+        "concentration": "high dilution; value unknown",
+        "addition": "slow addition"
+      },
+      "explanation": "In one event, form 3–20 from a lone pair on 3; move the 20–22 pair to 22.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 238 (KECK MACROLACTONIZATION).",
+          "note": "In one event, form 3–20 from a lone pair on 3; move the 20–22 pair to 22."
+        }
+      ],
+      "mechanism_assumption": "15-羟基十五酸的 16 元环有限实例；采用本章质子辅助直接环化支路，不强加酰基吡啶鎓中间体。质子接力顺序为待审核补全。",
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "STR-238",
+  "schema_version": "umr/1.0"
+}

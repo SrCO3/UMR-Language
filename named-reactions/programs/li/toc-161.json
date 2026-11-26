@@ -1,0 +1,957 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "conditions": {
+        "catalysts": [
+          "piperidine",
+          "AcOH"
+        ],
+        "solvent": "toluene",
+        "temperature": "reflux",
+        "yield": "95%"
+      },
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 2,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 3,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 4,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 21,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 22,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 6,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 7,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 8,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 9,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 10,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 11,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 27,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 28,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 29,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 12,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 13,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 30,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 14,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 31,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 15,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 32,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 16,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 33,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 17,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 25,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 26,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 23,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 24,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 18,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 34,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 19,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 35,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 20,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 101,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 102,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 103,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 104,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 105,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 106,
+          "element": "S",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 107,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 108,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 109,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 201,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 207,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 202,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 203,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 204,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 205,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 206,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 301,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 302,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 303,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 304,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 305,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 2,
+          "order": 2
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "order": 2
+        },
+        {
+          "a": 4,
+          "b": 21,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 22,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 6,
+          "order": 2
+        },
+        {
+          "a": 6,
+          "b": 7,
+          "order": 1
+        },
+        {
+          "a": 7,
+          "b": 8,
+          "order": 1
+        },
+        {
+          "a": 8,
+          "b": 9,
+          "order": 1
+        },
+        {
+          "a": 9,
+          "b": 10,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 11,
+          "order": 1
+        },
+        {
+          "a": 11,
+          "b": 27,
+          "order": 1
+        },
+        {
+          "a": 11,
+          "b": 28,
+          "order": 1
+        },
+        {
+          "a": 11,
+          "b": 29,
+          "order": 1
+        },
+        {
+          "a": 10,
+          "b": 12,
+          "order": 1
+        },
+        {
+          "a": 12,
+          "b": 13,
+          "order": 2
+        },
+        {
+          "a": 13,
+          "b": 30,
+          "order": 1
+        },
+        {
+          "a": 13,
+          "b": 14,
+          "order": 1
+        },
+        {
+          "a": 14,
+          "b": 31,
+          "order": 1
+        },
+        {
+          "a": 14,
+          "b": 15,
+          "order": 2
+        },
+        {
+          "a": 15,
+          "b": 32,
+          "order": 1
+        },
+        {
+          "a": 15,
+          "b": 16,
+          "order": 1
+        },
+        {
+          "a": 16,
+          "b": 33,
+          "order": 1
+        },
+        {
+          "a": 16,
+          "b": 17,
+          "order": 2
+        },
+        {
+          "a": 9,
+          "b": 25,
+          "order": 1
+        },
+        {
+          "a": 9,
+          "b": 26,
+          "order": 1
+        },
+        {
+          "a": 8,
+          "b": 23,
+          "order": 1
+        },
+        {
+          "a": 8,
+          "b": 24,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 18,
+          "order": 1
+        },
+        {
+          "a": 18,
+          "b": 34,
+          "order": 1
+        },
+        {
+          "a": 18,
+          "b": 19,
+          "order": 2
+        },
+        {
+          "a": 19,
+          "b": 35,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 20,
+          "order": 1
+        },
+        {
+          "a": 101,
+          "b": 102,
+          "order": 2
+        },
+        {
+          "a": 102,
+          "b": 103,
+          "order": 1
+        },
+        {
+          "a": 103,
+          "b": 104,
+          "order": 1
+        },
+        {
+          "a": 104,
+          "b": 105,
+          "order": 2
+        },
+        {
+          "a": 104,
+          "b": 106,
+          "order": 1
+        },
+        {
+          "a": 106,
+          "b": 107,
+          "order": 1
+        },
+        {
+          "a": 107,
+          "b": 108,
+          "order": 1
+        },
+        {
+          "a": 107,
+          "b": 109,
+          "order": 1
+        },
+        {
+          "a": 201,
+          "b": 207,
+          "order": 1
+        },
+        {
+          "a": 201,
+          "b": 202,
+          "order": 1
+        },
+        {
+          "a": 202,
+          "b": 203,
+          "order": 1
+        },
+        {
+          "a": 203,
+          "b": 204,
+          "order": 1
+        },
+        {
+          "a": 204,
+          "b": 205,
+          "order": 1
+        },
+        {
+          "a": 205,
+          "b": 206,
+          "order": 1
+        },
+        {
+          "a": 301,
+          "b": 302,
+          "order": 1
+        },
+        {
+          "a": 302,
+          "b": 303,
+          "order": 2
+        },
+        {
+          "a": 302,
+          "b": 304,
+          "order": 1
+        },
+        {
+          "a": 304,
+          "b": 305,
+          "order": 1
+        },
+        {
+          "a": 19,
+          "b": 3,
+          "order": 1
+        },
+        {
+          "a": 107,
+          "b": 102,
+          "order": 1
+        },
+        {
+          "a": 206,
+          "b": 201,
+          "order": 1
+        },
+        {
+          "a": 17,
+          "b": 12,
+          "order": 1
+        }
+      ],
+      "element_rule_version": "umr-elements/0.7",
+      "element_declarations": [
+        {
+          "atom_id": 106
+        }
+      ],
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "CARBONYL_ADDITION",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 201,
+          "b": 2,
+          "op": "PAIR"
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "target": 1,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "nucleophile": 201,
+        "carbonyl_carbon": 2,
+        "oxygen": 1
+      },
+      "explanation": "In one event, form 201–2 from a lone pair on 201; move the 2–1 pair to 1.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 315 (Knoevenagel condensation).",
+          "note": "In one event, form 201–2 from a lone pair on 201; move the 2–1 pair to 1."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 1,
+          "b": 207,
+          "op": "PAIR"
+        },
+        {
+          "a": 207,
+          "b": 201,
+          "target": 201,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 1,
+        "hydrogen": 207,
+        "acid": 201
+      },
+      "explanation": "In one event, form 1–207 from a lone pair on 1; move the 207–201 pair to 201.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 315 (Knoevenagel condensation).",
+          "note": "In one event, form 1–207 from a lone pair on 1; move the 207–201 pair to 201."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "actions": [
+        {
+          "a": 1,
+          "b": 305,
+          "op": "PAIR"
+        },
+        {
+          "a": 305,
+          "b": 304,
+          "target": 304,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 1,
+        "hydrogen": 305,
+        "acid": 304
+      },
+      "explanation": "In one event, form 1–305 from a lone pair on 1; move the 305–304 pair to 304.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 315 (Knoevenagel condensation).",
+          "note": "In one event, form 1–305 from a lone pair on 1; move the 305–304 pair to 304."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4",
+      "event_type": "POLAR",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "actions": [
+        {
+          "a": 201,
+          "b": 2,
+          "op": "PAIR"
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "target": 1,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 201–2 from a lone pair on 201; move the 2–1 pair to 1.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 315 (Knoevenagel condensation).",
+          "note": "In one event, form 201–2 from a lone pair on 201; move the 2–1 pair to 1."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e5",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v4",
+      "product_state_id": "s5",
+      "product_view_id": "v5",
+      "actions": [
+        {
+          "a": 304,
+          "b": 108,
+          "op": "PAIR"
+        },
+        {
+          "a": 108,
+          "b": 107,
+          "target": 107,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 304,
+        "hydrogen": 108,
+        "acid": 107
+      },
+      "explanation": "In one event, form 304–108 from a lone pair on 304; move the 108–107 pair to 107.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 315 (Knoevenagel condensation).",
+          "note": "In one event, form 304–108 from a lone pair on 304; move the 108–107 pair to 107."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e6",
+      "event_type": "POLAR",
+      "reactant_view_id": "v5",
+      "product_state_id": "s6",
+      "product_view_id": "v6",
+      "actions": [
+        {
+          "a": 107,
+          "b": 2,
+          "op": "PAIR"
+        },
+        {
+          "a": 2,
+          "b": 201,
+          "target": 201,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 107–2 from a lone pair on 107; move the 2–201 pair to 201.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 315 (Knoevenagel condensation).",
+          "note": "In one event, form 107–2 from a lone pair on 107; move the 2–201 pair to 201."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e7",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v6",
+      "product_state_id": "s7",
+      "product_view_id": "v7",
+      "actions": [
+        {
+          "a": 201,
+          "b": 108,
+          "op": "PAIR"
+        },
+        {
+          "a": 108,
+          "b": 304,
+          "target": 304,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 201,
+        "hydrogen": 108,
+        "acid": 304
+      },
+      "explanation": "In one event, form 201–108 from a lone pair on 201; move the 108–304 pair to 304.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 315 (Knoevenagel condensation).",
+          "note": "In one event, form 201–108 from a lone pair on 201; move the 108–304 pair to 304."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e8",
+      "event_type": "E1CB_DEPROTONATION",
+      "reactant_view_id": "v7",
+      "product_state_id": "s8",
+      "product_view_id": "v8",
+      "actions": [
+        {
+          "a": 304,
+          "b": 109,
+          "op": "PAIR"
+        },
+        {
+          "a": 109,
+          "b": 107,
+          "target": 107,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "alpha_carbon": 2,
+        "beta_carbon": 107,
+        "hydrogen": 109,
+        "leaving_group": 201,
+        "base": 304
+      },
+      "explanation": "In one event, form 304–109 from a lone pair on 304; move the 109–107 pair to 107.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 315 (Knoevenagel condensation).",
+          "note": "In one event, form 304–109 from a lone pair on 304; move the 109–107 pair to 107."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e9",
+      "event_type": "E1CB_ELIMINATION",
+      "reactant_view_id": "v8",
+      "product_state_id": "s9",
+      "product_view_id": "v9",
+      "actions": [
+        {
+          "a": 107,
+          "b": 2,
+          "op": "PAIR"
+        },
+        {
+          "a": 2,
+          "b": 201,
+          "target": 201,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "alpha_carbon": 2,
+        "beta_carbon": 107,
+        "hydrogen": 109,
+        "leaving_group": 201,
+        "base": 304
+      },
+      "depends_on_event": "e8",
+      "explanation": "In one event, form 107–2 from a lone pair on 107; move the 2–201 pair to 201.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 315 (Knoevenagel condensation).",
+          "note": "In one event, form 107–2 from a lone pair on 107; move the 2–201 pair to 201."
+        }
+      ],
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-161",
+  "schema_version": "umr/1.0"
+}

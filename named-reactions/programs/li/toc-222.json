@@ -1,0 +1,452 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 20,
+          "element": "Ti",
+          "formal_charge": 2,
+          "nonbonding_electrons": 0,
+          "radical_electrons": null
+        },
+        {
+          "atom_id": 21,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 23,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 22,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 101,
+          "element": "C",
+          "formal_charge": -1,
+          "nonbonding_electrons": 2,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 102,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 103,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 104,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 105,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 111,
+          "element": "C",
+          "formal_charge": -1,
+          "nonbonding_electrons": 2,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 112,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 113,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 114,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 115,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 301,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 302,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 303,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R1"
+        },
+        {
+          "atom_id": 304,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R2"
+        }
+      ],
+      "bonds": [
+        {
+          "a": 20,
+          "b": 21,
+          "order": 1
+        },
+        {
+          "a": 21,
+          "b": 23,
+          "order": 1
+        },
+        {
+          "a": 20,
+          "b": 22,
+          "order": 1
+        },
+        {
+          "a": 101,
+          "b": 102,
+          "order": 1
+        },
+        {
+          "a": 102,
+          "b": 103,
+          "order": 2
+        },
+        {
+          "a": 103,
+          "b": 104,
+          "order": 1
+        },
+        {
+          "a": 104,
+          "b": 105,
+          "order": 2
+        },
+        {
+          "a": 111,
+          "b": 112,
+          "order": 1
+        },
+        {
+          "a": 112,
+          "b": 113,
+          "order": 2
+        },
+        {
+          "a": 113,
+          "b": 114,
+          "order": 1
+        },
+        {
+          "a": 114,
+          "b": 115,
+          "order": 2
+        },
+        {
+          "a": 105,
+          "b": 101,
+          "order": 1
+        },
+        {
+          "a": 115,
+          "b": 111,
+          "order": 1
+        },
+        {
+          "a": 301,
+          "b": 302,
+          "order": 2
+        },
+        {
+          "a": 301,
+          "b": 303,
+          "order": 1
+        },
+        {
+          "a": 301,
+          "b": 304,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "metal_centers": [
+        {
+          "atom_id": 20
+        }
+      ],
+      "ligands": [
+        {
+          "ligand_id": "ligand.21",
+          "atom_ids": [
+            21,
+            23
+          ],
+          "donor_atom_ids": [
+            21
+          ],
+          "ionic_class": "X",
+          "ionic_charge": -1,
+          "assignment_basis": "inferred finite ionic partition from mapped graph; not measured charge"
+        },
+        {
+          "ligand_id": "ligand.22",
+          "atom_ids": [
+            22
+          ],
+          "donor_atom_ids": [
+            22
+          ],
+          "ionic_class": "X",
+          "ionic_charge": -1,
+          "assignment_basis": "inferred finite ionic partition from mapped graph; not measured charge"
+        },
+        {
+          "ligand_id": "Cp101",
+          "atom_ids": [
+            101,
+            102,
+            103,
+            104,
+            105
+          ],
+          "donor_atom_ids": [
+            101,
+            102,
+            103,
+            104,
+            105
+          ],
+          "ionic_class": "L2X",
+          "ionic_charge": -1,
+          "identity_note": "Source eta5 cyclopentadienyl; L2X unsupported by enum, identity not changed to neutral L"
+        },
+        {
+          "ligand_id": "Cp111",
+          "atom_ids": [
+            111,
+            112,
+            113,
+            114,
+            115
+          ],
+          "donor_atom_ids": [
+            111,
+            112,
+            113,
+            114,
+            115
+          ],
+          "ionic_class": "L2X",
+          "ionic_charge": -1,
+          "identity_note": "Source eta5 cyclopentadienyl; L2X unsupported by enum, identity not changed to neutral L"
+        }
+      ],
+      "metal_bindings": [
+        {
+          "binding_id": "bind.ligand.21.0",
+          "metal_atom_id": 20,
+          "ligand_id": "ligand.21",
+          "donor_atom_ids": [
+            21
+          ],
+          "mode": "sigma_covalent"
+        },
+        {
+          "binding_id": "bind.ligand.22.0",
+          "metal_atom_id": 20,
+          "ligand_id": "ligand.22",
+          "donor_atom_ids": [
+            22
+          ],
+          "mode": "sigma_covalent"
+        },
+        {
+          "binding_id": "Cp101.Ti",
+          "metal_atom_id": 20,
+          "ligand_id": "Cp101",
+          "donor_atom_ids": [
+            101,
+            102,
+            103,
+            104,
+            105
+          ],
+          "mode": "eta",
+          "hapticity": 5
+        },
+        {
+          "binding_id": "Cp111.Ti",
+          "metal_atom_id": 20,
+          "ligand_id": "Cp111",
+          "donor_atom_ids": [
+            111,
+            112,
+            113,
+            114,
+            115
+          ],
+          "mode": "eta",
+          "hapticity": 5
+        }
+      ],
+      "element_rule_version": "umr-elements/0.8",
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 20,
+          "b": 22,
+          "c": 23,
+          "op": "SHIFT"
+        },
+        {
+          "a": 23,
+          "b": 21,
+          "c": 20,
+          "op": "SHIFT"
+        }
+      ],
+      "explanation": "In one event, move the 20–22 pair to 22–23; move the 23–21 pair to 21–20.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 428 (Petasis reagent).",
+          "note": "In one event, move the 20–22 pair to 22–23; move the 23–21 pair to 21–20."
+        }
+      ],
+      "mechanism_assumption": "Source heating of Cp2TiMe2: alpha-H transfer, methane release and Ti=CH2 formation",
+      "metal_participation": true,
+      "general_event": "TI_ALPHA_H_ELIMINATION",
+      "general_roles": {
+        "metal": 20,
+        "alkylidene": 21,
+        "departing": 22,
+        "hydrogen": 23
+      },
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "POLAR",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "depends_on_event": "e1",
+      "explanation": "Apply TI_OXAMETALLACYCLE to the mapped reaction sites in view v1.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 428 (Petasis reagent).",
+          "note": "Apply TI_OXAMETALLACYCLE to the mapped reaction sites in view v1."
+        }
+      ],
+      "mechanism_assumption": "Source main generic ketone Ti oxametallacycle formation.",
+      "metal_participation": true,
+      "general_event": "TI_OXAMETALLACYCLE",
+      "general_roles": {
+        "metal": 20,
+        "alkylidene": 21,
+        "carbon": 301,
+        "oxygen": 302
+      },
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "POLAR",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "actions": [
+        {
+          "a": 20,
+          "b": 21,
+          "c": 301,
+          "op": "SHIFT"
+        },
+        {
+          "a": 301,
+          "b": 302,
+          "c": 20,
+          "op": "SHIFT"
+        }
+      ],
+      "depends_on_event": "e2",
+      "explanation": "In one event, move the 20–21 pair to 21–301; move the 301–302 pair to 302–20.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 428 (Petasis reagent).",
+          "note": "In one event, move the 20–21 pair to 21–301; move the 301–302 pair to 302–20."
+        }
+      ],
+      "mechanism_assumption": "Source oxametallacycle cycloreversion into alkene and Cp2Ti=O; no removal of Ti or oxygen.",
+      "metal_participation": true,
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-222",
+  "symbolic_mode": "unchanged_boundary",
+  "schema_version": "umr/1.0"
+}

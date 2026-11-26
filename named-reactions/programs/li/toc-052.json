@@ -1,0 +1,1487 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "conditions": {
+        "reagents": [
+          "NH4OAc"
+        ],
+        "solvent": "HOAc",
+        "temperature": "reflux",
+        "time": "1 h",
+        "yield": "68%"
+      },
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 2,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 3,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 4,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 13,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 6,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 14,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 7,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 15,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 8,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 16,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 9,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 17,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 10,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 11,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 12,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 101,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 102,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 103,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 104,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 105,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 113,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 106,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 114,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 107,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 115,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 108,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 116,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 109,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 117,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 110,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 111,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 112,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 201,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 202,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 203,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 204,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 210,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 205,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 211,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 206,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 212,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 207,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 213,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 208,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 214,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 209,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 301,
+          "element": "N",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 306,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 307,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 308,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 309,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 302,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 303,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 304,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 305,
+          "element": "O",
+          "formal_charge": -1,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 310,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 311,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 312,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 401,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 402,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 403,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 404,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 408,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 405,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 406,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 407,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 2,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "order": 2
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 2
+        },
+        {
+          "a": 5,
+          "b": 13,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 6,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 14,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 7,
+          "order": 2
+        },
+        {
+          "a": 7,
+          "b": 15,
+          "order": 1
+        },
+        {
+          "a": 7,
+          "b": 8,
+          "order": 1
+        },
+        {
+          "a": 8,
+          "b": 16,
+          "order": 1
+        },
+        {
+          "a": 8,
+          "b": 9,
+          "order": 2
+        },
+        {
+          "a": 9,
+          "b": 17,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 10,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 11,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 12,
+          "order": 1
+        },
+        {
+          "a": 101,
+          "b": 102,
+          "order": 1
+        },
+        {
+          "a": 102,
+          "b": 103,
+          "order": 2
+        },
+        {
+          "a": 102,
+          "b": 104,
+          "order": 1
+        },
+        {
+          "a": 104,
+          "b": 105,
+          "order": 2
+        },
+        {
+          "a": 105,
+          "b": 113,
+          "order": 1
+        },
+        {
+          "a": 105,
+          "b": 106,
+          "order": 1
+        },
+        {
+          "a": 106,
+          "b": 114,
+          "order": 1
+        },
+        {
+          "a": 106,
+          "b": 107,
+          "order": 2
+        },
+        {
+          "a": 107,
+          "b": 115,
+          "order": 1
+        },
+        {
+          "a": 107,
+          "b": 108,
+          "order": 1
+        },
+        {
+          "a": 108,
+          "b": 116,
+          "order": 1
+        },
+        {
+          "a": 108,
+          "b": 109,
+          "order": 2
+        },
+        {
+          "a": 109,
+          "b": 117,
+          "order": 1
+        },
+        {
+          "a": 101,
+          "b": 110,
+          "order": 1
+        },
+        {
+          "a": 101,
+          "b": 111,
+          "order": 1
+        },
+        {
+          "a": 101,
+          "b": 112,
+          "order": 1
+        },
+        {
+          "a": 201,
+          "b": 202,
+          "order": 2
+        },
+        {
+          "a": 202,
+          "b": 203,
+          "order": 1
+        },
+        {
+          "a": 203,
+          "b": 204,
+          "order": 2
+        },
+        {
+          "a": 204,
+          "b": 210,
+          "order": 1
+        },
+        {
+          "a": 204,
+          "b": 205,
+          "order": 1
+        },
+        {
+          "a": 205,
+          "b": 211,
+          "order": 1
+        },
+        {
+          "a": 205,
+          "b": 206,
+          "order": 2
+        },
+        {
+          "a": 206,
+          "b": 212,
+          "order": 1
+        },
+        {
+          "a": 206,
+          "b": 207,
+          "order": 1
+        },
+        {
+          "a": 207,
+          "b": 213,
+          "order": 1
+        },
+        {
+          "a": 207,
+          "b": 208,
+          "order": 2
+        },
+        {
+          "a": 208,
+          "b": 214,
+          "order": 1
+        },
+        {
+          "a": 202,
+          "b": 209,
+          "order": 1
+        },
+        {
+          "a": 301,
+          "b": 306,
+          "order": 1
+        },
+        {
+          "a": 301,
+          "b": 307,
+          "order": 1
+        },
+        {
+          "a": 301,
+          "b": 308,
+          "order": 1
+        },
+        {
+          "a": 301,
+          "b": 309,
+          "order": 1
+        },
+        {
+          "a": 302,
+          "b": 303,
+          "order": 1
+        },
+        {
+          "a": 303,
+          "b": 304,
+          "order": 2
+        },
+        {
+          "a": 303,
+          "b": 305,
+          "order": 1
+        },
+        {
+          "a": 302,
+          "b": 310,
+          "order": 1
+        },
+        {
+          "a": 302,
+          "b": 311,
+          "order": 1
+        },
+        {
+          "a": 302,
+          "b": 312,
+          "order": 1
+        },
+        {
+          "a": 401,
+          "b": 402,
+          "order": 1
+        },
+        {
+          "a": 402,
+          "b": 403,
+          "order": 2
+        },
+        {
+          "a": 402,
+          "b": 404,
+          "order": 1
+        },
+        {
+          "a": 404,
+          "b": 408,
+          "order": 1
+        },
+        {
+          "a": 401,
+          "b": 405,
+          "order": 1
+        },
+        {
+          "a": 401,
+          "b": 406,
+          "order": 1
+        },
+        {
+          "a": 401,
+          "b": 407,
+          "order": 1
+        },
+        {
+          "a": 9,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 109,
+          "b": 104,
+          "order": 1
+        },
+        {
+          "a": 208,
+          "b": 203,
+          "order": 1
+        }
+      ],
+      "element_rule_version": "umr-elements/0.7",
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 305,
+          "b": 10,
+          "op": "PAIR"
+        },
+        {
+          "a": 10,
+          "b": 1,
+          "target": 1,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 305,
+        "hydrogen": 10,
+        "acid": 1
+      },
+      "explanation": "In one event, form 305–10 from a lone pair on 305; move the 10–1 pair to 1.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 107 (Chichibabin pyridine synthesis).",
+          "note": "In one event, form 305–10 from a lone pair on 305; move the 10–1 pair to 1."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "CARBONYL_ADDITION",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 1,
+          "b": 202,
+          "op": "PAIR"
+        },
+        {
+          "a": 202,
+          "b": 201,
+          "target": 201,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "nucleophile": 1,
+        "carbonyl_carbon": 202,
+        "oxygen": 201
+      },
+      "explanation": "In one event, form 1–202 from a lone pair on 1; move the 202–201 pair to 201.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 107 (Chichibabin pyridine synthesis).",
+          "note": "In one event, form 1–202 from a lone pair on 1; move the 202–201 pair to 201."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "actions": [
+        {
+          "a": 201,
+          "b": 10,
+          "op": "PAIR"
+        },
+        {
+          "a": 10,
+          "b": 305,
+          "target": 305,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 201,
+        "hydrogen": 10,
+        "acid": 305
+      },
+      "explanation": "In one event, form 201–10 from a lone pair on 201; move the 10–305 pair to 305.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 107 (Chichibabin pyridine synthesis).",
+          "note": "In one event, form 201–10 from a lone pair on 201; move the 10–305 pair to 305."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4",
+      "event_type": "E1CB_DEPROTONATION",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "actions": [
+        {
+          "a": 305,
+          "b": 11,
+          "op": "PAIR"
+        },
+        {
+          "a": 11,
+          "b": 1,
+          "target": 1,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "alpha_carbon": 202,
+        "beta_carbon": 1,
+        "hydrogen": 11,
+        "leaving_group": 201,
+        "base": 305
+      },
+      "explanation": "In one event, form 305–11 from a lone pair on 305; move the 11–1 pair to 1.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 107 (Chichibabin pyridine synthesis).",
+          "note": "In one event, form 305–11 from a lone pair on 305; move the 11–1 pair to 1."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e5",
+      "event_type": "E1CB_ELIMINATION",
+      "reactant_view_id": "v4",
+      "product_state_id": "s5",
+      "product_view_id": "v5",
+      "actions": [
+        {
+          "a": 1,
+          "b": 202,
+          "op": "PAIR"
+        },
+        {
+          "a": 202,
+          "b": 201,
+          "target": 201,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "alpha_carbon": 202,
+        "beta_carbon": 1,
+        "hydrogen": 11,
+        "leaving_group": 201,
+        "base": 305
+      },
+      "depends_on_event": "e4",
+      "explanation": "In one event, form 1–202 from a lone pair on 1; move the 202–201 pair to 201.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 107 (Chichibabin pyridine synthesis).",
+          "note": "In one event, form 1–202 from a lone pair on 1; move the 202–201 pair to 201."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e6",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v5",
+      "product_state_id": "s6",
+      "product_view_id": "v6",
+      "actions": [
+        {
+          "a": 201,
+          "b": 11,
+          "op": "PAIR"
+        },
+        {
+          "a": 11,
+          "b": 305,
+          "target": 305,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 201,
+        "hydrogen": 11,
+        "acid": 305
+      },
+      "explanation": "In one event, form 201–11 from a lone pair on 201; move the 11–305 pair to 305.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 107 (Chichibabin pyridine synthesis).",
+          "note": "In one event, form 201–11 from a lone pair on 201; move the 11–305 pair to 305."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e7",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v6",
+      "product_state_id": "s7",
+      "product_view_id": "v7",
+      "actions": [
+        {
+          "a": 305,
+          "b": 110,
+          "op": "PAIR"
+        },
+        {
+          "a": 110,
+          "b": 101,
+          "target": 101,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 305,
+        "hydrogen": 110,
+        "acid": 101
+      },
+      "explanation": "In one event, form 305–110 from a lone pair on 305; move the 110–101 pair to 101.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 107 (Chichibabin pyridine synthesis).",
+          "note": "In one event, form 305–110 from a lone pair on 305; move the 110–101 pair to 101."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e8",
+      "event_type": "POLAR",
+      "reactant_view_id": "v7",
+      "product_state_id": "s8",
+      "product_view_id": "v8",
+      "actions": [
+        {
+          "a": 101,
+          "b": 202,
+          "op": "PAIR"
+        },
+        {
+          "a": 202,
+          "b": 1,
+          "target": 1,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 101–202 from a lone pair on 101; move the 202–1 pair to 1.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 107 (Chichibabin pyridine synthesis).",
+          "note": "In one event, form 101–202 from a lone pair on 101; move the 202–1 pair to 1."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e9",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v8",
+      "product_state_id": "s9",
+      "product_view_id": "v9",
+      "actions": [
+        {
+          "a": 1,
+          "b": 110,
+          "op": "PAIR"
+        },
+        {
+          "a": 110,
+          "b": 305,
+          "target": 305,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 1,
+        "hydrogen": 110,
+        "acid": 305
+      },
+      "explanation": "In one event, form 1–110 from a lone pair on 1; move the 110–305 pair to 305.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 107 (Chichibabin pyridine synthesis).",
+          "note": "In one event, form 1–110 from a lone pair on 1; move the 110–305 pair to 305."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e10",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v9",
+      "product_state_id": "s10",
+      "product_view_id": "v10",
+      "actions": [
+        {
+          "a": 305,
+          "b": 306,
+          "op": "PAIR"
+        },
+        {
+          "a": 306,
+          "b": 301,
+          "target": 301,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 305,
+        "hydrogen": 306,
+        "acid": 301
+      },
+      "explanation": "In one event, form 305–306 from a lone pair on 305; move the 306–301 pair to 301.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 107 (Chichibabin pyridine synthesis).",
+          "note": "In one event, form 305–306 from a lone pair on 305; move the 306–301 pair to 301."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e11",
+      "event_type": "CARBONYL_ADDITION",
+      "reactant_view_id": "v10",
+      "product_state_id": "s11",
+      "product_view_id": "v11",
+      "actions": [
+        {
+          "a": 301,
+          "b": 2,
+          "op": "PAIR"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "target": 3,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "nucleophile": 301,
+        "carbonyl_carbon": 2,
+        "oxygen": 3
+      },
+      "explanation": "In one event, form 301–2 from a lone pair on 301; move the 2–3 pair to 3.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 107 (Chichibabin pyridine synthesis).",
+          "note": "In one event, form 301–2 from a lone pair on 301; move the 2–3 pair to 3."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e12",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v11",
+      "product_state_id": "s12",
+      "product_view_id": "v12",
+      "actions": [
+        {
+          "a": 3,
+          "b": 307,
+          "op": "PAIR"
+        },
+        {
+          "a": 307,
+          "b": 301,
+          "target": 301,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 3,
+        "hydrogen": 307,
+        "acid": 301
+      },
+      "explanation": "In one event, form 3–307 from a lone pair on 3; move the 307–301 pair to 301.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 107 (Chichibabin pyridine synthesis).",
+          "note": "In one event, form 3–307 from a lone pair on 3; move the 307–301 pair to 301."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e13",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v12",
+      "product_state_id": "s13",
+      "product_view_id": "v13",
+      "actions": [
+        {
+          "a": 3,
+          "b": 306,
+          "op": "PAIR"
+        },
+        {
+          "a": 306,
+          "b": 305,
+          "target": 305,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 3,
+        "hydrogen": 306,
+        "acid": 305
+      },
+      "explanation": "In one event, form 3–306 from a lone pair on 3; move the 306–305 pair to 305.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 107 (Chichibabin pyridine synthesis).",
+          "note": "In one event, form 3–306 from a lone pair on 3; move the 306–305 pair to 305."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e14",
+      "event_type": "POLAR",
+      "reactant_view_id": "v13",
+      "product_state_id": "s14",
+      "product_view_id": "v14",
+      "actions": [
+        {
+          "a": 301,
+          "b": 2,
+          "op": "PAIR"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "target": 3,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 301–2 from a lone pair on 301; move the 2–3 pair to 3.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 107 (Chichibabin pyridine synthesis).",
+          "note": "In one event, form 301–2 from a lone pair on 301; move the 2–3 pair to 3."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e15",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v14",
+      "product_state_id": "s15",
+      "product_view_id": "v15",
+      "actions": [
+        {
+          "a": 305,
+          "b": 308,
+          "op": "PAIR"
+        },
+        {
+          "a": 308,
+          "b": 301,
+          "target": 301,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 305,
+        "hydrogen": 308,
+        "acid": 301
+      },
+      "explanation": "In one event, form 305–308 from a lone pair on 305; move the 308–301 pair to 301.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 107 (Chichibabin pyridine synthesis).",
+          "note": "In one event, form 305–308 from a lone pair on 305; move the 308–301 pair to 301."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e16",
+      "event_type": "CARBONYL_ADDITION",
+      "reactant_view_id": "v15",
+      "product_state_id": "s16",
+      "product_view_id": "v16",
+      "actions": [
+        {
+          "a": 301,
+          "b": 102,
+          "op": "PAIR"
+        },
+        {
+          "a": 102,
+          "b": 103,
+          "target": 103,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "nucleophile": 301,
+        "carbonyl_carbon": 102,
+        "oxygen": 103
+      },
+      "explanation": "In one event, form 301–102 from a lone pair on 301; move the 102–103 pair to 103.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 107 (Chichibabin pyridine synthesis).",
+          "note": "In one event, form 301–102 from a lone pair on 301; move the 102–103 pair to 103."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e17",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v16",
+      "product_state_id": "s17",
+      "product_view_id": "v17",
+      "actions": [
+        {
+          "a": 103,
+          "b": 309,
+          "op": "PAIR"
+        },
+        {
+          "a": 309,
+          "b": 301,
+          "target": 301,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 103,
+        "hydrogen": 309,
+        "acid": 301
+      },
+      "explanation": "In one event, form 103–309 from a lone pair on 103; move the 309–301 pair to 301.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 107 (Chichibabin pyridine synthesis).",
+          "note": "In one event, form 103–309 from a lone pair on 103; move the 309–301 pair to 301."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e18",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v17",
+      "product_state_id": "s18",
+      "product_view_id": "v18",
+      "actions": [
+        {
+          "a": 103,
+          "b": 308,
+          "op": "PAIR"
+        },
+        {
+          "a": 308,
+          "b": 305,
+          "target": 305,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 103,
+        "hydrogen": 308,
+        "acid": 305
+      },
+      "explanation": "In one event, form 103–308 from a lone pair on 103; move the 308–305 pair to 305.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 107 (Chichibabin pyridine synthesis).",
+          "note": "In one event, form 103–308 from a lone pair on 103; move the 308–305 pair to 305."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e19",
+      "event_type": "POLAR",
+      "reactant_view_id": "v18",
+      "product_state_id": "s19",
+      "product_view_id": "v19",
+      "actions": [
+        {
+          "a": 301,
+          "b": 102,
+          "op": "PAIR"
+        },
+        {
+          "a": 102,
+          "b": 103,
+          "target": 103,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 301–102 from a lone pair on 301; move the 102–103 pair to 103.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 107 (Chichibabin pyridine synthesis).",
+          "note": "In one event, form 301–102 from a lone pair on 301; move the 102–103 pair to 103."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e20",
+      "event_type": "POLAR",
+      "reactant_view_id": "v19",
+      "product_state_id": "s20",
+      "product_view_id": "v20",
+      "actions": [
+        {
+          "a": 305,
+          "b": 12,
+          "op": "PAIR"
+        },
+        {
+          "a": 12,
+          "b": 1,
+          "c": 2,
+          "op": "SHIFT"
+        },
+        {
+          "a": 2,
+          "b": 301,
+          "target": 301,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 305–12 from a lone pair on 305; move the 12–1 pair to 1–2; move the 2–301 pair to 301.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 107 (Chichibabin pyridine synthesis).",
+          "note": "In one event, form 305–12 from a lone pair on 305; move the 12–1 pair to 1–2; move the 2–301 pair to 301."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e21",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v20",
+      "product_state_id": "s21",
+      "product_view_id": "v21",
+      "actions": [
+        {
+          "a": 301,
+          "b": 12,
+          "op": "PAIR"
+        },
+        {
+          "a": 12,
+          "b": 305,
+          "target": 305,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 301,
+        "hydrogen": 12,
+        "acid": 305
+      },
+      "explanation": "In one event, form 301–12 from a lone pair on 301; move the 12–305 pair to 305.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 107 (Chichibabin pyridine synthesis).",
+          "note": "In one event, form 301–12 from a lone pair on 301; move the 12–305 pair to 305."
+        }
+      ],
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e22",
+      "event_type": "POLAR",
+      "reactant_view_id": "v21",
+      "product_state_id": "s22",
+      "product_view_id": "v22",
+      "actions": [
+        {
+          "a": 305,
+          "b": 111,
+          "op": "PAIR"
+        },
+        {
+          "a": 111,
+          "b": 101,
+          "c": 102,
+          "op": "SHIFT"
+        },
+        {
+          "a": 102,
+          "b": 301,
+          "target": 301,
+          "op": "SPLIT"
+        }
+      ],
+      "explanation": "In one event, form 305–111 from a lone pair on 305; move the 111–101 pair to 101–102; move the 102–301 pair to 301.",
+      "evidence": [
+        {
+          "source": "Interpreted by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 107 (Chichibabin pyridine synthesis).",
+          "note": "In one event, form 305–111 from a lone pair on 305; move the 111–101 pair to 101–102; move the 102–301 pair to 301."
+        }
+      ],
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-052",
+  "schema_version": "umr/1.0"
+}

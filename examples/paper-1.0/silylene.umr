@@ -1,0 +1,29 @@
+UMR 1.0 INITIAL s0;
+
+STATE s0 {"primary_view_id":"vReagents","total_charge":0,"multiplicity":1,"electronic_mode":"CLOSED_SHELL","electronic_state":{"character":"closed_shell","coupling":"closed_shell"}};
+
+VIEW vReagents {
+  "state_id":"s0",
+  "electronic_state":{"character":"closed_shell","coupling":"closed_shell"},
+  "atoms":[
+    {"atom_id":1,"element":"Si","formal_charge":0,"nonbonding_electrons":2},
+    {"atom_id":2,"element":"C","formal_charge":0,"nonbonding_electrons":0,"hydrogens":1},
+    {"atom_id":3,"element":"C","formal_charge":0,"nonbonding_electrons":0,"hydrogens":1},
+    {"atom_id":4,"element":"H","formal_charge":0,"nonbonding_electrons":0},
+    {"atom_id":5,"element":"H","formal_charge":0,"nonbonding_electrons":0}
+  ],
+  "bonds":[{"a":1,"b":4,"order":1},{"a":1,"b":5,"order":1},{"a":2,"b":3,"order":3}]
+};
+
+REAGENT silylene {"view_id":"vReagents","description":"Singlet silylene / 单重态硅宾","atom_ids":[1,4,5],"role":"[1+2] cycloaddition partner / 环加成试剂","phase_id":"association","source":"Becerra et al., 1993. DOI 10.1039/C39930001050"};
+
+PHASE association {"kind":"reaction","event_ids":["capture"],"activate_atom_ids":[1,4,5],"conditions":{"medium":"gas phase"},"evidence":[{"level":"inferred","source":"10.1039/C39930001050","note":"Pressure-dependent isotope effects support association through a silirene intermediate."}]};
+
+VALENCE singlet_Si {"view_id":"vReagents","atom_id":1,"element":"Si","bond_order_sum":2,"nonbonding_electrons":2,"radical_electrons":0,"formal_charge":0,"description":"Two-coordinate Si with one lone pair / 二配位硅，含一对孤电子"};
+
+REACT capture {"event_type":"POLAR","general_event":"AUTHORED_ELECTRON_ACTIONS","reactant_view_id":"vReagents","product_state_id":"s1","product_view_id":"vRing","phase_id":"association","explanation":"Formal [1+2] addition / 形式 [1+2] 环加成"} DO {
+  PAIR(1,2);
+  SHIFT(2,3,1);
+};
+
+INTERMEDIATE silirene {"view_id":"vRing","description":"Silirene / 硅杂环丙烯，保留 C=C","atoms":[{"atom_id":1,"element":"Si","bond_order_sum":4,"nonbonding_electrons":0,"formal_charge":0}],"bonds":[{"a":1,"b":2,"order":1},{"a":1,"b":3,"order":1},{"a":2,"b":3,"order":2}],"total_charge":0};

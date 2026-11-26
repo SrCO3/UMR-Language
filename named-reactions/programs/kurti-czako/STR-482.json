@@ -1,0 +1,409 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 2,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 7,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 9,
+          "element": "N",
+          "formal_charge": 0,
+          "nonbonding_electrons": 2
+        },
+        {
+          "atom_id": 10,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 12,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 4,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 1
+        },
+        {
+          "atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 2
+        },
+        {
+          "atom_id": 6,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 13,
+          "element": "O",
+          "formal_charge": -1,
+          "nonbonding_electrons": 6
+        },
+        {
+          "atom_id": 15,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 16,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 17,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 18,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0,
+          "hydrogens": 3
+        },
+        {
+          "atom_id": 14,
+          "element": "K",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0,
+          "radical_electrons": null
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 2,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 7,
+          "order": 2
+        },
+        {
+          "a": 7,
+          "b": 9,
+          "order": 1
+        },
+        {
+          "a": 9,
+          "b": 10,
+          "order": 1
+        },
+        {
+          "a": 9,
+          "b": 12,
+          "order": 1
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 6,
+          "order": 1
+        },
+        {
+          "a": 13,
+          "b": 15,
+          "order": 1
+        },
+        {
+          "a": 15,
+          "b": 16,
+          "order": 1
+        },
+        {
+          "a": 15,
+          "b": 17,
+          "order": 1
+        },
+        {
+          "a": 15,
+          "b": 18,
+          "order": 1
+        },
+        {
+          "a": 6,
+          "b": 4,
+          "order": 1
+        }
+      ],
+      "annotations": {},
+      "metal_centers": [
+        {
+          "atom_id": 14
+        }
+      ],
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1",
+      "event_type": "POLAR",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 13,
+          "b": 10,
+          "op": "PAIR"
+        },
+        {
+          "a": 10,
+          "b": 9,
+          "target": 9,
+          "op": "SPLIT"
+        }
+      ],
+      "conditions": {
+        "temperature": "unknown",
+        "proton_shuttle": "KOtBu/tBuOH explicit model"
+      },
+      "explanation": "In one event, form 13–10 from a lone pair on 13; move the 10–9 pair to 9.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 482 (WHARTON OLEFIN SYNTHESIS (WHARTON TRANSPOSITION)).",
+          "note": "In one event, form 13–10 from a lone pair on 13; move the 10–9 pair to 9."
+        }
+      ],
+      "mechanism_assumption": "从预制环氧腙开始，采用教材允许的 KOtBu 强碱变体；未执行酮/肼缩合。tBuOH/KOtBu 的具体质子接力为补全，不等价复现经典 AcOH 条件。",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2",
+      "event_type": "POLAR",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 9,
+          "b": 7,
+          "op": "PAIR"
+        },
+        {
+          "a": 7,
+          "b": 2,
+          "c": 4,
+          "op": "SHIFT"
+        },
+        {
+          "a": 4,
+          "b": 6,
+          "target": 6,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e1",
+      "conditions": {
+        "temperature": "unknown",
+        "proton_shuttle": "KOtBu/tBuOH explicit model"
+      },
+      "explanation": "In one event, form 9–7 from a lone pair on 9; move the 7–2 pair to 2–4; move the 4–6 pair to 6.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 482 (WHARTON OLEFIN SYNTHESIS (WHARTON TRANSPOSITION)).",
+          "note": "In one event, form 9–7 from a lone pair on 9; move the 7–2 pair to 2–4; move the 4–6 pair to 6."
+        }
+      ],
+      "mechanism_assumption": "从预制环氧腙开始，采用教材允许的 KOtBu 强碱变体；未执行酮/肼缩合。tBuOH/KOtBu 的具体质子接力为补全，不等价复现经典 AcOH 条件。",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3",
+      "event_type": "POLAR",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "actions": [
+        {
+          "a": 6,
+          "b": 10,
+          "op": "PAIR"
+        },
+        {
+          "a": 10,
+          "b": 13,
+          "target": 13,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e2",
+      "conditions": {
+        "temperature": "unknown",
+        "proton_shuttle": "KOtBu/tBuOH explicit model"
+      },
+      "explanation": "In one event, form 6–10 from a lone pair on 6; move the 10–13 pair to 13.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 482 (WHARTON OLEFIN SYNTHESIS (WHARTON TRANSPOSITION)).",
+          "note": "In one event, form 6–10 from a lone pair on 6; move the 10–13 pair to 13."
+        }
+      ],
+      "mechanism_assumption": "从预制环氧腙开始，采用教材允许的 KOtBu 强碱变体；未执行酮/肼缩合。tBuOH/KOtBu 的具体质子接力为补全，不等价复现经典 AcOH 条件。",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4",
+      "event_type": "POLAR",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "actions": [
+        {
+          "a": 13,
+          "b": 12,
+          "op": "PAIR"
+        },
+        {
+          "a": 12,
+          "b": 9,
+          "target": 9,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e3",
+      "conditions": {
+        "temperature": "unknown",
+        "proton_shuttle": "KOtBu/tBuOH explicit model"
+      },
+      "explanation": "In one event, form 13–12 from a lone pair on 13; move the 12–9 pair to 9.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 482 (WHARTON OLEFIN SYNTHESIS (WHARTON TRANSPOSITION)).",
+          "note": "In one event, form 13–12 from a lone pair on 13; move the 12–9 pair to 9."
+        }
+      ],
+      "mechanism_assumption": "从预制环氧腙开始，采用教材允许的 KOtBu 强碱变体；未执行酮/肼缩合。tBuOH/KOtBu 的具体质子接力为补全，不等价复现经典 AcOH 条件。",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e5",
+      "event_type": "POLAR",
+      "reactant_view_id": "v4",
+      "product_state_id": "s5",
+      "product_view_id": "v5",
+      "actions": [
+        {
+          "a": 9,
+          "b": 7,
+          "op": "PAIR"
+        },
+        {
+          "a": 7,
+          "b": 2,
+          "target": 2,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e4",
+      "conditions": {
+        "temperature": "unknown",
+        "proton_shuttle": "KOtBu/tBuOH explicit model"
+      },
+      "explanation": "In one event, form 9–7 from a lone pair on 9; move the 7–2 pair to 2.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 482 (WHARTON OLEFIN SYNTHESIS (WHARTON TRANSPOSITION)).",
+          "note": "In one event, form 9–7 from a lone pair on 9; move the 7–2 pair to 2."
+        }
+      ],
+      "mechanism_assumption": "从预制环氧腙开始，采用教材允许的 KOtBu 强碱变体；未执行酮/肼缩合。tBuOH/KOtBu 的具体质子接力为补全，不等价复现经典 AcOH 条件。",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e6",
+      "event_type": "POLAR",
+      "reactant_view_id": "v5",
+      "product_state_id": "s6",
+      "product_view_id": "v6",
+      "actions": [
+        {
+          "a": 2,
+          "b": 12,
+          "op": "PAIR"
+        },
+        {
+          "a": 12,
+          "b": 13,
+          "target": 13,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e5",
+      "conditions": {
+        "temperature": "unknown",
+        "proton_shuttle": "KOtBu/tBuOH explicit model"
+      },
+      "explanation": "In one event, form 2–12 from a lone pair on 2; move the 12–13 pair to 13.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: L. Kürti and B. Czakó, Strategic Applications of Named Reactions in Organic Synthesis, p. 482 (WHARTON OLEFIN SYNTHESIS (WHARTON TRANSPOSITION)).",
+          "note": "In one event, form 2–12 from a lone pair on 2; move the 12–13 pair to 13."
+        }
+      ],
+      "mechanism_assumption": "从预制环氧腙开始，采用教材允许的 KOtBu 强碱变体；未执行酮/肼缩合。tBuOH/KOtBu 的具体质子接力为补全，不等价复现经典 AcOH 条件。",
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "STR-482",
+  "schema_version": "umr/1.0"
+}

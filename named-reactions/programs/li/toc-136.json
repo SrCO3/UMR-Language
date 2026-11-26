@@ -1,0 +1,395 @@
+{
+  "initial_state_id": "s0",
+  "states": [
+    {
+      "state_id": "s0",
+      "primary_view_id": "v0",
+      "total_charge": 0,
+      "conditions": {
+        "reagent_literal": "NaNH2",
+        "solvent_literal": "PhH",
+        "temperature_literal": "reflux",
+        "temperature_kelvin": null
+      },
+      "annotations": {},
+      "kind": "ChemicalState"
+    }
+  ],
+  "views": [
+    {
+      "view_id": "v0",
+      "state_id": "s0",
+      "atoms": [
+        {
+          "atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 2,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 3,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 4,
+          "element": "C",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 5,
+          "element": "N",
+          "formal_charge": -1,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 11,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 12,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 13,
+          "element": "Na",
+          "formal_charge": 1,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 14,
+          "element": "O",
+          "formal_charge": 0,
+          "nonbonding_electrons": 4
+        },
+        {
+          "atom_id": 15,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 16,
+          "element": "H",
+          "formal_charge": 0,
+          "nonbonding_electrons": 0
+        },
+        {
+          "atom_id": 21,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R"
+        },
+        {
+          "atom_id": 22,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R1"
+        },
+        {
+          "atom_id": 23,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R2"
+        },
+        {
+          "atom_id": 24,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R3"
+        },
+        {
+          "atom_id": 25,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R4"
+        },
+        {
+          "atom_id": 26,
+          "element": "*",
+          "formal_charge": null,
+          "nonbonding_electrons": null,
+          "radical_electrons": null,
+          "label": "R5"
+        }
+      ],
+      "bonds": [
+        {
+          "a": 1,
+          "b": 2,
+          "order": 2
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "order": 1
+        },
+        {
+          "a": 1,
+          "b": 4,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 11,
+          "order": 1
+        },
+        {
+          "a": 5,
+          "b": 12,
+          "order": 1
+        },
+        {
+          "a": 14,
+          "b": 15,
+          "order": 1
+        },
+        {
+          "a": 14,
+          "b": 16,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 21,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 22,
+          "order": 1
+        },
+        {
+          "a": 3,
+          "b": 23,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 24,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 25,
+          "order": 1
+        },
+        {
+          "a": 4,
+          "b": 26,
+          "order": 1
+        }
+      ],
+      "annotations": {
+        "symbolic_mode": "unchanged_boundary"
+      },
+      "metal_centers": [
+        {
+          "atom_id": 13,
+          "oxidation_state": 1
+        }
+      ],
+      "element_rule_version": "umr-elements/0.7",
+      "kind": "LewisView"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "e1_nh2_addition",
+      "event_type": "CARBONYL_ADDITION",
+      "reactant_view_id": "v0",
+      "product_state_id": "s1",
+      "product_view_id": "v1",
+      "actions": [
+        {
+          "a": 5,
+          "b": 1,
+          "op": "PAIR"
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "target": 2,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "nucleophile": 5,
+        "carbonyl_carbon": 1,
+        "oxygen": 2
+      },
+      "conditions": {
+        "reagent_literal": "NaNH2",
+        "solvent_literal": "PhH",
+        "temperature_literal": "reflux",
+        "temperature_kelvin": null
+      },
+      "explanation": "In one event, form 5–1 from a lone pair on 5; move the 1–2 pair to 2.",
+      "evidence": [
+        {
+          "level": "observed",
+          "source": "Labelled as observed in the source record. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 273 (Haller–Bauer reaction).",
+          "note": "In one event, form 5–1 from a lone pair on 5; move the 1–2 pair to 2."
+        }
+      ],
+      "mechanism_assumption": "Source-adjudication pending; explicitly proposed corrected NH2 model, not literal complete source.",
+      "mechanism_evidence": "declared_only",
+      "phase": "reaction",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e2_corrected_nh2_collapse",
+      "event_type": "POLAR",
+      "reactant_view_id": "v1",
+      "product_state_id": "s2",
+      "product_view_id": "v2",
+      "actions": [
+        {
+          "a": 2,
+          "b": 1,
+          "op": "PAIR"
+        },
+        {
+          "a": 1,
+          "b": 4,
+          "target": 4,
+          "op": "SPLIT"
+        }
+      ],
+      "depends_on_event": "e1_nh2_addition",
+      "conditions": {
+        "reagent_literal": "NaNH2",
+        "solvent_literal": "PhH",
+        "temperature_literal": "reflux",
+        "temperature_kelvin": null
+      },
+      "explanation": "In one event, form 2–1 from a lone pair on 2; move the 1–4 pair to 4.",
+      "evidence": [
+        {
+          "level": "observed",
+          "source": "Labelled as observed in the source record. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 273 (Haller–Bauer reaction).",
+          "note": "In one event, form 2–1 from a lone pair on 2; move the 1–4 pair to 4."
+        },
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 273 (Haller–Bauer reaction).",
+          "note": "In one event, form 2–1 from a lone pair on 2; move the 1–4 pair to 4."
+        }
+      ],
+      "mechanism_assumption": "Source-adjudication pending; explicitly proposed corrected NH2 model, not literal complete source.",
+      "mechanism_evidence": "declared_only",
+      "phase": "reaction",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e3_proposed_amide_H_transfer",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v2",
+      "product_state_id": "s3",
+      "product_view_id": "v3",
+      "actions": [
+        {
+          "a": 4,
+          "b": 11,
+          "op": "PAIR"
+        },
+        {
+          "a": 11,
+          "b": 5,
+          "target": 5,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 4,
+        "hydrogen": 11,
+        "acid": 5
+      },
+      "depends_on_event": "e2_corrected_nh2_collapse",
+      "conditions": {
+        "reagent_literal": "NaNH2",
+        "solvent_literal": "PhH",
+        "temperature_literal": "reflux",
+        "temperature_kelvin": null
+      },
+      "explanation": "In one event, form 4–11 from a lone pair on 4; move the 11–5 pair to 5.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 273 (Haller–Bauer reaction).",
+          "note": "In one event, form 4–11 from a lone pair on 4; move the 11–5 pair to 5."
+        }
+      ],
+      "mechanism_assumption": "Source-adjudication pending; explicitly proposed corrected NH2 model, not literal complete source.",
+      "mechanism_evidence": "declared_only",
+      "phase": "reaction",
+      "kind": "ReactionEvent"
+    },
+    {
+      "event_id": "e4_proposed_water_workup",
+      "event_type": "PROTON_TRANSFER",
+      "reactant_view_id": "v3",
+      "product_state_id": "s4",
+      "product_view_id": "v4",
+      "actions": [
+        {
+          "a": 5,
+          "b": 16,
+          "op": "PAIR"
+        },
+        {
+          "a": 16,
+          "b": 14,
+          "target": 14,
+          "op": "SPLIT"
+        }
+      ],
+      "bindings": {
+        "base": 5,
+        "hydrogen": 16,
+        "acid": 14
+      },
+      "depends_on_event": "e3_proposed_amide_H_transfer",
+      "conditions": {
+        "stage": "proposed post-reaction water workup"
+      },
+      "explanation": "In one event, form 5–16 from a lone pair on 5; move the 16–14 pair to 14.",
+      "evidence": [
+        {
+          "level": "proposed_completion",
+          "source": "Proposed by the UMR record authors. Catalogue locator: Jie Jack Li, Name Reactions, 4th ed., p. 273 (Haller–Bauer reaction).",
+          "note": "In one event, form 5–16 from a lone pair on 5; move the 16–14 pair to 14."
+        }
+      ],
+      "mechanism_assumption": "Source-adjudication pending; explicitly proposed corrected NH2 model, not literal complete source.",
+      "mechanism_evidence": "declared_only",
+      "phase": "workup",
+      "kind": "ReactionEvent"
+    }
+  ],
+  "record_id": "toc-136",
+  "symbolic_mode": "unchanged_boundary",
+  "schema_version": "umr/1.0"
+}
