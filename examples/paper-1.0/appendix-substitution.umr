@@ -1,0 +1,17 @@
+UMR 1.0 INITIAL s0;
+STATE s0 {"primary_view_id":"v0","total_charge":0};
+VIEW v0 {"state_id":"s0","atoms":[
+  {"atom_id":1,"element":"N","formal_charge":0,
+   "nonbonding_electrons":2,"hydrogens":3},
+  {"atom_id":2,"element":"C","formal_charge":0,
+   "nonbonding_electrons":0,"hydrogens":3},
+  {"atom_id":3,"element":"Br","formal_charge":0,
+   "nonbonding_electrons":6}],
+  "bonds":[{"a":2,"b":3,"order":1}]};
+REACT e1 {"event_type":"SN2","reactant_view_id":"v0",
+  "product_state_id":"s1","product_view_id":"v1",
+  "bindings":{"nucleophile":1,"electrophile":2,
+              "leaving_group":3}} DO {
+  PAIR(1,2);
+  SPLIT(2,3->3);
+};

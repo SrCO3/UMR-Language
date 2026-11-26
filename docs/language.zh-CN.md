@@ -1,6 +1,6 @@
 # 阅读与编写 UMR 机理
 
-[仓库首页](../README.zh-CN.md) · [English](language.md) · [1.0 版 JSON Schema](../src/mechanism_workbench/resources/umr-v1.0.schema.json)
+[仓库首页](../README.zh-CN.md) · [English](language.md) · [论文图例与实验结果](../paper/README.zh-CN.md) · [1.0 版 JSON Schema](../src/mechanism_workbench/resources/umr-v1.0.schema.json)
 
 ## 从 Lewis 结构写起
 
@@ -45,6 +45,10 @@ python umr.py examples/paper-1.0/substitution-omitted-arrow.umr
 ## 沿四个事件读人名反应
 
 在 [Larock 程序](../examples/paper-1.0/larock.umr)中，邻碘苯胺与 2-丁炔形成 2,3-二甲基吲哚。沿 Pd(0) 依次追踪芳基碘的氧化加成、炔烃向芳基–Pd 键的插入、乙酸根参与的 Pd–N 成键及 C–N 还原消除。最后一步形成 C12–N7 键，再生 Pd(0)。该实例将炔烃配位和迁移插入合写为一个事件。
+
+![Larock 吲哚合成直接展开为四个基元事件，每组 UMR 指令都在所属事件内共同执行。](figures/larock-tree.zh.svg)
+
+四个分支从左到右按反应顺序排列。第三步中，`PAIR(7,20)` 形成 N7–Pd20 键，`SPLIT(20,8->8)` 使碘离子离去。另外两条指令在同一事件中将 H9 从 N7 转移至乙酸根 O30。四步的结构与弯箭见[图 2](figures/larock.zh.svg)。
 
 ```sh
 python umr.py examples/paper-1.0/larock.umr --receipt larock.json --draw larock-diagram

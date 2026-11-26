@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite this release and retain the attribution in NOTICE.md when reusing named-reaction data."
+message: "Cite the accompanying manuscript when discussing the study. When citing the software, identify the release. Attribution for the named-reaction data is given in NOTICE.md."
 type: software
 title: "UMR: A Lean-Style Language for Representation and Structural Verification of Organic Reaction Mechanisms"
 version: "1.0.0"
@@ -9,3 +9,16 @@ authors:
     given-names: Sirui
   - family-names: Tan
     given-names: Haichuan
+preferred-citation:
+  type: unpublished
+  title: "UMR: A Lean-Style Language for Representation and Structural Verification of Organic Reaction Mechanisms"
+  authors:
+    - family-names: Shao
+      given-names: Sirui
+    - family-names: Tan
+      given-names: Haichuan
+    - family-names: Huang
+      given-names: Tao
+    - family-names: Gao
+      given-names: Bowen
+  year: 2026

@@ -1,11 +1,11 @@
 # UMR 1.0
 
-[简体中文](README.zh-CN.md) · [Language walkthrough](docs/language.md) · [Named reaction library](#named-reaction-library)
+[简体中文](README.zh-CN.md) · [Language walkthrough](docs/language.md) · [Paper figures and results](paper/README.md) · [UMR 1.0 release](https://github.com/SrCO3/UMR-Language/releases/tag/v1.0.0)
 
 **UMR: A Lean-Style Language for Representation and Structural Verification of Organic Reaction Mechanisms**  
-Shao Sirui and Tan Haichuan
+Sirui Shao, Haichuan Tan, Tao Huang and Bowen Gao
 
-UMR represents a mechanism as a sequence of elementary events on atom-mapped Lewis structures. A chemist or language model proposes how electrons move. The checker tests the electron sources, bond changes, local electronic configurations, atom inventory and total charge. The executor constructs the next intermediate. The same actions specify the arrows in a mechanism diagram.
+Unified Mechanism Representation (UMR) represents polar, radical, pericyclic and organometallic mechanisms as elementary events on atom-mapped Lewis structures. A chemist or language model proposes the electron movements. The checker tests their sources, bond changes, local electronic configurations, atom inventory and total charge. The executor constructs the next intermediate or identifies the event to revise. A submitted path can be replayed independently from its initial structure.
 
 ![UMR instructions, electron flow and resulting structures for polar substitution, radical substitution, cycloaddition and oxidative addition](docs/figures/elementary-events.en.svg)
 
@@ -35,7 +35,7 @@ Open `larock-diagram/mechanism_chain.svg` for the complete path. The JSON receip
 
 ## Named reaction library
 
-Each catalogue entry identifies a reaction and its printed page. A linked UMR program specifies the substrate, atom mapping and events for a particular example.
+The two textbook catalogues contain **528 entries linked to 321 distinct UMR programs**. Each entry identifies a reaction and its printed page. A linked program specifies the substrate, atom mapping and events for a particular example.
 
 | Catalogue | Entries | Executable material |
 |---|---|---|
@@ -50,9 +50,20 @@ python named_reactions.py --replay STR-260
 
 The Larock entry is on p. 260. Replay gives `passed  events=4  strict=True`. The tool verifies the input digest and compares the status, event count and strictness with the catalogue record. `--check-all` applies this comparison to every linked program, including records with partial paths and declared exceptions.
 
-## Relation to the paper
+## Mechanism inference on FukuyamaBench
 
-In FukuyamaBench *Pathway-only Prediction*, the model receives the starting materials, known product and ordered conditions, then proposes the intervening steps. With the same four chemical demonstrations and one attempt per question, GPT-6.2 Astra matched all official ordered checkpoints on **62/319 questions (19.4%) without UMR** and **83/319 (26.0%) using UMR and the executor**. The experiment used UMR 0.9. The language examples in this release use 1.0. A successful replay establishes structural consistency under the declared rules. Selecting the pathway favored under the experimental conditions also requires chemical evidence.
+In *Pathway-only Prediction*, GPT-6.2 Astra received the starting materials, known product and ordered conditions. Both settings used four demonstrations matched in chemical content, medium reasoning effort and one attempt per question. A complete match requires all official structural checkpoints in order.
+
+| Problem set | Without UMR | UMR with executor | Net gain |
+|---|---:|---:|---:|
+| A · Introductory | 23/78 (29.5%) | 37/78 (47.4%) | +14 |
+| B · Graduate level | 30/131 (22.9%) | 35/131 (26.7%) | +5 |
+| C · Research laboratories | 9/110 (8.2%) | 11/110 (10.0%) | +2 |
+| **All** | **62/319 (19.4%)** | **83/319 (26.0%)** | **+21** |
+
+Of the 319 questions, 50 were solved only with UMR and 29 only without it. All 306 submitted UMR paths could be replayed, and 83 matched the full reference pathway. The replay checks structural consistency. Which pathway a reaction follows under the given conditions also depends on chemical selectivity.
+
+Run `python paper/summarize_scores.py` to reproduce the totals from Appendix C. The C035 example shows the bond order that differed between the two submissions. [Per-case scores](paper/pathway-scores.csv) · [Case study and figures](paper/README.md)
 
 ## License and attribution
 

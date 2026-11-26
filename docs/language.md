@@ -1,6 +1,6 @@
 # Reading and writing a UMR mechanism
 
-[Repository](../README.md) · [中文](language.zh-CN.md) · [Version 1.0 JSON Schema](../src/mechanism_workbench/resources/umr-v1.0.schema.json)
+[Repository](../README.md) · [中文](language.zh-CN.md) · [Paper figures and results](../paper/README.md) · [Version 1.0 JSON Schema](../src/mechanism_workbench/resources/umr-v1.0.schema.json)
 
 ## Start with a Lewis structure
 
@@ -45,6 +45,10 @@ A change of Lewis representation has its own role. In the [enolate example](../e
 ## Follow a named reaction through four events
 
 In the [Larock program](../examples/paper-1.0/larock.umr), ortho-iodoaniline and 2-butyne form 2,3-dimethylindole. Starting from Pd(0), follow the aryl C–I oxidative addition, alkyne insertion into the aryl–Pd bond, acetate-assisted Pd–N bond formation, and C–N reductive elimination. The last event forms C12–N7 and regenerates Pd(0). The particular program combines alkyne coordination and insertion into one event.
+
+![The Larock reaction branches into four elementary events. Each event groups the UMR instructions that execute together.](figures/larock-tree.en.svg)
+
+Read the four branches from left to right. In the third branch, `PAIR(7,20)` forms N7–Pd20 and `SPLIT(20,8->8)` releases iodide. The other two instructions transfer H9 from N7 to acetate O30 in the same event. The four successor structures appear in [Figure 2](figures/larock.en.svg).
 
 ```sh
 python umr.py examples/paper-1.0/larock.umr --receipt larock.json --draw larock-diagram

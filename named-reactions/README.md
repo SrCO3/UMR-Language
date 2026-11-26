@@ -12,7 +12,7 @@ Page numbers locate the named reaction in the book. Individual event records ide
 
 **Attribution · 署名**
 
-The authors’ catalogue annotations and UMR programs are licensed under CC BY 4.0. When redistributing them, credit **Shao Sirui and Tan Haichuan, UMR 1.0 named reaction library**, retain the licence link and the entry’s textbook citation, and indicate any modifications. For a modified program, identify the entry ID and state which substrate, event or assumption changed. Source textbooks retain their respective copyrights. [CC BY 4.0](../LICENSES/CC-BY-4.0.txt) · [Source notices](../NOTICE.md)
+The authors’ catalogue annotations and UMR programs are licensed under CC BY 4.0. When redistributing them, credit **Sirui Shao and Haichuan Tan, UMR 1.0 named reaction library**, retain the licence link and the entry’s textbook citation, and indicate any modifications. For a modified program, identify the entry ID and state which substrate, event or assumption changed. Source textbooks retain their respective copyrights. [CC BY 4.0](../LICENSES/CC-BY-4.0.txt) · [Source notices](../NOTICE.md)
 
 目录注释和原生程序采用 CC BY 4.0。转载时请注明 **邵思睿、谭海川，UMR 1.0 人名反应库**，保留许可链接及对应教材引文。修改程序时请标记条目编号，并说明改动的底物、事件或假设。引用某个教材实例时，可按下列书目信息补上目录记录的印刷页码。
 

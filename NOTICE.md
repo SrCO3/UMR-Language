@@ -11,10 +11,11 @@ CC BY 4.0 的适用范围也包括上述数据在代码资源和示例目录中�
 
 **Suggested dataset credit / 建议的数据署名**
 
-> Shao Sirui, Tan Haichuan and UMR contributors. UMR 1.0 named-reaction data and programs. https://github.com/SrCO3/UMR-Language/tree/v1.0.0/named-reactions · CC BY 4.0, https://creativecommons.org/licenses/by/4.0/
+> Sirui Shao, Haichuan Tan and UMR contributors. UMR 1.0 named-reaction data and programs. https://github.com/SrCO3/UMR-Language/tree/v1.0.0/named-reactions · CC BY 4.0, https://creativecommons.org/licenses/by/4.0/
 
 When sharing adapted records, identify the changes and retain the associated source references. 再分发修改过的记录时，请说明修改内容，并保留相应出处。
 
 - Jie Jack Li. *Name Reactions: A Collection of Detailed Mechanisms and Synthetic Applications*, 4th ed., Springer, 2009. [Book](https://doi.org/10.1007/978-3-642-01053-8)
 - László Kürti and Barbara Czakó. *Strategic Applications of Named Reactions in Organic Synthesis*, Elsevier Academic Press, 2005, ISBN 978-0-12-429785-2. [Publisher](https://shop.elsevier.com/books/book-companion/9780124297852)
 - The elemental reference retains its data-source attribution. Python dependencies retain their respective licenses. 元素参考数据与 Python 依赖保留各自的来源及许可。[Element resource notices](src/mechanism_workbench/resources/ELECTRONIC-NOTICES.txt) · [Oxidation-state reference fields](src/mechanism_workbench/umr/v10/oxidation-states.csv)
+- The Chinese manuscript figures use a subset of Noto Sans SC. 中文图中的嵌入字体为 Noto Sans SC 的字形子集。[SIL Open Font License and font credit](LICENSES/OFL-NotoSansSC.txt)
